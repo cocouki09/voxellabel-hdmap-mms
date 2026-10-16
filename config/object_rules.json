@@ -1,0 +1,37 @@
+{
+  "defaults": {
+    "sidewalk_height_voxels": 1,
+    "building_height_voxels": 8,
+    "traffic_light_height_voxels": 5,
+    "street_light_height_voxels": 5,
+    "sign_height_voxels": 5,
+    "guardrail_height_voxels": 4
+  },
+  "overlay_rules": {
+    "crosswalk_mode": "outline_only",
+    "lane_mode": "geometry_only",
+    "stopline_mode": "geometry_only"
+  },
+  "height_policy": {
+    "sidewalk": {
+      "use_shp_height_if_exists": true,
+      "fallback_height_voxels": 1
+    },
+    "traffic_light": {
+      "use_shp_height_if_exists": false,
+      "fallback_height_voxels": 5
+    },
+    "street_light": {
+      "use_shp_height_if_exists": false,
+      "fallback_height_voxels": 5
+    },
+    "sign": {
+      "use_shp_height_if_exists": false,
+      "fallback_height_voxels": 5
+    },
+    "building": {
+      "use_shp_height_if_exists": true,
+      "fallback_height_voxels": 8
+    }
+  }
+}

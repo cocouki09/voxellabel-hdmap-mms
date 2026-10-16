@@ -1,0 +1,146 @@
+{
+ "description": "symmetric tunnel/guardrail re-check (27 low tunnel cells NOT predicted guardrail), owner 2026-10-15 port 8795. yes->guardrail; note-only answers: mostly guardrail->guardrail(+tunnel 2nd), half wall/half barrier->tunnel primary + guardrail 2nd, floor->road surface; no->unchanged",
+ "corrections": {
+  "3": {
+   "cat": "guardrail",
+   "cat2": null,
+   "prev": {
+    "cat": "tunnel_structure",
+    "unsure": false,
+    "t": "2026-10-15T00:15:26.020Z"
+   },
+   "recheck_answer": "guardrail_yes"
+  },
+  "46": {
+   "cat": "guardrail",
+   "cat2": null,
+   "prev": {
+    "cat": "tunnel_structure",
+    "unsure": false,
+    "t": "2026-10-15T01:37:46.303Z"
+   },
+   "recheck_answer": "guardrail_yes"
+  },
+  "187": {
+   "cat": "tunnel_structure",
+   "cat2": "guardrail",
+   "prev": {
+    "cat": "tunnel_structure",
+    "unsure": false,
+    "t": "2026-10-15T01:52:46.763Z"
+   },
+   "recheck_answer": null
+  },
+  "263": {
+   "cat": "ground_or_road_surface",
+   "cat2": null,
+   "prev": {
+    "cat": "tunnel_structure",
+    "unsure": false,
+    "t": "2026-10-15T02:11:43.107Z"
+   },
+   "recheck_answer": null
+  },
+  "357": {
+   "cat": "guardrail",
+   "cat2": null,
+   "prev": {
+    "cat": "tunnel_structure",
+    "unsure": false,
+    "t": "2026-10-15T02:16:16.971Z"
+   },
+   "recheck_answer": "guardrail_yes"
+  },
+  "396": {
+   "cat": "guardrail",
+   "cat2": null,
+   "prev": {
+    "cat": "tunnel_structure",
+    "unsure": false,
+    "t": "2026-10-15T02:18:12.334Z"
+   },
+   "recheck_answer": "guardrail_yes"
+  },
+  "453": {
+   "cat": "guardrail",
+   "cat2": "tunnel_structure",
+   "prev": {
+    "cat": "tunnel_structure",
+    "unsure": false,
+    "t": "2026-10-15T02:35:01.299Z"
+   },
+   "recheck_answer": null
+  },
+  "455": {
+   "cat": "tunnel_structure",
+   "cat2": "guardrail",
+   "prev": {
+    "cat": "tunnel_structure",
+    "unsure": false,
+    "t": "2026-10-15T02:35:05.187Z"
+   },
+   "recheck_answer": null
+  },
+  "476": {
+   "cat": "guardrail",
+   "cat2": null,
+   "prev": {
+    "cat": "tunnel_structure",
+    "unsure": false,
+    "t": "2026-10-15T02:36:06.399Z"
+   },
+   "recheck_answer": "guardrail_yes"
+  },
+  "482": {
+   "cat": "tunnel_structure",
+   "cat2": "guardrail",
+   "prev": {
+    "cat": "tunnel_structure",
+    "unsure": false,
+    "t": "2026-10-15T02:36:27.606Z"
+   },
+   "recheck_answer": null
+  },
+  "512": {
+   "cat": "guardrail",
+   "cat2": null,
+   "prev": {
+    "cat": "tunnel_structure",
+    "unsure": false,
+    "t": "2026-10-15T02:38:16.274Z",
+    "cat2": "vegetation"
+   },
+   "recheck_answer": "guardrail_yes"
+  },
+  "577": {
+   "cat": "guardrail",
+   "cat2": "tunnel_structure",
+   "prev": {
+    "cat": "tunnel_structure",
+    "unsure": false,
+    "t": "2026-10-15T02:43:10.017Z"
+   },
+   "recheck_answer": "guardrail_yes"
+  },
+  "645": {
+   "cat": "tunnel_structure",
+   "cat2": "guardrail",
+   "prev": {
+    "cat": "tunnel_structure",
+    "unsure": false,
+    "t": "2026-10-15T04:28:31.944Z"
+   },
+   "recheck_answer": null
+  },
+  "772": {
+   "cat": "guardrail",
+   "cat2": null,
+   "prev": {
+    "cat": "tunnel_structure",
+    "unsure": false,
+    "t": "2026-10-15T04:20:11.222Z"
+   },
+   "recheck_answer": "guardrail_yes"
+  }
+ }
+}

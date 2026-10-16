@@ -1,0 +1,425 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cell labeling</title>
+<style>
+  :root { --bg:#16181c; --panel:#20232a; --fg:#e8e8e8; --muted:#9aa0a6; --accent:#ffcc33; --ok:#4caf50; }
+  * { box-sizing: border-box; }
+  html, body { height:100%; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:14px/1.4 system-ui, "Malgun Gothic", sans-serif; display:flex; flex-direction:column; }
+  header { display:flex; gap:14px; align-items:center; padding:6px 12px; background:var(--panel); flex-wrap:wrap; }
+  header b { font-size:15px; }
+  #prog { color:var(--muted); }
+  #status { color:var(--accent); }
+  main { flex:1; min-height:0; display:grid; grid-template-columns: 2fr 1fr 1fr; grid-template-rows: 1fr 1fr; gap:6px; padding:6px; }
+  #photos { grid-row: 1 / span 2; grid-column: 3; display:flex; flex-direction:column; gap:6px; min-height:0; overflow:auto; background:#000; padding:4px; }
+  #photos img { width:100%; height:auto; display:block; cursor:zoom-in; }
+  #photos div { color:var(--muted); font-size:12px; }
+  #zoomimg { position:fixed; inset:0; background:rgba(0,0,0,.9); display:none; align-items:center; justify-content:center; z-index:9; }
+  #zoomimg img { max-width:95vw; max-height:95vh; }
+  .view { background:#000; position:relative; min-height:0; }
+  .view.big { grid-row: 1 / span 2; }
+  .view span.t { position:absolute; left:6px; top:4px; color:var(--muted); font-size:12px; pointer-events:none; }
+  .view span.h { position:absolute; right:6px; bottom:4px; color:#666; font-size:11px; pointer-events:none; }
+  canvas { width:100%; height:100%; display:block; cursor:grab; }
+  canvas:active { cursor:grabbing; }
+  #bar { display:flex; flex-wrap:wrap; gap:6px; padding:4px 12px; }
+  #bar button { background:#2c313a; color:var(--fg); border:1px solid #3a404b; border-radius:6px; padding:7px 10px; cursor:pointer; font-size:14px; }
+  #bar button.sel { background:var(--ok); border-color:var(--ok); color:#000; }
+  #bar button.sel2 { border:2px dashed #ff9800; }
+  #bar button kbd { color:var(--accent); margin-right:4px; }
+  #nav { display:flex; gap:8px; padding:4px 12px 10px; align-items:center; flex-wrap:wrap; }
+  label { color:var(--muted); }
+  select { background:#2c313a; color:var(--fg); border:1px solid #3a404b; }
+</style>
+</head>
+<body>
+<header>
+  <b>Cell labeling (pipeline label hidden)</b> <span style="color:#666">v4</span>
+  <span id="prog"></span>
+  <label>Color <select id="color"><option value="rgb">LiDAR color</option><option value="height">height color</option><option value="mix">LiDAR+height</option></select></label>
+  <label>Point size <select id="psize"><option value="1.6">small</option><option value="2.4" selected>normal</option><option value="3.4">large</option></select></label>
+  <label>Side slab <select id="slab"><option value="1.5">±1.5 m</option><option value="0.75">±0.75 m</option><option value="3">±3 m</option><option value="99">all</option></select></label>
+  <label><input type="checkbox" id="hl" checked> highlight points in box</label>
+  <button id="reset">Reset view (Home)</button>
+  <span id="status"></span>
+</header>
+<main>
+  <div class="view big"><span class="t">3D view — left drag: rotate · right drag/Shift+drag: pan · wheel: zoom</span><canvas id="v3d"></canvas><span class="h">yellow box = 0.5 m cell to label · thin vertical line = guide through the cell (to find it; not an object) · pink = points in the box and the representative point</span></div>
+  <div class="view"><span class="t">Plan view (wheel: zoom · drag: pan)</span><canvas id="top"></canvas></div>
+  <div class="view"><span class="t">Side view (along the road · wheel/drag)</span><canvas id="side"></canvas></div>
+  <div id="photos"></div>
+</main>
+<div id="zoomimg" onclick="this.style.display='none'"><img id="zoomsrc"></div>
+<div id="bar"></div>
+<div id="nav">
+  <button id="prev">◀ Prev (A)</button>
+  <button id="next">Next ▶ (D)</button>
+  <button id="nextUn">Next unlabeled (N)</button>
+  <label><input type="checkbox" id="unsure"> unsure (U)</label>
+  <input id="note" placeholder="note (optional; Enter or click elsewhere to save)" style="flex:1;min-width:260px;background:#2c313a;color:#fff;border:1px solid #3a404b;border-radius:6px;padding:6px 8px">
+  <label style="color:#ff9800"><input type="checkbox" id="mixed"> mixed cell: two labels (M)</label>
+  <span style="color:var(--muted)">Choose what the points in the yellow box are (saved automatically, then next). If two things are mixed: right-click (or Shift+key) the secondary one, then choose the primary one; or turn on M and choose primary, then secondary.</span>
+</div>
+<script>
+const KEYS = "1234567890qwer";
+let S = null, labels = {}, cur = 0, P = null, OBJ = false;
+const cache = new Map();
+const $ = id => document.getElementById(id);
+// view state
+let V3 = null, VT = null, VS = null;
+function resetViews() {
+  V3 = { yaw: -0.6, pitch: 0.55, dist: 28, panX: 0, panY: 0, panZ: 0 };
+  VT = { scale: 1, cx: 0, cy: 0, range: 20 };
+  VS = { scale: 1, cx: 0, cy: 0, range: 12 };
+}
+resetViews();
+
+async function init() {
+  S = await (await fetch("samples.json")).json();
+  OBJ = S.mode === "object";
+  if (OBJ) {
+    document.querySelector("header b").textContent = "Object review (category name hidden)";
+    document.querySelector("#nav span").textContent = "pink = cells of this object. (1) category button above (or key), then (2) purity button below (or z/x/c)";
+    const pb = document.createElement("div"); pb.id = "purbar"; pb.style.cssText = "display:flex;gap:6px;padding:4px 12px;align-items:center";
+    pb.innerHTML = '<span style="color:#ff9800">(2) Purity:</span>' +
+      [["z","mostly","z mostly"],["x","about_half","x about half"],["c","mostly_other","c mostly other"]].map(
+        ([k,v,t]) => `<button data-pur="${v}" style="background:#3a2f1a;color:#fff;border:1px solid #ff9800;border-radius:6px;padding:8px 14px;cursor:pointer;font-size:14px">${t}</button>`).join("");
+    $("bar").after(pb);
+    pb.querySelectorAll("button").forEach(b => b.onclick = () => setPurity(b.dataset.pur));
+  }
+  try { labels = await (await fetch("labels.json", { cache: "no-store" })).json(); } catch (e) { labels = {}; }
+  S.categories.forEach((c, i) => {
+    const b = document.createElement("button");
+    const DISP = { street_light: "Post / street light (whole pole)", height_barrier: "Overpass / height barrier", traffic_light: "Traffic light", sign: "Sign", guardrail: "Guardrail / barrier",
+                   tunnel_structure: "Tunnel", viaduct_structure: "Viaduct structure", vegetation: "Vegetation", vehicle: "Vehicle", ground_or_road_surface: "Road / ground",
+                   building_or_wall: "Building / wall", other_structure: "Other structure", noise_or_empty: "Empty / noise", cannot_judge: "Cannot judge",
+                   post_related: "Part of a post: yes", not_post: "Not a post: no",
+                   guardrail_yes: "Guardrail / barrier: yes", tunnel_wall_no: "Tunnel wall / base: no" };
+    b.innerHTML = `<kbd>${KEYS[i] || ""}</kbd>${DISP[c] || c}`;
+    b.onclick = (ev) => ev.shiftKey ? chooseSecond(c) : choose(c);
+    b.oncontextmenu = (ev) => { ev.preventDefault(); chooseSecond(c); };
+    b.dataset.cat = c;
+    $("bar").appendChild(b);
+  });
+  const firstUn = S.samples.findIndex(s => !labels[s.sample_id]);
+  cur = firstUn < 0 ? 0 : firstUn;
+  if (FIG && FIG.has("sid")) { const k = S.samples.findIndex(s => String(s.sample_id) === FIG.get("sid")); if (k >= 0) cur = k; }
+  await load();
+  if (FIG) figEnglish();
+}
+
+async function fetchSample(i) {
+  if (cache.has(i)) return cache.get(i);
+  const s = S.samples[i];
+  const buf = await (await fetch(`sample/${s.sample_id}`)).arrayBuffer();
+  const n = s.n, f = new Float32Array(buf, 0, n * 3), c = new Uint8Array(buf, n * 12, n * 3);
+  // principal horizontal direction of the local neighbourhood (for the side view)
+  let sxx = 0, syy = 0, sxy = 0, k = 0;
+  for (let j = 0; j < n; j++) {
+    const x = f[j*3], y = f[j*3+1], z = f[j*3+2];
+    if (Math.abs(x) < 6 && Math.abs(y) < 6 && Math.abs(z) < 3) { sxx += x*x; syy += y*y; sxy += x*y; k++; }
+  }
+  let ang = k > 10 ? 0.5 * Math.atan2(2 * sxy, sxx - syy) : 0;
+  let ext = 0;
+  if (s.obj_cells && s.obj_cells.length) {
+    let a = 0, b = 0, cc = 0;
+    for (const q of s.obj_cells) { a += q[0]*q[0]; b += q[1]*q[1]; cc += q[0]*q[1]; ext = Math.max(ext, Math.abs(q[0]), Math.abs(q[1]), Math.abs(q[2])); }
+    ang = 0.5 * Math.atan2(2 * cc, a - b);
+  }
+  const d = { n, f, c, ang, ext };
+  cache.set(i, d);
+  if (cache.size > 12) cache.delete(cache.keys().next().value);
+  return d;
+}
+
+async function load() {
+  $("status").textContent = "Loading…";
+  P = await fetchSample(cur);
+  $("status").textContent = "";
+  if (OBJ) { resetViews(); V3.dist = Math.max(18, P.ext * 2.6); VT.range = VS.range = Math.max(8, P.ext + 4); }
+  draw();
+  if (cur + 1 < S.samples.length) fetchSample(cur + 1);  // prefetch
+}
+
+function inBox(i) { if (OBJ) return false; return Math.abs(P.f[i*3]) <= 0.25 && Math.abs(P.f[i*3+1]) <= 0.25 && Math.abs(P.f[i*3+2]) <= 0.25; }
+function colorOf(i, mode) {
+  if ($("hl").checked && inBox(i)) return [255, 40, 220];  // points inside the cell
+  const z = P.f[i*3+2];
+  if (mode === "rgb") return [P.c[i*3], P.c[i*3+1], P.c[i*3+2]];
+  const t = Math.max(0, Math.min(1, (z + 3) / 12));
+  const h = (240 - 240 * t) / 60, x = 1 - Math.abs(h % 2 - 1);
+  let r = 0, g = 0, b = 0;
+  if (h < 1) [r, g, b] = [1, x, 0]; else if (h < 2) [r, g, b] = [x, 1, 0]; else if (h < 3) [r, g, b] = [0, 1, x];
+  else if (h < 4) [r, g, b] = [0, x, 1]; else [r, g, b] = [x, 0, 1];
+  if (mode === "height") return [r*255, g*255, b*255];
+  const l = (P.c[i*3] + P.c[i*3+1] + P.c[i*3+2]) / 765;  // mix: height hue, LiDAR brightness
+  const m = 0.35 + 0.65 * l;
+  return [r*255*m, g*255*m, b*255*m];
+}
+
+function fit(cv) {
+  const r = cv.getBoundingClientRect(), dpr = window.devicePixelRatio || 1;
+  const w = Math.max(50, Math.round(r.width * dpr)), h = Math.max(50, Math.round(r.height * dpr));
+  if (cv.width !== w || cv.height !== h) { cv.width = w; cv.height = h; }
+  return [w, h, dpr];
+}
+
+function drawBox2D(g, px, py, half) {
+  g.strokeStyle = "#ffcc33"; g.lineWidth = 2; g.strokeRect(px - half, py - half, 2 * half, 2 * half);
+  g.strokeStyle = "rgba(255,204,51,.35)"; g.lineWidth = 1;
+  g.beginPath(); g.arc(px, py, half * 6, 0, Math.PI * 2); g.stroke();
+}
+
+function draw2D(cv, V, proj, depthFilter, title) {
+  const [W, H, dpr] = fit(cv), g = cv.getContext("2d"), mode = $("color").value, ps = +$("psize").value * dpr;
+  g.fillStyle = "#000"; g.fillRect(0, 0, W, H);
+  const sc = Math.min(W, H) / (2 * V.range) * V.scale;
+  const ox = W / 2 - V.cx * sc, oy = H / 2 + V.cy * sc;
+  for (let i = 0; i < P.n; i++) {
+    if (!depthFilter(i)) continue;
+    const [u, v] = proj(i);
+    const x = ox + u * sc, y = oy - v * sc;
+    if (x < -2 || y < -2 || x > W + 2 || y > H + 2) continue;
+    const [r, gg, b] = colorOf(i, mode);
+    g.fillStyle = `rgb(${r|0},${gg|0},${b|0})`;
+    g.fillRect(x - ps / 2, y - ps / 2, ps, ps);
+  }
+  if (OBJ) {
+    const oc = S.samples[cur].obj_cells || [], h = Math.max(2, 0.25 * sc);
+    g.fillStyle = "rgba(255,40,220,0.75)";
+    for (const q of oc) { const [u, v] = V.projRep(q); g.fillRect(ox + u * sc - h, oy - v * sc - h, 2 * h, 2 * h); }
+  } else drawBox2D(g, ox, oy, Math.max(3, 0.25 * sc));
+  const rp = OBJ ? null : S.samples[cur].rep;
+  if (rp) { const [ru, rv] = V.projRep(rp); g.fillStyle = "#ff28dc"; g.beginPath(); g.arc(ox + ru * sc, oy - rv * sc, 4 * dpr, 0, 7); g.fill(); }
+  g.fillStyle = "#888"; g.font = `${12 * dpr}px sans-serif`;
+  const bar = niceBar(sc); g.fillRect(10 * dpr, H - 14 * dpr, bar.px, 3 * dpr); g.fillText(bar.label, 10 * dpr, H - 20 * dpr);
+}
+
+function niceBar(sc) {
+  for (const m of [0.5, 1, 2, 5, 10, 20]) if (m * sc > 60) return { px: m * sc, label: `${m} m` };
+  return { px: 20 * sc, label: "20 m" };
+}
+
+function draw3D() {
+  const cv = $("v3d"), [W, H, dpr] = fit(cv), g = cv.getContext("2d"), mode = $("color").value, ps = +$("psize").value * dpr;
+  g.fillStyle = "#000"; g.fillRect(0, 0, W, H);
+  const cy = Math.cos(V3.yaw), sy = Math.sin(V3.yaw), cp = Math.cos(V3.pitch), sp = Math.sin(V3.pitch);
+  const f = Math.min(W, H) * 0.9, n = P.n;
+  const proj = (x, y, z) => {
+    x -= V3.panX; y -= V3.panY; z -= V3.panZ;
+    const x1 = cy * x - sy * y, y1 = sy * x + cy * y;          // yaw around z
+    const y2 = cp * y1 - sp * z, z2 = sp * y1 + cp * z;          // pitch around x
+    const depth = V3.dist + y2;
+    if (depth < 0.5) return null;
+    return [W / 2 + f * x1 / depth, H / 2 - f * z2 / depth, depth];
+  };
+  const pts = [];
+  for (let i = 0; i < n; i++) {
+    const q = proj(P.f[i*3], P.f[i*3+1], P.f[i*3+2]);
+    if (q && q[0] > -5 && q[1] > -5 && q[0] < W + 5 && q[1] < H + 5) pts.push([q[2], q[0], q[1], i]);
+  }
+  pts.sort((a, b) => b[0] - a[0]);
+  for (const [d, x, y, i] of pts) {
+    const [r, gg, b] = colorOf(i, mode);
+    g.fillStyle = `rgb(${r|0},${gg|0},${b|0})`;
+    const s = Math.max(1, ps * 14 / d);
+    g.fillRect(x - s / 2, y - s / 2, s, s);
+  }
+  if (OBJ) {
+    const oc = S.samples[cur].obj_cells || [];
+    const qs = oc.map(q => proj(q[0], q[1], q[2])).filter(Boolean).sort((a, b) => b[2] - a[2]);
+    g.fillStyle = "rgba(255,40,220,0.8)";
+    for (const q of qs) { const s2 = Math.max(2, f * 0.5 / q[2]); g.fillRect(q[0] - s2 / 2, q[1] - s2 / 2, s2, s2); }
+    return;
+  }
+  const rp = S.samples[cur].rep;
+  if (rp) { const q = proj(rp[0], rp[1], rp[2]); if (q) { g.fillStyle = "#ff28dc"; g.beginPath(); g.arc(q[0], q[1], 5 * dpr, 0, 7); g.fill(); } }
+  // 0.5 m cell wireframe
+  const h = 0.25, C = [[-h,-h,-h],[h,-h,-h],[h,h,-h],[-h,h,-h],[-h,-h,h],[h,-h,h],[h,h,h],[-h,h,h]];
+  const E = [[0,1],[1,2],[2,3],[3,0],[4,5],[5,6],[6,7],[7,4],[0,4],[1,5],[2,6],[3,7]];
+  const Q = C.map(c => proj(...c));
+  g.strokeStyle = "#ffcc33"; g.lineWidth = 2 * dpr; g.beginPath();
+  for (const [a, b] of E) if (Q[a] && Q[b]) { g.moveTo(Q[a][0], Q[a][1]); g.lineTo(Q[b][0], Q[b][1]); }
+  g.stroke();
+  // vertical guide line through the cell
+  const t1 = proj(0, 0, -6), t2 = proj(0, 0, 8);
+  if (t1 && t2) { g.strokeStyle = "rgba(255,204,51,.3)"; g.lineWidth = 1; g.beginPath(); g.moveTo(t1[0], t1[1]); g.lineTo(t2[0], t2[1]); g.stroke(); }
+}
+
+function draw() {
+  if (!P) return;
+  const s = S.samples[cur], sl = +$("slab").value;
+  const ca = Math.cos(P.ang), sa = Math.sin(P.ang);
+  draw3D();
+  VT.projRep = q => [q[0], q[1]];
+  VS.projRep = q => [ca * q[0] + sa * q[1], q[2]];
+  draw2D($("top"), VT, i => [P.f[i*3], P.f[i*3+1]], i => true);
+  // side view along the dominant horizontal direction, limited to a slab across it
+  draw2D($("side"), VS, i => [ca * P.f[i*3] + sa * P.f[i*3+1], P.f[i*3+2]],
+         i => Math.abs(-sa * P.f[i*3] + ca * P.f[i*3+1]) <= sl);
+  const ph = $("photos");
+  if (ph.dataset.sid !== String(s.sample_id)) {
+    ph.dataset.sid = s.sample_id;
+    ph.innerHTML = (s.photos && s.photos.length)
+      ? `<div>Survey photos (${OBJ ? "pink circle = object centre" : "yellow box = cell position"}; objects in front may hide it · click to enlarge)</div>` +
+        s.photos.map(p => `<img src="photos/${p.file}" onclick="zoom(this.src)"><div>range ${p.range_m} m</div>`).join("")
+      : `<div>no photo of this cell.</div>`;
+  }
+  const L = labels[s.sample_id];
+  document.querySelectorAll("#bar button").forEach(b => { b.classList.toggle("sel", !!L && L.cat === b.dataset.cat); b.classList.toggle("sel2", !!L && L.cat2 === b.dataset.cat); });
+  $("unsure").checked = !!(L && L.unsure);
+  if (document.activeElement !== $("note")) $("note").value = (L && L.note) || "";
+  const done = Object.keys(labels).length;
+  let nb = 0; for (let i = 0; i < P.n; i++) if (inBox(i)) nb++;
+  if (OBJ) { const LL = labels[s.sample_id]; $("prog").textContent = `Object ${cur + 1} / ${S.samples.length} · done ${Object.values(labels).filter(v => v.purity).length} · ${(s.obj_cells || []).length} cells` + (LL && LL.cat && !LL.purity ? " · choose purity (z/x/c)" : ""); return; }
+  $("prog").textContent = `Sample ${cur + 1} / ${S.samples.length} · labeled ${done} (${(100 * done / S.samples.length).toFixed(1)}%) · ${nb} points in box (+representative)`;
+}
+
+// ---- interaction ----
+function drag2D(cv, V) {
+  let last = null;
+  cv.addEventListener("mousedown", e => { last = [e.clientX, e.clientY]; e.preventDefault(); });
+  window.addEventListener("mouseup", () => last = null);
+  window.addEventListener("mousemove", e => {
+    if (!last) return;
+    const r = cv.getBoundingClientRect(), sc = Math.min(r.width, r.height) / (2 * V.range) * V.scale;
+    V.cx -= (e.clientX - last[0]) / sc; V.cy += (e.clientY - last[1]) / sc; last = [e.clientX, e.clientY]; draw();
+  });
+  cv.addEventListener("wheel", e => { e.preventDefault(); V.scale *= e.deltaY < 0 ? 1.2 : 1 / 1.2; V.scale = Math.min(40, Math.max(0.3, V.scale)); draw(); }, { passive: false });
+  cv.addEventListener("dblclick", () => { V.scale = 1; V.cx = 0; V.cy = 0; draw(); });
+}
+drag2D($("top"), VT); drag2D($("side"), VS);
+(function () {
+  const cv = $("v3d"); let last = null, pan = false;
+  cv.addEventListener("contextmenu", e => e.preventDefault());
+  cv.addEventListener("mousedown", e => { last = [e.clientX, e.clientY]; pan = e.button === 2 || e.shiftKey; e.preventDefault(); });
+  window.addEventListener("mouseup", () => last = null);
+  window.addEventListener("mousemove", e => {
+    if (!last) return;
+    const dx = e.clientX - last[0], dy = e.clientY - last[1]; last = [e.clientX, e.clientY];
+    if (pan) {
+      const k = V3.dist / 600, cy = Math.cos(V3.yaw), sy = Math.sin(V3.yaw);
+      V3.panX -= k * (cy * dx); V3.panY -= k * (-sy * dx); V3.panZ += k * dy;
+    } else {
+      V3.yaw += dx * 0.008; V3.pitch = Math.max(-1.45, Math.min(1.45, V3.pitch + dy * 0.008));
+    }
+    draw3D();
+  });
+  cv.addEventListener("wheel", e => { e.preventDefault(); V3.dist *= e.deltaY < 0 ? 1 / 1.15 : 1.15; V3.dist = Math.min(120, Math.max(1.5, V3.dist)); draw3D(); }, { passive: false });
+  cv.addEventListener("dblclick", () => { V3.panX = V3.panY = V3.panZ = 0; draw3D(); });
+})();
+window.addEventListener("resize", draw);
+
+function setPurity(v) {
+  const L = labels[S.samples[cur].sample_id];
+  if (!L || !L.cat) { $("status").textContent = "Choose a category (1) first"; return; }
+  L.purity = v; L.t = new Date().toISOString();
+  const nv = $("note").value.trim(); if (nv) L.note = nv;
+  save(); go(cur + 1);
+}
+function saveNote() {
+  const sid = S.samples[cur].sample_id, v = $("note").value.trim();
+  const L = labels[sid] || { cat: null, unsure: $("unsure").checked };
+  if (v) L.note = v; else delete L.note;
+  if (!L.cat && !L.note && !L.cat2) return;
+  labels[sid] = L; save();
+}
+function zoom(src) { $("zoomsrc").src = src; $("zoomimg").style.display = "flex"; }
+let saveTimer = null;
+function save() {
+  if (FIG) return;  // figure (screenshot) mode is read-only
+  clearTimeout(saveTimer);
+  saveTimer = setTimeout(async () => {
+    try {
+      const r = await fetch("save", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(labels) });
+      $("status").textContent = r.ok ? "Saved" : "Save failed";
+    } catch (e) { $("status").textContent = "Save failed (check that the server window is still running)"; }
+  }, 300);
+}
+async function go(i) { if (i >= S.samples.length) { draw(); $("status").textContent = `Last item. Answers saved (done ${Object.values(labels).filter(v => v && v.cat).length} / ${S.samples.length}).`; return; } if (i < 0) return; const L = labels[S.samples[cur].sample_id]; if (L && L.pending) { delete L.pending; save(); } cur = i; $("unsure").checked = false; $("mixed").checked = false; await load(); }
+function choose(cat) {
+  const s0 = S.samples[cur];
+  if (OBJ) {
+    const prev = labels[s0.sample_id] || {};
+    labels[s0.sample_id] = { ...prev, cat, unsure: $("unsure").checked, t: new Date().toISOString() };
+    delete labels[s0.sample_id].purity;
+    save(); draw(); $("status").textContent = "Choose purity: z mostly / x about half / c mostly other"; return;
+  }
+  if ($("mixed").checked) {
+    const L0 = labels[s0.sample_id];
+    if (!L0 || !L0.pending) {  // first pick in mixed mode: primary, stay here
+      labels[s0.sample_id] = { cat, unsure: $("unsure").checked, pending: true, t: new Date().toISOString() };
+      save(); draw(); $("status").textContent = "Primary saved — choose the secondary category"; return;
+    }
+    if (cat !== L0.cat) L0.cat2 = cat;
+    delete L0.pending; L0.t = new Date().toISOString();
+    save(); $("mixed").checked = false; go(cur + 1); return;
+  }
+  const s = S.samples[cur], prev = labels[s.sample_id];
+  const L = { cat, unsure: $("unsure").checked, t: new Date().toISOString() };
+  if (prev && prev.cat2 && prev.cat2 !== cat) L.cat2 = prev.cat2;  // keep a secondary picked first
+  labels[s.sample_id] = L;
+  save();
+  go(cur + 1);
+}
+function chooseSecond(cat) {  // Shift+key: second category for a mixed cell, stays on this sample
+  const s = S.samples[cur], L = labels[s.sample_id] || { cat: null, unsure: $("unsure").checked };
+  if (L.cat === cat) return;
+  L.cat2 = (L.cat2 === cat) ? undefined : cat;
+  L.t = new Date().toISOString();
+  labels[s.sample_id] = L;
+  save(); draw();
+}
+$("note").addEventListener("change", saveNote);
+$("prev").onclick = () => go(cur - 1);
+$("next").onclick = () => go(cur + 1);
+$("nextUn").onclick = () => { const i = S.samples.findIndex((s, k) => k > cur && !labels[s.sample_id]); if (i >= 0) go(i); };
+$("reset").onclick = () => { resetViews(); draw(); };
+["color", "psize", "slab", "hl"].forEach(id => $(id).onchange = draw);
+$("unsure").onchange = () => { const L = labels[S.samples[cur].sample_id]; if (L) { L.unsure = $("unsure").checked; save(); } };
+document.addEventListener("keydown", e => {
+  if (e.target.tagName === "SELECT" || e.target.tagName === "INPUT" && e.target.type === "text") { if (e.key === "Enter") e.target.blur(); return; }
+  const code = e.code.startsWith("Digit") ? e.code.slice(5) : e.code.startsWith("Key") ? e.code.slice(3).toLowerCase() : "";
+  if (e.shiftKey && code && KEYS.indexOf(code) >= 0 && KEYS.indexOf(code) < S.categories.length) { e.preventDefault(); chooseSecond(S.categories[KEYS.indexOf(code)]); return; }
+  if (e.key === "Home") { $("reset").click(); return; }
+  const k = code || e.key.toLowerCase(), i = KEYS.indexOf(k);
+  if (i >= 0 && i < S.categories.length) choose(S.categories[i]);
+  else if (k === "a" || e.key === "ArrowLeft") $("prev").click();
+  else if (k === "d" || e.key === "ArrowRight") $("next").click();
+  else if (k === "n") $("nextUn").click();
+  else if (k === "m") { $("mixed").checked = !$("mixed").checked; }
+  else if (OBJ && (k === "z" || k === "x" || k === "c")) setPurity({ z: "mostly", x: "about_half", c: "mostly_other" }[k]);
+  else if (k === "u") { $("unsure").checked = !$("unsure").checked; $("unsure").onchange(); }
+});
+// Figure mode (?fig=1[&sid=N]): read-only, English labels, for paper screenshots only.
+const FIG = new URLSearchParams(location.search).has("fig") ? new URLSearchParams(location.search) : null;
+const EN = [
+  [/^3D view — .*/, "3D view (rotate / pan / zoom)"], [/^Plan view .*/, "Plan view"], [/^Side view .*/, "Side view (along the road)"],
+  [/^yellow box = 0\.5 m cell.*/, "yellow box = 0.5 m cell to label"], [/^Survey photos .*/, "Survey photos (cell projected)"],
+  [/^Sample (\d+) \/ (\d+).*/, "Sample $1 / $2"], [/^Object (\d+) \/ (\d+).*/, "Object $1 / $2"],
+  [/^◀ Prev \(A\)$/, "◀ Prev"], [/^Next ▶ \(D\)$/, "Next ▶"], [/^Next unlabeled \(N\)$/, "Next unlabeled"],
+  [/^unsure \(U\)$/, " unsure"], [/^mixed cell: two labels \(M\)$/, " mixed cell: two labels"], [/^Choose what the points.*/, ""],
+  [/^pink = cells of this object.*/, "pink = cells of this object"], [/^\(2\) Purity:$/, "Purity:"],
+  [/^Reset view \(Home\)$/, "Reset view"], [/^highlight points in box$/, " highlight points in box"],
+  [/^Post \/ street light \(whole pole\)$/, "Post / street light"], [/^no photo of this cell\.$/, "no photo"],
+  [/^Saved$/, ""], [/^Loading…$/, ""],
+];
+function figEnglish() {
+  const run = () => {
+    const w = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
+    for (let n; (n = w.nextNode());) {
+      const t = n.nodeValue; if (!t.trim()) continue;
+      for (const [re, rep] of EN) { if (re.test(t.trim())) { const v = t.trim().replace(re, rep); if (v !== t) n.nodeValue = v; break; } }
+    }
+    document.querySelectorAll("input[placeholder]").forEach(i => { i.placeholder = "note"; i.value = ""; });
+    document.title = "labeling tool";
+  };
+  run(); new MutationObserver(run).observe(document.body, { subtree: true, childList: true, characterData: true });
+}
+init();
+</script>
+</body>
+</html>

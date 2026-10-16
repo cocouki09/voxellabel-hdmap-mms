@@ -1,0 +1,3975 @@
+{
+ "0": {
+  "cat": "noise_or_empty",
+  "unsure": false,
+  "t": "2026-10-15T00:14:47.984Z"
+ },
+ "1": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T00:15:19.228Z"
+ },
+ "2": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T00:15:24.472Z"
+ },
+ "3": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T00:15:26.020Z"
+ },
+ "4": {
+  "cat": "noise_or_empty",
+  "unsure": false,
+  "t": "2026-10-15T00:15:40.319Z"
+ },
+ "5": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T00:16:32.063Z"
+ },
+ "6": {
+  "cat": "noise_or_empty",
+  "unsure": false,
+  "t": "2026-10-15T00:16:43.151Z"
+ },
+ "7": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T01:24:37.001Z",
+  "cat2": "guardrail"
+ },
+ "8": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:25:43.241Z"
+ },
+ "9": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T01:27:26.841Z"
+ },
+ "10": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:27:33.257Z"
+ },
+ "11": {
+  "cat": "guardrail",
+  "unsure": false,
+  "t": "2026-10-15T02:27:28.821Z",
+  "cat2": "other_structure"
+ },
+ "12": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:27:43.588Z"
+ },
+ "13": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T01:27:51.488Z"
+ },
+ "14": {
+  "cat": "other_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:31:17.100Z"
+ },
+ "15": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T01:31:30.484Z"
+ },
+ "16": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:31:36.956Z"
+ },
+ "17": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:31:42.688Z"
+ },
+ "18": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T01:31:49.219Z"
+ },
+ "19": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:31:52.160Z"
+ },
+ "20": {
+  "cat": "viaduct_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:33:53.855Z"
+ },
+ "21": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T01:34:03.599Z"
+ },
+ "22": {
+  "cat": "vehicle",
+  "unsure": false,
+  "t": "2026-10-15T01:34:37.879Z"
+ },
+ "23": {
+  "cat": "vehicle",
+  "unsure": false,
+  "t": "2026-10-15T01:34:50.491Z"
+ },
+ "24": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T01:34:57.251Z"
+ },
+ "25": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T01:35:04.935Z"
+ },
+ "26": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T01:35:08.119Z"
+ },
+ "27": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:35:11.267Z"
+ },
+ "28": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:35:12.375Z"
+ },
+ "29": {
+  "cat": "guardrail",
+  "unsure": false,
+  "t": "2026-10-15T01:35:18.915Z"
+ },
+ "30": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:35:23.835Z"
+ },
+ "31": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:35:26.127Z"
+ },
+ "32": {
+  "cat": "guardrail",
+  "unsure": false,
+  "t": "2026-10-15T01:35:29.731Z"
+ },
+ "33": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T01:35:34.355Z"
+ },
+ "34": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:35:40.683Z"
+ },
+ "35": {
+  "cat": "sign",
+  "unsure": false,
+  "t": "2026-10-15T01:35:54.407Z"
+ },
+ "36": {
+  "cat": "guardrail",
+  "unsure": false,
+  "t": "2026-10-15T01:36:13.035Z",
+  "cat2": "ground_or_road_surface"
+ },
+ "37": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:36:19.107Z"
+ },
+ "38": {
+  "cat": "vehicle",
+  "unsure": false,
+  "t": "2026-10-15T01:36:26.331Z"
+ },
+ "39": {
+  "cat": "guardrail",
+  "unsure": false,
+  "t": "2026-10-15T01:36:35.063Z"
+ },
+ "40": {
+  "cat": "viaduct_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:36:49.703Z"
+ },
+ "41": {
+  "cat": "guardrail",
+  "unsure": false,
+  "t": "2026-10-15T01:37:14.778Z"
+ },
+ "42": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T01:37:27.203Z",
+  "cat2": "guardrail"
+ },
+ "43": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T01:37:33.922Z"
+ },
+ "44": {
+  "cat": "viaduct_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:37:38.071Z"
+ },
+ "45": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:37:41.282Z"
+ },
+ "46": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:37:46.303Z"
+ },
+ "47": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T01:37:50.254Z"
+ },
+ "48": {
+  "cat": "traffic_light",
+  "unsure": false,
+  "t": "2026-10-15T01:38:35.650Z"
+ },
+ "49": {
+  "cat": "sign",
+  "unsure": false,
+  "t": "2026-10-15T01:38:41.654Z"
+ },
+ "50": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:38:46.142Z"
+ },
+ "51": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T01:38:48.462Z"
+ },
+ "52": {
+  "cat": "viaduct_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:38:51.262Z"
+ },
+ "53": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T01:38:54.254Z"
+ },
+ "54": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T01:38:57.954Z"
+ },
+ "55": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:39:01.074Z"
+ },
+ "56": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T01:39:03.410Z"
+ },
+ "57": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:39:08.106Z"
+ },
+ "58": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T01:39:10.242Z"
+ },
+ "59": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:39:11.662Z"
+ },
+ "60": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:39:12.502Z"
+ },
+ "61": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T01:41:27.674Z",
+  "cat2": "other_structure"
+ },
+ "62": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T01:41:30.965Z"
+ },
+ "63": {
+  "cat": "cannot_judge",
+  "unsure": false,
+  "t": "2026-10-15T01:41:47.737Z"
+ },
+ "64": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:41:52.053Z"
+ },
+ "65": {
+  "cat": "sign",
+  "unsure": false,
+  "t": "2026-10-15T01:42:13.753Z",
+  "cat2": "noise_or_empty"
+ },
+ "66": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:42:17.690Z"
+ },
+ "67": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:42:19.121Z"
+ },
+ "68": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:42:20.965Z"
+ },
+ "69": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:42:22.329Z"
+ },
+ "70": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:42:23.597Z"
+ },
+ "71": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:42:24.542Z"
+ },
+ "72": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:42:31.373Z"
+ },
+ "73": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:42:32.857Z"
+ },
+ "74": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T01:42:37.529Z"
+ },
+ "75": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T01:42:42.453Z"
+ },
+ "76": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:42:46.705Z"
+ },
+ "77": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T01:42:54.745Z"
+ },
+ "78": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:42:56.833Z"
+ },
+ "79": {
+  "cat": "building_or_wall",
+  "unsure": false,
+  "t": "2026-10-15T01:43:08.869Z"
+ },
+ "80": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:44:22.989Z"
+ },
+ "81": {
+  "cat": "guardrail",
+  "unsure": false,
+  "t": "2026-10-15T01:44:26.493Z"
+ },
+ "82": {
+  "cat": "guardrail",
+  "unsure": false,
+  "t": "2026-10-15T01:44:31.037Z"
+ },
+ "83": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:44:33.529Z"
+ },
+ "84": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:44:34.249Z"
+ },
+ "85": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T01:44:36.665Z"
+ },
+ "86": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T01:44:42.361Z"
+ },
+ "87": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T01:44:45.925Z"
+ },
+ "88": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T01:44:51.177Z"
+ },
+ "89": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T01:44:54.529Z"
+ },
+ "90": {
+  "cat": "viaduct_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:44:57.833Z"
+ },
+ "91": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:44:59.809Z"
+ },
+ "92": {
+  "cat": "noise_or_empty",
+  "unsure": false,
+  "t": "2026-10-15T01:45:08.697Z",
+  "cat2": "cannot_judge"
+ },
+ "93": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T01:45:12.725Z"
+ },
+ "94": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T01:45:17.749Z"
+ },
+ "95": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:45:23.105Z"
+ },
+ "96": {
+  "cat": "street_light",
+  "unsure": false,
+  "t": "2026-10-15T01:45:33.513Z"
+ },
+ "97": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:45:34.889Z"
+ },
+ "98": {
+  "cat": "guardrail",
+  "unsure": false,
+  "t": "2026-10-15T01:45:38.373Z"
+ },
+ "99": {
+  "cat": "other_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:45:48.157Z"
+ },
+ "100": {
+  "cat": "viaduct_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:45:52.921Z"
+ },
+ "101": {
+  "cat": "guardrail",
+  "unsure": false,
+  "t": "2026-10-15T01:45:55.265Z"
+ },
+ "102": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T01:46:00.677Z"
+ },
+ "103": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T01:46:03.749Z"
+ },
+ "104": {
+  "cat": "other_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:46:12.121Z",
+  "cat2": "vegetation"
+ },
+ "105": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:46:14.161Z"
+ },
+ "106": {
+  "cat": "guardrail",
+  "unsure": false,
+  "t": "2026-10-15T01:46:16.941Z"
+ },
+ "107": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:46:19.965Z"
+ },
+ "108": {
+  "cat": "vehicle",
+  "unsure": false,
+  "t": "2026-10-15T01:46:24.945Z"
+ },
+ "109": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:46:27.837Z"
+ },
+ "110": {
+  "cat": "other_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:46:37.345Z"
+ },
+ "111": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T01:46:41.492Z"
+ },
+ "112": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:46:44.661Z"
+ },
+ "113": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:46:47.073Z"
+ },
+ "114": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:46:48.137Z"
+ },
+ "115": {
+  "cat": "viaduct_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:46:50.552Z"
+ },
+ "116": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T01:46:56.216Z"
+ },
+ "117": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T01:47:02.181Z"
+ },
+ "118": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:47:05.916Z"
+ },
+ "119": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T01:47:08.869Z"
+ },
+ "120": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:47:10.337Z"
+ },
+ "121": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:47:11.005Z"
+ },
+ "122": {
+  "cat": "viaduct_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:47:15.344Z"
+ },
+ "123": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T01:47:20.885Z"
+ },
+ "124": {
+  "cat": "viaduct_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:47:22.616Z"
+ },
+ "125": {
+  "cat": "other_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:48:17.940Z"
+ },
+ "126": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:48:20.108Z"
+ },
+ "127": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:48:20.716Z"
+ },
+ "128": {
+  "cat": "vehicle",
+  "unsure": false,
+  "t": "2026-10-15T01:48:26.056Z"
+ },
+ "129": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T01:48:28.188Z"
+ },
+ "130": {
+  "cat": "vehicle",
+  "unsure": false,
+  "t": "2026-10-15T01:48:39.604Z",
+  "cat2": "cannot_judge"
+ },
+ "131": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T01:48:52.988Z",
+  "cat2": "other_structure"
+ },
+ "132": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:48:55.372Z"
+ },
+ "133": {
+  "cat": "sign",
+  "unsure": false,
+  "t": "2026-10-15T01:49:01.312Z"
+ },
+ "134": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T01:49:04.940Z"
+ },
+ "135": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:49:07.528Z"
+ },
+ "136": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:49:08.268Z"
+ },
+ "137": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T01:49:13.112Z"
+ },
+ "138": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T01:49:15.588Z"
+ },
+ "139": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:49:23.660Z"
+ },
+ "140": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:49:24.292Z"
+ },
+ "141": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T01:49:29.312Z"
+ },
+ "142": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T01:49:39.848Z"
+ },
+ "143": {
+  "cat": "building_or_wall",
+  "unsure": false,
+  "t": "2026-10-15T01:49:47.072Z"
+ },
+ "144": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T01:49:49.792Z"
+ },
+ "145": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:49:51.496Z"
+ },
+ "146": {
+  "cat": "other_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:49:58.584Z"
+ },
+ "147": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:50:00.940Z"
+ },
+ "148": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:50:01.576Z"
+ },
+ "149": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:50:02.220Z"
+ },
+ "150": {
+  "cat": "other_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:50:11.728Z",
+  "cat2": "noise_or_empty"
+ },
+ "151": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:50:13.364Z"
+ },
+ "152": {
+  "cat": "vehicle",
+  "unsure": false,
+  "t": "2026-10-15T01:50:21.036Z",
+  "cat2": "noise_or_empty"
+ },
+ "153": {
+  "cat": "vehicle",
+  "unsure": false,
+  "t": "2026-10-15T01:50:27.740Z"
+ },
+ "154": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:50:30.100Z"
+ },
+ "155": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T01:50:34.720Z"
+ },
+ "156": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T01:50:37.340Z"
+ },
+ "157": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T01:50:42.424Z"
+ },
+ "158": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T01:50:43.320Z"
+ },
+ "159": {
+  "cat": "viaduct_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:50:46.584Z"
+ },
+ "160": {
+  "cat": "viaduct_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:50:47.728Z"
+ },
+ "161": {
+  "cat": "building_or_wall",
+  "unsure": false,
+  "t": "2026-10-15T01:50:50.572Z"
+ },
+ "162": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T01:50:56.184Z"
+ },
+ "163": {
+  "cat": "cannot_judge",
+  "unsure": false,
+  "t": "2026-10-15T01:51:03.024Z"
+ },
+ "164": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T01:51:07.520Z"
+ },
+ "165": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T01:51:14.772Z"
+ },
+ "166": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:51:17.972Z"
+ },
+ "167": {
+  "cat": "vehicle",
+  "unsure": false,
+  "t": "2026-10-15T01:51:24.368Z"
+ },
+ "168": {
+  "cat": "viaduct_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:51:26.708Z"
+ },
+ "169": {
+  "cat": "traffic_light",
+  "unsure": false,
+  "t": "2026-10-15T01:51:43.419Z",
+  "cat2": "noise_or_empty"
+ },
+ "170": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:51:45.008Z"
+ },
+ "171": {
+  "cat": "other_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:51:47.459Z"
+ },
+ "172": {
+  "cat": "other_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:51:52.668Z"
+ },
+ "173": {
+  "cat": "viaduct_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:51:55.588Z"
+ },
+ "174": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T01:52:03.704Z"
+ },
+ "175": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:52:07.235Z"
+ },
+ "176": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:52:08.027Z"
+ },
+ "177": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:52:08.711Z"
+ },
+ "178": {
+  "cat": "vehicle",
+  "unsure": false,
+  "t": "2026-10-15T01:52:18.116Z",
+  "cat2": "noise_or_empty"
+ },
+ "179": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:52:20.499Z"
+ },
+ "180": {
+  "cat": "other_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:52:28.839Z",
+  "cat2": "guardrail"
+ },
+ "181": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T01:52:33.183Z"
+ },
+ "182": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T01:52:35.983Z"
+ },
+ "183": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:52:37.887Z"
+ },
+ "184": {
+  "cat": "other_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:52:41.146Z"
+ },
+ "185": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:52:45.559Z"
+ },
+ "186": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:52:46.167Z"
+ },
+ "187": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:52:46.763Z"
+ },
+ "188": {
+  "cat": "vehicle",
+  "unsure": false,
+  "t": "2026-10-15T01:52:50.063Z"
+ },
+ "189": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:52:53.403Z"
+ },
+ "190": {
+  "cat": "sign",
+  "unsure": false,
+  "t": "2026-10-15T01:52:59.075Z"
+ },
+ "191": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:53:00.799Z"
+ },
+ "192": {
+  "cat": "street_light",
+  "unsure": false,
+  "t": "2026-10-15T01:53:10.623Z"
+ },
+ "193": {
+  "cat": "traffic_light",
+  "unsure": false,
+  "t": "2026-10-15T01:53:12.339Z"
+ },
+ "194": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:53:14.807Z"
+ },
+ "195": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:53:16.011Z"
+ },
+ "196": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T01:53:18.287Z"
+ },
+ "197": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:53:19.555Z"
+ },
+ "198": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:53:20.811Z"
+ },
+ "199": {
+  "cat": "vehicle",
+  "unsure": false,
+  "t": "2026-10-15T01:53:30.175Z",
+  "cat2": "other_structure"
+ },
+ "200": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:53:31.847Z"
+ },
+ "201": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:53:32.631Z"
+ },
+ "202": {
+  "cat": "vehicle",
+  "unsure": false,
+  "t": "2026-10-15T01:53:35.191Z"
+ },
+ "203": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T01:53:36.595Z"
+ },
+ "204": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T01:53:37.311Z"
+ },
+ "205": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:53:39.611Z"
+ },
+ "206": {
+  "cat": "street_light",
+  "unsure": false,
+  "t": "2026-10-15T01:53:44.851Z"
+ },
+ "207": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T01:53:47.415Z"
+ },
+ "208": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T01:53:50.363Z"
+ },
+ "209": {
+  "cat": "other_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:53:54.899Z"
+ },
+ "210": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T01:54:04.703Z",
+  "cat2": "other_structure"
+ },
+ "211": {
+  "cat": "vehicle",
+  "unsure": false,
+  "t": "2026-10-15T01:54:07.471Z"
+ },
+ "212": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:54:11.639Z"
+ },
+ "213": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T01:54:13.763Z"
+ },
+ "214": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T01:54:17.039Z"
+ },
+ "215": {
+  "cat": "guardrail",
+  "unsure": false,
+  "t": "2026-10-15T01:54:19.951Z"
+ },
+ "216": {
+  "cat": "guardrail",
+  "unsure": false,
+  "t": "2026-10-15T01:54:26.427Z",
+  "cat2": "vegetation"
+ },
+ "217": {
+  "cat": "traffic_light",
+  "unsure": false,
+  "t": "2026-10-15T01:54:30.175Z"
+ },
+ "218": {
+  "cat": "noise_or_empty",
+  "unsure": false,
+  "t": "2026-10-15T01:54:37.907Z",
+  "cat2": "cannot_judge"
+ },
+ "219": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:54:39.499Z"
+ },
+ "220": {
+  "cat": "vehicle",
+  "unsure": false,
+  "t": "2026-10-15T01:54:43.879Z"
+ },
+ "221": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:54:45.667Z"
+ },
+ "222": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:54:46.335Z"
+ },
+ "223": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T01:54:57.163Z",
+  "cat2": "noise_or_empty"
+ },
+ "224": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T01:54:59.847Z"
+ },
+ "225": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:55:01.527Z"
+ },
+ "226": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:55:02.107Z"
+ },
+ "227": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:55:02.707Z"
+ },
+ "228": {
+  "cat": "other_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:55:05.891Z"
+ },
+ "229": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:55:07.651Z"
+ },
+ "230": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T01:55:08.967Z"
+ },
+ "231": {
+  "cat": "guardrail",
+  "unsure": false,
+  "t": "2026-10-15T01:55:19.343Z",
+  "cat2": "vegetation"
+ },
+ "232": {
+  "cat": "cannot_judge",
+  "unsure": false,
+  "t": "2026-10-15T01:55:24.287Z",
+  "cat2": "noise_or_empty"
+ },
+ "233": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T01:55:26.087Z"
+ },
+ "234": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T01:55:29.331Z"
+ },
+ "235": {
+  "cat": "traffic_light",
+  "unsure": false,
+  "t": "2026-10-15T01:55:32.095Z"
+ },
+ "236": {
+  "cat": "guardrail",
+  "unsure": false,
+  "t": "2026-10-15T01:55:33.635Z"
+ },
+ "237": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T02:10:20.348Z"
+ },
+ "238": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:10:22.272Z"
+ },
+ "239": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T02:10:25.776Z"
+ },
+ "240": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T02:10:26.828Z"
+ },
+ "241": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T02:10:31.896Z"
+ },
+ "242": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:10:36.356Z"
+ },
+ "243": {
+  "cat": "other_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:10:43.636Z",
+  "cat2": "vegetation"
+ },
+ "244": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:10:45.144Z"
+ },
+ "245": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:10:48.900Z"
+ },
+ "246": {
+  "cat": "cannot_judge",
+  "unsure": false,
+  "t": "2026-10-15T02:10:55.944Z",
+  "cat2": "noise_or_empty"
+ },
+ "247": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T02:10:58.916Z"
+ },
+ "248": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:11:01.888Z"
+ },
+ "249": {
+  "cat": "other_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:11:08.204Z",
+  "cat2": "vegetation"
+ },
+ "250": {
+  "cat": "viaduct_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:11:10.776Z"
+ },
+ "251": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T02:11:13.264Z"
+ },
+ "252": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:11:14.876Z"
+ },
+ "253": {
+  "cat": "other_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:11:17.552Z"
+ },
+ "254": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T02:11:19.916Z"
+ },
+ "255": {
+  "cat": "other_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:11:24.796Z"
+ },
+ "256": {
+  "cat": "vehicle",
+  "unsure": false,
+  "t": "2026-10-15T02:11:30.072Z",
+  "cat2": "noise_or_empty"
+ },
+ "257": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:11:32.043Z"
+ },
+ "258": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:11:32.920Z"
+ },
+ "259": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:11:33.516Z"
+ },
+ "260": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:11:34.412Z"
+ },
+ "261": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T02:11:37.507Z"
+ },
+ "262": {
+  "cat": "viaduct_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:11:41.792Z"
+ },
+ "263": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:11:43.107Z"
+ },
+ "264": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T02:11:47.132Z"
+ },
+ "265": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T02:11:49.567Z"
+ },
+ "266": {
+  "cat": "street_light",
+  "unsure": false,
+  "t": "2026-10-15T02:11:52.756Z"
+ },
+ "267": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:11:54.807Z"
+ },
+ "268": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T02:12:02.691Z"
+ },
+ "269": {
+  "cat": "vehicle",
+  "unsure": false,
+  "t": "2026-10-15T02:12:09.188Z",
+  "cat2": "noise_or_empty"
+ },
+ "270": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:12:11.560Z"
+ },
+ "271": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:12:12.779Z"
+ },
+ "272": {
+  "cat": "cannot_judge",
+  "unsure": false,
+  "t": "2026-10-15T02:12:22.311Z",
+  "cat2": "noise_or_empty"
+ },
+ "273": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T02:12:25.279Z"
+ },
+ "274": {
+  "cat": "traffic_light",
+  "unsure": false,
+  "t": "2026-10-15T02:12:28.671Z"
+ },
+ "275": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:12:30.427Z"
+ },
+ "276": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T02:12:32.607Z"
+ },
+ "277": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T02:12:35.091Z"
+ },
+ "278": {
+  "cat": "viaduct_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:12:37.328Z"
+ },
+ "279": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T02:12:39.771Z"
+ },
+ "280": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:12:42.443Z"
+ },
+ "281": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T02:12:44.180Z"
+ },
+ "282": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:12:46.483Z"
+ },
+ "283": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:12:49.231Z"
+ },
+ "284": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:12:49.943Z"
+ },
+ "285": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:12:50.495Z"
+ },
+ "286": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T02:12:52.811Z"
+ },
+ "287": {
+  "cat": "viaduct_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:13:07.643Z"
+ },
+ "288": {
+  "cat": "viaduct_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:13:09.859Z"
+ },
+ "289": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:13:12.011Z"
+ },
+ "290": {
+  "cat": "viaduct_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:13:13.667Z"
+ },
+ "291": {
+  "cat": "viaduct_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:13:14.871Z"
+ },
+ "292": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T02:13:16.871Z"
+ },
+ "293": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T02:13:19.611Z"
+ },
+ "294": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:13:21.035Z"
+ },
+ "295": {
+  "cat": "street_light",
+  "unsure": false,
+  "t": "2026-10-15T02:13:24.975Z"
+ },
+ "296": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:13:27.059Z"
+ },
+ "297": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T02:13:30.083Z"
+ },
+ "298": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:13:32.552Z"
+ },
+ "299": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T02:13:40.467Z",
+  "cat2": "other_structure"
+ },
+ "300": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:13:42.047Z"
+ },
+ "301": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:13:42.731Z"
+ },
+ "302": {
+  "cat": "vehicle",
+  "unsure": false,
+  "t": "2026-10-15T02:13:47.271Z",
+  "cat2": "noise_or_empty"
+ },
+ "303": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T02:13:49.707Z"
+ },
+ "304": {
+  "cat": "viaduct_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:13:51.551Z"
+ },
+ "305": {
+  "cat": "other_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:13:57.903Z",
+  "cat2": "guardrail"
+ },
+ "306": {
+  "cat": "viaduct_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:13:59.735Z"
+ },
+ "307": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:14:01.307Z"
+ },
+ "308": {
+  "cat": "other_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:14:04.055Z"
+ },
+ "309": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T02:14:06.571Z"
+ },
+ "310": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T02:14:10.263Z"
+ },
+ "311": {
+  "cat": "building_or_wall",
+  "unsure": false,
+  "t": "2026-10-15T02:14:13.199Z"
+ },
+ "312": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:14:16.175Z"
+ },
+ "313": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:14:19.035Z"
+ },
+ "314": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:14:20.015Z"
+ },
+ "315": {
+  "cat": "street_light",
+  "unsure": false,
+  "t": "2026-10-15T02:14:25.119Z"
+ },
+ "316": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:14:26.519Z"
+ },
+ "317": {
+  "cat": "guardrail",
+  "unsure": false,
+  "t": "2026-10-15T02:14:30.363Z"
+ },
+ "318": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:14:31.955Z"
+ },
+ "319": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:14:32.655Z"
+ },
+ "320": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:14:33.239Z"
+ },
+ "321": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:14:34.047Z"
+ },
+ "322": {
+  "cat": "noise_or_empty",
+  "unsure": false,
+  "t": "2026-10-15T02:14:39.143Z"
+ },
+ "323": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T02:14:45.231Z",
+  "cat2": "other_structure"
+ },
+ "324": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T02:14:48.091Z"
+ },
+ "325": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:14:52.739Z"
+ },
+ "326": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T02:14:54.911Z"
+ },
+ "327": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:14:57.683Z"
+ },
+ "328": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T02:14:59.919Z"
+ },
+ "329": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T02:15:02.943Z"
+ },
+ "330": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:15:05.291Z"
+ },
+ "331": {
+  "cat": "guardrail",
+  "unsure": false,
+  "t": "2026-10-15T02:15:07.759Z"
+ },
+ "332": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:15:09.511Z"
+ },
+ "333": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:15:10.367Z"
+ },
+ "334": {
+  "cat": "building_or_wall",
+  "unsure": false,
+  "t": "2026-10-15T02:15:14.527Z"
+ },
+ "335": {
+  "cat": "other_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:15:19.343Z",
+  "cat2": "vegetation"
+ },
+ "336": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:15:21.103Z"
+ },
+ "337": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:15:21.695Z"
+ },
+ "338": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:15:22.479Z"
+ },
+ "339": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:15:23.247Z"
+ },
+ "340": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:15:24.615Z"
+ },
+ "341": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:15:25.295Z"
+ },
+ "342": {
+  "cat": "noise_or_empty",
+  "unsure": false,
+  "t": "2026-10-15T02:15:35.211Z",
+  "cat2": "vehicle"
+ },
+ "343": {
+  "cat": "noise_or_empty",
+  "unsure": false,
+  "t": "2026-10-15T02:15:34.315Z",
+  "cat2": "vehicle"
+ },
+ "344": {
+  "cat": "street_light",
+  "unsure": false,
+  "t": "2026-10-15T02:15:41.399Z"
+ },
+ "345": {
+  "cat": "viaduct_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:15:44.047Z"
+ },
+ "346": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T02:15:45.915Z"
+ },
+ "347": {
+  "cat": "noise_or_empty",
+  "unsure": false,
+  "t": "2026-10-15T02:15:51.071Z",
+  "cat2": "vehicle"
+ },
+ "348": {
+  "cat": "noise_or_empty",
+  "unsure": false,
+  "t": "2026-10-15T02:15:53.843Z",
+  "cat2": "vehicle"
+ },
+ "349": {
+  "cat": "noise_or_empty",
+  "unsure": false,
+  "t": "2026-10-15T02:15:55.851Z",
+  "cat2": "vehicle"
+ },
+ "350": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:15:57.139Z"
+ },
+ "351": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T02:16:02.363Z",
+  "cat2": "other_structure"
+ },
+ "352": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T02:16:03.987Z"
+ },
+ "353": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T02:16:06.883Z"
+ },
+ "354": {
+  "cat": "traffic_light",
+  "unsure": false,
+  "t": "2026-10-15T02:16:11.031Z"
+ },
+ "355": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T02:16:14.035Z"
+ },
+ "356": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:16:16.355Z"
+ },
+ "357": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:16:16.971Z"
+ },
+ "358": {
+  "cat": "guardrail",
+  "unsure": false,
+  "t": "2026-10-15T02:16:19.691Z"
+ },
+ "359": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:16:21.235Z"
+ },
+ "360": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:16:21.863Z"
+ },
+ "361": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T02:16:24.483Z"
+ },
+ "362": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T02:16:30.950Z",
+  "cat2": "other_structure"
+ },
+ "363": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T02:16:33.267Z"
+ },
+ "364": {
+  "cat": "other_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:16:37.594Z"
+ },
+ "365": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T02:16:39.019Z"
+ },
+ "366": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T02:16:42.755Z"
+ },
+ "367": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:16:46.383Z"
+ },
+ "368": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T02:16:48.295Z"
+ },
+ "369": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T02:16:49.834Z"
+ },
+ "370": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T02:16:51.502Z"
+ },
+ "371": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T02:16:52.650Z"
+ },
+ "372": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T02:16:53.623Z"
+ },
+ "373": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T02:16:54.431Z"
+ },
+ "374": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T02:16:58.307Z"
+ },
+ "375": {
+  "cat": "sign",
+  "unsure": false,
+  "t": "2026-10-15T02:17:07.242Z"
+ },
+ "376": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:17:10.815Z"
+ },
+ "377": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:17:13.866Z"
+ },
+ "378": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:17:14.746Z"
+ },
+ "379": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T02:17:17.223Z"
+ },
+ "380": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:17:18.794Z"
+ },
+ "381": {
+  "cat": "viaduct_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:17:22.046Z"
+ },
+ "382": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T02:17:24.363Z"
+ },
+ "383": {
+  "cat": "guardrail",
+  "unsure": false,
+  "t": "2026-10-15T02:17:27.450Z"
+ },
+ "384": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:17:30.274Z"
+ },
+ "385": {
+  "cat": "traffic_light",
+  "unsure": false,
+  "t": "2026-10-15T02:17:32.666Z"
+ },
+ "386": {
+  "cat": "traffic_light",
+  "unsure": false,
+  "t": "2026-10-15T02:17:34.010Z"
+ },
+ "387": {
+  "cat": "other_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:17:39.510Z",
+  "cat2": "vegetation"
+ },
+ "388": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:17:42.718Z"
+ },
+ "389": {
+  "cat": "cannot_judge",
+  "unsure": false,
+  "t": "2026-10-15T02:17:49.062Z",
+  "cat2": "noise_or_empty"
+ },
+ "390": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T02:17:53.314Z"
+ },
+ "391": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T02:17:54.814Z"
+ },
+ "392": {
+  "cat": "building_or_wall",
+  "unsure": false,
+  "t": "2026-10-15T02:18:04.914Z"
+ },
+ "393": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:18:07.290Z"
+ },
+ "394": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T02:18:09.994Z"
+ },
+ "395": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:18:11.294Z"
+ },
+ "396": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:18:12.334Z"
+ },
+ "397": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:18:13.066Z"
+ },
+ "398": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:18:13.622Z"
+ },
+ "399": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:18:14.114Z"
+ },
+ "400": {
+  "cat": "other_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:18:17.018Z"
+ },
+ "401": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T02:18:22.270Z"
+ },
+ "402": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T02:31:59.603Z"
+ },
+ "403": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:32:01.863Z"
+ },
+ "404": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T02:32:07.904Z",
+  "cat2": "other_structure"
+ },
+ "405": {
+  "cat": "building_or_wall",
+  "unsure": false,
+  "t": "2026-10-15T02:32:11.807Z"
+ },
+ "406": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:32:13.523Z"
+ },
+ "407": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T02:32:19.655Z",
+  "cat2": "other_structure"
+ },
+ "408": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T02:32:21.131Z"
+ },
+ "409": {
+  "cat": "other_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:32:23.839Z"
+ },
+ "410": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:32:25.347Z"
+ },
+ "411": {
+  "cat": "guardrail",
+  "unsure": false,
+  "t": "2026-10-15T02:32:29.331Z"
+ },
+ "412": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:32:31.347Z"
+ },
+ "413": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T02:32:32.871Z"
+ },
+ "414": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T02:32:35.343Z"
+ },
+ "415": {
+  "cat": "vehicle",
+  "unsure": false,
+  "t": "2026-10-15T02:32:41.623Z",
+  "cat2": "noise_or_empty"
+ },
+ "416": {
+  "cat": "vehicle",
+  "unsure": false,
+  "t": "2026-10-15T02:32:49.599Z",
+  "cat2": "noise_or_empty"
+ },
+ "417": {
+  "cat": "traffic_light",
+  "unsure": false,
+  "t": "2026-10-15T02:32:54.539Z"
+ },
+ "418": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:33:17.487Z"
+ },
+ "419": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:33:18.535Z"
+ },
+ "420": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T02:33:21.119Z"
+ },
+ "421": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:33:22.951Z"
+ },
+ "422": {
+  "cat": "other_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:33:27.531Z"
+ },
+ "423": {
+  "cat": "traffic_light",
+  "unsure": false,
+  "t": "2026-10-15T02:33:32.215Z"
+ },
+ "424": {
+  "cat": "viaduct_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:33:35.403Z"
+ },
+ "425": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:33:37.048Z"
+ },
+ "426": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T02:33:38.607Z"
+ },
+ "427": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T02:33:44.307Z"
+ },
+ "428": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:33:48.055Z"
+ },
+ "429": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T02:33:52.227Z"
+ },
+ "430": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:33:53.627Z"
+ },
+ "431": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T02:33:56.967Z"
+ },
+ "432": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T02:33:59.875Z"
+ },
+ "433": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T02:34:02.959Z"
+ },
+ "434": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T02:34:03.915Z"
+ },
+ "435": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:34:06.587Z"
+ },
+ "436": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T02:34:09.931Z"
+ },
+ "437": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T02:34:17.047Z"
+ },
+ "438": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:34:19.015Z"
+ },
+ "439": {
+  "cat": "traffic_light",
+  "unsure": false,
+  "t": "2026-10-15T02:34:24.011Z"
+ },
+ "440": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:34:25.583Z"
+ },
+ "441": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:34:26.395Z"
+ },
+ "442": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T02:34:31.355Z"
+ },
+ "443": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:34:33.171Z"
+ },
+ "444": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T02:34:37.607Z"
+ },
+ "445": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:34:41.243Z"
+ },
+ "446": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:34:41.895Z"
+ },
+ "447": {
+  "cat": "viaduct_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:34:44.379Z"
+ },
+ "448": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:34:49.179Z"
+ },
+ "449": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T02:34:54.275Z"
+ },
+ "450": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:34:56.635Z"
+ },
+ "451": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T02:34:59.311Z"
+ },
+ "452": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T02:34:59.935Z"
+ },
+ "453": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:35:01.299Z"
+ },
+ "454": {
+  "cat": "traffic_light",
+  "unsure": false,
+  "t": "2026-10-15T02:35:03.627Z"
+ },
+ "455": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:35:05.187Z"
+ },
+ "456": {
+  "cat": "vehicle",
+  "unsure": false,
+  "t": "2026-10-15T02:35:09.771Z",
+  "cat2": "noise_or_empty"
+ },
+ "457": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T02:35:12.395Z"
+ },
+ "458": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:35:13.707Z"
+ },
+ "459": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:35:14.543Z"
+ },
+ "460": {
+  "cat": "viaduct_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:35:17.515Z"
+ },
+ "461": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T02:35:22.419Z",
+  "cat2": "guardrail"
+ },
+ "462": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T02:35:31.663Z",
+  "cat2": "other_structure"
+ },
+ "463": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T02:35:38.675Z"
+ },
+ "464": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:35:40.735Z"
+ },
+ "465": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T02:35:43.163Z"
+ },
+ "466": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:35:44.755Z"
+ },
+ "467": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:35:45.351Z"
+ },
+ "468": {
+  "cat": "vehicle",
+  "unsure": false,
+  "t": "2026-10-15T02:35:48.523Z"
+ },
+ "469": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:35:50.327Z"
+ },
+ "470": {
+  "cat": "building_or_wall",
+  "unsure": false,
+  "t": "2026-10-15T02:35:53.759Z"
+ },
+ "471": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T04:27:35.257Z"
+ },
+ "472": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:35:55.975Z"
+ },
+ "473": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T02:35:57.451Z"
+ },
+ "474": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:35:58.855Z"
+ },
+ "475": {
+  "cat": "other_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:36:01.671Z"
+ },
+ "476": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:36:06.399Z"
+ },
+ "477": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:36:07.115Z"
+ },
+ "478": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T02:36:08.998Z"
+ },
+ "479": {
+  "cat": "other_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:36:14.987Z"
+ },
+ "480": {
+  "cat": "noise_or_empty",
+  "unsure": false,
+  "t": "2026-10-15T02:36:20.771Z",
+  "cat2": "vehicle"
+ },
+ "481": {
+  "cat": "noise_or_empty",
+  "unsure": false,
+  "t": "2026-10-15T02:36:23.795Z",
+  "cat2": "vehicle"
+ },
+ "482": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:36:27.606Z"
+ },
+ "483": {
+  "cat": "viaduct_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:36:31.611Z"
+ },
+ "484": {
+  "cat": "noise_or_empty",
+  "unsure": false,
+  "t": "2026-10-15T02:36:35.695Z",
+  "cat2": "vehicle"
+ },
+ "485": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:36:40.570Z"
+ },
+ "486": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:36:41.418Z"
+ },
+ "487": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:36:42.006Z"
+ },
+ "488": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:36:42.587Z"
+ },
+ "489": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:36:43.379Z"
+ },
+ "490": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:36:44.047Z"
+ },
+ "491": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T02:36:49.211Z"
+ },
+ "492": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:36:51.298Z"
+ },
+ "493": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T04:27:38.140Z"
+ },
+ "494": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:36:52.154Z"
+ },
+ "495": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T02:36:56.458Z"
+ },
+ "496": {
+  "cat": "viaduct_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:37:00.475Z"
+ },
+ "497": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:37:02.286Z"
+ },
+ "498": {
+  "cat": "street_light",
+  "unsure": false,
+  "t": "2026-10-15T02:37:06.466Z"
+ },
+ "499": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:37:08.690Z"
+ },
+ "500": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:37:09.282Z"
+ },
+ "501": {
+  "cat": "other_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:37:13.763Z"
+ },
+ "502": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:37:15.658Z"
+ },
+ "503": {
+  "cat": "noise_or_empty",
+  "unsure": false,
+  "t": "2026-10-15T02:37:20.826Z",
+  "cat2": "vehicle"
+ },
+ "504": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T02:37:26.554Z"
+ },
+ "505": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:37:27.950Z"
+ },
+ "506": {
+  "cat": "traffic_light",
+  "unsure": false,
+  "t": "2026-10-15T02:37:31.974Z"
+ },
+ "507": {
+  "cat": "other_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:37:39.062Z",
+  "cat2": "vegetation"
+ },
+ "508": {
+  "cat": "cannot_judge",
+  "unsure": false,
+  "t": "2026-10-15T02:37:48.122Z",
+  "cat2": "noise_or_empty"
+ },
+ "509": {
+  "cat": "viaduct_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:37:58.666Z",
+  "cat2": "vegetation"
+ },
+ "510": {
+  "cat": "viaduct_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:37:59.818Z"
+ },
+ "511": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:38:04.866Z"
+ },
+ "512": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:38:16.274Z",
+  "cat2": "vegetation"
+ },
+ "513": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T02:38:24.698Z"
+ },
+ "514": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:38:30.262Z"
+ },
+ "515": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:38:31.082Z"
+ },
+ "516": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T02:38:34.106Z"
+ },
+ "517": {
+  "cat": "traffic_light",
+  "unsure": false,
+  "t": "2026-10-15T02:38:41.826Z"
+ },
+ "518": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:38:44.122Z"
+ },
+ "519": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T02:38:50.322Z"
+ },
+ "520": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:38:51.966Z"
+ },
+ "521": {
+  "cat": "viaduct_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:38:57.114Z"
+ },
+ "522": {
+  "cat": "sign",
+  "unsure": false,
+  "t": "2026-10-15T02:39:02.418Z"
+ },
+ "523": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T02:39:05.346Z"
+ },
+ "524": {
+  "cat": "viaduct_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:39:08.210Z"
+ },
+ "525": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:39:10.942Z"
+ },
+ "526": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T02:39:14.582Z"
+ },
+ "527": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:39:17.426Z"
+ },
+ "528": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:39:18.158Z"
+ },
+ "529": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T04:27:39.677Z"
+ },
+ "530": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T02:39:20.970Z"
+ },
+ "531": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:39:22.594Z"
+ },
+ "532": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:39:23.186Z"
+ },
+ "533": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T02:39:24.678Z"
+ },
+ "534": {
+  "cat": "noise_or_empty",
+  "unsure": false,
+  "t": "2026-10-15T02:39:28.022Z"
+ },
+ "535": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T02:39:31.078Z"
+ },
+ "536": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:39:35.198Z"
+ },
+ "537": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T02:39:40.594Z"
+ },
+ "538": {
+  "cat": null,
+  "unsure": false,
+  "cat2": "guardrail",
+  "t": "2026-10-15T02:39:46.110Z"
+ },
+ "539": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T02:41:06.158Z"
+ },
+ "540": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T02:41:10.353Z"
+ },
+ "541": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:41:13.869Z"
+ },
+ "542": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T02:41:16.310Z"
+ },
+ "543": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:41:18.578Z"
+ },
+ "544": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T02:41:22.485Z"
+ },
+ "545": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:41:26.534Z"
+ },
+ "546": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T02:41:30.065Z"
+ },
+ "547": {
+  "cat": "other_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:41:39.777Z",
+  "cat2": "vegetation"
+ },
+ "548": {
+  "cat": "viaduct_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:41:44.541Z"
+ },
+ "549": {
+  "cat": "street_light",
+  "unsure": false,
+  "t": "2026-10-15T02:41:59.997Z",
+  "cat2": "traffic_light"
+ },
+ "550": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:42:01.977Z"
+ },
+ "551": {
+  "cat": "viaduct_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:42:05.621Z"
+ },
+ "552": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:42:06.969Z"
+ },
+ "553": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:42:07.565Z"
+ },
+ "554": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T04:27:40.493Z"
+ },
+ "555": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:42:08.693Z"
+ },
+ "556": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:42:09.401Z"
+ },
+ "557": {
+  "cat": "cannot_judge",
+  "unsure": false,
+  "t": "2026-10-15T02:42:14.053Z"
+ },
+ "558": {
+  "cat": "sign",
+  "unsure": false,
+  "t": "2026-10-15T02:42:18.149Z"
+ },
+ "559": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T04:27:45.220Z"
+ },
+ "560": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T02:42:21.673Z"
+ },
+ "561": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:42:23.861Z"
+ },
+ "562": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T02:42:27.273Z"
+ },
+ "563": {
+  "cat": "viaduct_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:42:30.657Z"
+ },
+ "564": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:42:32.653Z"
+ },
+ "565": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T04:27:48.792Z"
+ },
+ "566": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:42:35.029Z"
+ },
+ "567": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T02:42:36.801Z"
+ },
+ "568": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:42:38.197Z"
+ },
+ "569": {
+  "cat": "vehicle",
+  "unsure": false,
+  "t": "2026-10-15T02:42:43.605Z",
+  "cat2": "noise_or_empty"
+ },
+ "570": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T02:42:52.917Z"
+ },
+ "571": {
+  "cat": "traffic_light",
+  "unsure": false,
+  "t": "2026-10-15T02:42:56.841Z"
+ },
+ "572": {
+  "cat": "traffic_light",
+  "unsure": false,
+  "t": "2026-10-15T02:42:59.382Z"
+ },
+ "573": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:43:04.889Z"
+ },
+ "574": {
+  "cat": "street_light",
+  "unsure": false,
+  "t": "2026-10-15T02:43:07.213Z"
+ },
+ "575": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:43:08.333Z"
+ },
+ "576": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:43:09.045Z"
+ },
+ "577": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:43:10.017Z"
+ },
+ "578": {
+  "cat": "viaduct_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:43:11.717Z"
+ },
+ "579": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:43:15.709Z"
+ },
+ "580": {
+  "cat": "viaduct_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:27:51.812Z"
+ },
+ "581": {
+  "cat": "viaduct_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:43:17.689Z"
+ },
+ "582": {
+  "cat": "noise_or_empty",
+  "unsure": false,
+  "t": "2026-10-15T02:43:23.781Z",
+  "cat2": "vehicle"
+ },
+ "583": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:43:27.193Z"
+ },
+ "584": {
+  "cat": "traffic_light",
+  "unsure": false,
+  "t": "2026-10-15T02:43:29.069Z"
+ },
+ "585": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:43:30.737Z"
+ },
+ "586": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:43:31.421Z"
+ },
+ "587": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T02:43:36.601Z"
+ },
+ "588": {
+  "cat": "vehicle",
+  "unsure": false,
+  "t": "2026-10-15T02:43:42.797Z",
+  "cat2": "noise_or_empty"
+ },
+ "589": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T04:27:53.533Z"
+ },
+ "590": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:43:47.581Z"
+ },
+ "591": {
+  "cat": "street_light",
+  "unsure": false,
+  "t": "2026-10-15T02:43:53.849Z",
+  "cat2": "traffic_light"
+ },
+ "592": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:43:55.481Z"
+ },
+ "593": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:43:56.989Z"
+ },
+ "594": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T02:44:01.177Z"
+ },
+ "595": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T02:44:06.381Z"
+ },
+ "596": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:44:11.325Z"
+ },
+ "597": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T02:44:14.201Z"
+ },
+ "598": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:44:15.561Z"
+ },
+ "599": {
+  "cat": "viaduct_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:27:57.493Z"
+ },
+ "600": {
+  "cat": "traffic_light",
+  "unsure": false,
+  "t": "2026-10-15T02:44:17.949Z"
+ },
+ "601": {
+  "cat": "guardrail",
+  "unsure": false,
+  "t": "2026-10-15T02:44:19.673Z"
+ },
+ "602": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T02:44:21.877Z"
+ },
+ "603": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:44:24.525Z"
+ },
+ "604": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T02:44:25.173Z"
+ },
+ "605": {
+  "cat": "guardrail",
+  "unsure": false,
+  "t": "2026-10-15T02:44:32.657Z"
+ },
+ "607": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T02:44:49.165Z"
+ },
+ "609": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T02:44:58.781Z"
+ },
+ "610": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:10:06.473Z"
+ },
+ "611": {
+  "cat": "viaduct_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:28:07.356Z"
+ },
+ "612": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:10:07.088Z"
+ },
+ "613": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:10:10.548Z"
+ },
+ "614": {
+  "cat": "street_light",
+  "unsure": false,
+  "t": "2026-10-15T04:10:13.312Z"
+ },
+ "615": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:10:17.144Z"
+ },
+ "616": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:10:17.828Z"
+ },
+ "617": {
+  "cat": "traffic_light",
+  "unsure": false,
+  "t": "2026-10-15T04:10:21.128Z"
+ },
+ "618": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:10:23.408Z"
+ },
+ "619": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T04:10:26.476Z"
+ },
+ "620": {
+  "cat": "noise_or_empty",
+  "unsure": false,
+  "t": "2026-10-15T04:10:32.760Z",
+  "cat2": "vehicle"
+ },
+ "621": {
+  "cat": "building_or_wall",
+  "unsure": false,
+  "t": "2026-10-15T04:10:37.100Z"
+ },
+ "622": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:10:39.720Z"
+ },
+ "623": {
+  "cat": "viaduct_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:28:08.097Z"
+ },
+ "624": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:10:40.380Z"
+ },
+ "625": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:10:41.140Z"
+ },
+ "626": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T04:10:47.248Z"
+ },
+ "627": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T04:10:56.820Z"
+ },
+ "628": {
+  "cat": "viaduct_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:28:08.693Z"
+ },
+ "629": {
+  "cat": "guardrail",
+  "unsure": false,
+  "t": "2026-10-15T04:11:05.780Z"
+ },
+ "630": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:11:07.844Z"
+ },
+ "631": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:11:08.412Z"
+ },
+ "632": {
+  "cat": "viaduct_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:28:09.292Z"
+ },
+ "633": {
+  "cat": "noise_or_empty",
+  "unsure": false,
+  "t": "2026-10-15T04:11:13.516Z"
+ },
+ "634": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:11:15.724Z"
+ },
+ "635": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T04:12:46.420Z"
+ },
+ "636": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T04:28:15.408Z"
+ },
+ "637": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:12:48.260Z"
+ },
+ "638": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:12:49.175Z"
+ },
+ "639": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T04:28:20.224Z"
+ },
+ "640": {
+  "cat": "viaduct_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:28:23.973Z"
+ },
+ "641": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:12:50.851Z"
+ },
+ "642": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T04:12:55.547Z"
+ },
+ "643": {
+  "cat": "sign",
+  "unsure": false,
+  "t": "2026-10-15T04:13:10.019Z"
+ },
+ "644": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:13:12.239Z"
+ },
+ "645": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:28:31.944Z"
+ },
+ "646": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:13:13.776Z"
+ },
+ "647": {
+  "cat": "noise_or_empty",
+  "unsure": false,
+  "t": "2026-10-15T04:13:21.131Z",
+  "cat2": "vehicle"
+ },
+ "648": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T04:13:26.103Z"
+ },
+ "649": {
+  "cat": "noise_or_empty",
+  "unsure": false,
+  "t": "2026-10-15T04:13:31.819Z"
+ },
+ "650": {
+  "cat": "viaduct_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:28:34.256Z"
+ },
+ "651": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T04:13:37.747Z"
+ },
+ "652": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:28:35.360Z"
+ },
+ "653": {
+  "cat": "viaduct_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:28:37.220Z"
+ },
+ "654": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T04:13:39.760Z"
+ },
+ "655": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T04:28:41.197Z"
+ },
+ "656": {
+  "cat": "noise_or_empty",
+  "unsure": false,
+  "t": "2026-10-15T04:13:44.131Z"
+ },
+ "657": {
+  "cat": "other_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:13:48.832Z"
+ },
+ "658": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T04:13:55.295Z"
+ },
+ "659": {
+  "cat": "noise_or_empty",
+  "unsure": false,
+  "t": "2026-10-15T04:13:59.684Z",
+  "cat2": "vehicle"
+ },
+ "660": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:14:01.727Z"
+ },
+ "661": {
+  "cat": "cannot_judge",
+  "unsure": false,
+  "t": "2026-10-15T04:14:09.119Z"
+ },
+ "662": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:14:10.879Z"
+ },
+ "663": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:28:43.940Z"
+ },
+ "664": {
+  "cat": "other_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:14:18.943Z",
+  "cat2": "ground_or_road_surface"
+ },
+ "665": {
+  "cat": "viaduct_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:28:47.812Z"
+ },
+ "666": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:14:21.171Z"
+ },
+ "667": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:14:22.779Z"
+ },
+ "668": {
+  "cat": "traffic_light",
+  "unsure": false,
+  "t": "2026-10-15T04:14:26.675Z"
+ },
+ "669": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:14:28.703Z"
+ },
+ "670": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T04:28:53.701Z"
+ },
+ "671": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T04:28:56.244Z"
+ },
+ "672": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T04:28:58.948Z"
+ },
+ "673": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:14:29.571Z"
+ },
+ "674": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T04:14:35.183Z"
+ },
+ "676": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:14:41.407Z"
+ },
+ "680": {
+  "cat": "traffic_light",
+  "unsure": false,
+  "t": "2026-10-15T04:15:11.911Z",
+  "cat2": "sign"
+ },
+ "682": {
+  "cat": "sign",
+  "unsure": false,
+  "t": "2026-10-15T04:15:16.351Z"
+ },
+ "683": {
+  "cat": "street_light",
+  "unsure": false,
+  "t": "2026-10-15T04:15:24.983Z",
+  "cat2": "sign"
+ },
+ "685": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T04:15:28.459Z"
+ },
+ "686": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:16:03.595Z"
+ },
+ "687": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:16:06.179Z"
+ },
+ "688": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T04:16:20.167Z"
+ },
+ "690": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T04:16:24.603Z"
+ },
+ "691": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:16:26.639Z"
+ },
+ "693": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:16:31.243Z"
+ },
+ "695": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:16:34.159Z"
+ },
+ "696": {
+  "cat": "sign",
+  "unsure": false,
+  "t": "2026-10-15T04:16:52.647Z",
+  "cat2": "other_structure"
+ },
+ "698": {
+  "cat": "traffic_light",
+  "unsure": false,
+  "t": "2026-10-15T04:17:07.711Z",
+  "cat2": "sign"
+ },
+ "699": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:17:10.279Z"
+ },
+ "702": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:17:12.503Z"
+ },
+ "703": {
+  "cat": "viaduct_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:17:16.239Z"
+ },
+ "704": {
+  "cat": "viaduct_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:17:18.271Z"
+ },
+ "705": {
+  "cat": "noise_or_empty",
+  "unsure": false,
+  "t": "2026-10-15T04:17:23.519Z",
+  "cat2": "vehicle"
+ },
+ "706": {
+  "cat": "guardrail",
+  "unsure": false,
+  "t": "2026-10-15T04:17:26.918Z"
+ },
+ "707": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T04:17:33.106Z"
+ },
+ "708": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:17:34.851Z"
+ },
+ "709": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T04:17:39.995Z"
+ },
+ "710": {
+  "cat": "traffic_light",
+  "unsure": false,
+  "t": "2026-10-15T04:17:46.194Z"
+ },
+ "713": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T04:17:49.091Z"
+ },
+ "714": {
+  "cat": "street_light",
+  "unsure": false,
+  "t": "2026-10-15T04:18:31.682Z"
+ },
+ "717": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:18:32.986Z"
+ },
+ "719": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T04:18:38.875Z"
+ },
+ "720": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:18:40.370Z"
+ },
+ "722": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:18:42.522Z"
+ },
+ "723": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T04:18:45.674Z"
+ },
+ "725": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:18:47.254Z"
+ },
+ "733": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:18:50.838Z"
+ },
+ "735": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T04:18:55.818Z"
+ },
+ "738": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:19:40.642Z"
+ },
+ "741": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:19:41.794Z"
+ },
+ "742": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:19:42.654Z"
+ },
+ "745": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:19:46.694Z"
+ },
+ "748": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:19:47.538Z"
+ },
+ "751": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:19:48.210Z"
+ },
+ "752": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:19:49.010Z"
+ },
+ "754": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:19:49.614Z"
+ },
+ "756": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:19:52.898Z"
+ },
+ "761": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:19:54.207Z"
+ },
+ "762": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:19:55.078Z"
+ },
+ "763": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:19:55.666Z"
+ },
+ "767": {
+  "cat": "traffic_light",
+  "unsure": false,
+  "t": "2026-10-15T04:19:59.778Z"
+ },
+ "769": {
+  "cat": "sign",
+  "unsure": false,
+  "t": "2026-10-15T04:20:09.106Z"
+ },
+ "772": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:20:11.222Z"
+ },
+ "774": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:20:11.911Z"
+ },
+ "779": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:20:14.730Z"
+ },
+ "780": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:20:17.698Z"
+ },
+ "783": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:20:18.698Z"
+ },
+ "803": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T04:22:21.714Z"
+ },
+ "807": {
+  "cat": "other_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:23:46.489Z"
+ },
+ "809": {
+  "cat": "other_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:23:49.661Z"
+ },
+ "1090": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:23:51.029Z"
+ },
+ "1092": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T04:24:00.714Z"
+ },
+ "1095": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:24:02.973Z"
+ },
+ "1096": {
+  "cat": "other_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:24:07.345Z"
+ },
+ "1097": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T04:24:09.593Z"
+ },
+ "1098": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T04:24:10.353Z"
+ },
+ "1100": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:24:11.885Z"
+ },
+ "1101": {
+  "cat": "viaduct_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:24:14.641Z"
+ },
+ "1103": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:24:15.829Z"
+ },
+ "1104": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T04:24:23.845Z"
+ },
+ "1107": {
+  "cat": "guardrail",
+  "unsure": false,
+  "t": "2026-10-15T04:24:33.053Z"
+ },
+ "1109": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T04:24:36.593Z"
+ },
+ "1110": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:24:39.177Z"
+ },
+ "1112": {
+  "cat": "traffic_light",
+  "unsure": false,
+  "t": "2026-10-15T04:24:45.965Z"
+ },
+ "1113": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T04:24:50.297Z"
+ },
+ "1115": {
+  "cat": "sign",
+  "unsure": false,
+  "t": "2026-10-15T04:24:55.285Z"
+ },
+ "1116": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T04:25:03.585Z"
+ },
+ "1117": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:25:05.113Z"
+ },
+ "1118": {
+  "cat": "building_or_wall",
+  "unsure": false,
+  "t": "2026-10-15T04:25:13.181Z"
+ },
+ "1120": {
+  "cat": null,
+  "unsure": false,
+  "cat2": "guardrail",
+  "t": "2026-10-15T04:25:15.361Z"
+ },
+ "1121": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:25:17.677Z"
+ },
+ "1123": {
+  "cat": "traffic_light",
+  "unsure": false,
+  "t": "2026-10-15T04:25:20.561Z"
+ },
+ "1124": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T04:25:24.601Z"
+ },
+ "1125": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:25:27.905Z"
+ },
+ "1126": {
+  "cat": "noise_or_empty",
+  "unsure": false,
+  "t": "2026-10-15T04:25:43.493Z",
+  "cat2": "vehicle"
+ },
+ "1127": {
+  "cat": "viaduct_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:25:50.033Z"
+ },
+ "1128": {
+  "cat": "building_or_wall",
+  "unsure": false,
+  "t": "2026-10-15T04:25:59.657Z"
+ },
+ "1129": {
+  "cat": "noise_or_empty",
+  "unsure": false,
+  "t": "2026-10-15T04:26:11.861Z",
+  "cat2": "traffic_light"
+ },
+ "1131": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T04:26:16.209Z"
+ },
+ "1134": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:26:18.153Z"
+ },
+ "1136": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:26:19.357Z"
+ },
+ "1137": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:26:19.981Z"
+ },
+ "1138": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:26:21.293Z"
+ },
+ "1139": {
+  "cat": "noise_or_empty",
+  "unsure": false,
+  "t": "2026-10-15T04:26:28.021Z"
+ },
+ "1140": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:26:29.749Z"
+ },
+ "1143": {
+  "cat": "viaduct_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:26:32.201Z"
+ },
+ "1146": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T04:26:39.061Z"
+ },
+ "1147": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T04:26:41.857Z"
+ },
+ "1148": {
+  "cat": "ground_or_road_surface",
+  "unsure": false,
+  "t": "2026-10-15T04:26:42.601Z"
+ },
+ "1149": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:26:43.997Z"
+ },
+ "1150": {
+  "cat": "viaduct_structure",
+  "unsure": false,
+  "t": "2026-10-15T04:26:46.157Z"
+ },
+ "1151": {
+  "cat": "guardrail",
+  "unsure": false,
+  "t": "2026-10-15T04:26:48.589Z"
+ },
+ "1153": {
+  "cat": "street_light",
+  "unsure": false,
+  "t": "2026-10-15T04:26:51.597Z"
+ },
+ "1154": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T04:27:01.701Z"
+ },
+ "1155": {
+  "cat": "noise_or_empty",
+  "unsure": false,
+  "t": "2026-10-15T04:27:09.173Z",
+  "cat2": "vehicle"
+ },
+ "1157": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T04:27:15.153Z"
+ },
+ "1159": {
+  "cat": "noise_or_empty",
+  "unsure": false,
+  "t": "2026-10-15T04:27:21.101Z"
+ },
+ "1160": {
+  "cat": "traffic_light",
+  "unsure": false,
+  "t": "2026-10-15T04:27:25.909Z"
+ },
+ "1161": {
+  "cat": "noise_or_empty",
+  "unsure": false,
+  "t": "2026-10-15T04:27:29.649Z",
+  "cat2": "vehicle"
+ },
+ "1162": {
+  "cat": "guardrail",
+  "unsure": false,
+  "t": "2026-10-15T04:27:32.229Z"
+ }
+}

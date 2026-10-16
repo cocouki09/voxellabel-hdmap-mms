@@ -1,0 +1,10 @@
+{
+  "export_scene_chunks": true,
+  "export_scene_all": true,
+  "chunk_storage_mode": "chunk_as_source",
+  "scene_all_mode": "meta_reference",
+  "export_index_only": true,
+  "include_world_position_formula": true,
+  "save_npz_intermediate": true,
+  "save_json_for_web": true
+}

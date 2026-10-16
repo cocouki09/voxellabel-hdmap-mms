@@ -1,0 +1,133 @@
+{
+  "_comment": "Per-category standard dimensions (cm) + LIDAR semantic match parameters. semantic_match_radius_m = XY distance threshold. z_range_m = [min, max] elevation ABOVE LOCAL GROUND for which this category is plausible (meters). Cells whose elevation is outside the range are not labeled with this category, preventing e.g. a floating tree from being labeled 'guardrail' or a ground lane-paint point from being stolen by 'sign'.",
+  "_ground_categories": [
+    "lane",
+    "crosswalk",
+    "link",
+    "node",
+    "driveway",
+    "subsidiary",
+    "speedbump"
+  ],
+  "lane": {
+    "shp_source": "LineString",
+    "semantic_match_radius_m": 1.5,
+    "z_range_m": [
+      -0.5,
+      0.5
+    ],
+    "notes": "road surface marking"
+  },
+  "crosswalk": {
+    "shp_source": "Polygon",
+    "semantic_match_radius_m": 0.5,
+    "z_range_m": [
+      -0.3,
+      0.5
+    ],
+    "notes": "crosswalk painted on ground"
+  },
+  "link": {
+    "shp_source": "LineString",
+    "semantic_match_radius_m": 2.0,
+    "z_range_m": [
+      -0.5,
+      0.5
+    ],
+    "notes": "road centerline"
+  },
+  "node": {
+    "shp_source": "Point",
+    "semantic_match_radius_m": 2.5,
+    "z_range_m": [
+      -0.5,
+      0.5
+    ],
+    "notes": "intersection node"
+  },
+  "driveway": {
+    "shp_source": "Polygon",
+    "semantic_match_radius_m": 1.5,
+    "z_range_m": [
+      -0.3,
+      0.5
+    ],
+    "notes": "road surface polygon"
+  },
+  "subsidiary": {
+    "shp_source": "Polygon",
+    "semantic_match_radius_m": 1.5,
+    "z_range_m": [
+      -0.3,
+      0.5
+    ],
+    "notes": "auxiliary road surface (ramps, shoulders)"
+  },
+  "guardrail": {
+    "w_cm": 30,
+    "d_cm": 30,
+    "h_cm": 100,
+    "shp_source": "LineString",
+    "semantic_match_radius_m": 0.75,
+    "z_range_m": [
+      0.0,
+      1.5
+    ],
+    "notes": "barrier along curb, typical height 0.8~1.2m"
+  },
+  "height_barrier": {
+    "w_cm": 30,
+    "d_cm": 30,
+    "h_cm": 100,
+    "shp_source": "LineString",
+    "semantic_match_radius_m": 3.75,
+    "z_range_m": [
+      3.0,
+      7.0
+    ],
+    "notes": "overhead clearance gantry — wide radius for cross-member reach"
+  },
+  "traffic_light": {
+    "w_cm": 50,
+    "d_cm": 50,
+    "h_cm": 500,
+    "shp_source": "Point",
+    "semantic_match_radius_m": 5.0,
+    "z_range_m": [
+      0.5,
+      7.5
+    ],
+    "notes": "radius covers horizontal arms reaching across lanes. Lower bound dropped from 2.5 to 0.5 so the pole column from base to head is captured; nearest-distance rule keeps ground paint assigned to ground categories."
+  },
+  "sign": {
+    "w_cm": 60,
+    "d_cm": 10,
+    "h_cm": 250,
+    "shp_source": "Point",
+    "semantic_match_radius_m": 2.5,
+    "z_range_m": [
+      0.3,
+      3.5
+    ],
+    "notes": "Sign head height; the lower bound 0.3 m includes the pole base, and ground paint stays with lane via nearest distance. Sensitivity: match radii x1.25 of the evaluated configuration (sign 2.5 m); window 0.3-3.5 m."
+  },
+  "street_light": {
+    "w_cm": 30,
+    "d_cm": 30,
+    "h_cm": 800,
+    "shp_source": "Point",
+    "semantic_match_radius_m": 3.125,
+    "z_range_m": [
+      0.5,
+      10.0
+    ],
+    "notes": "tall lamp posts. Lower bound dropped from 4.0 to 0.5 so the full pole column appears; radius 2.5m covers the horizontal arm."
+  },
+  "_lidar_defaults": {
+    "unknown_match_radius_m": 2.0,
+    "min_points_per_cell": 1,
+    "ground_elevation_threshold_m": 0.3,
+    "notes": "cells whose elevation is below ground_elevation_threshold AND not matched to a ground category fall to 'unknown' — treated as curb/shoulder noise."
+  },
+  "_comment_revision": "sensitivity: all infrastructure radii x1.25; windows unchanged"
+}

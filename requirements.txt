@@ -1,0 +1,6 @@
+geopandas
+shapely
+numpy
+laspy[lazrs]
+scipy
+Pillow

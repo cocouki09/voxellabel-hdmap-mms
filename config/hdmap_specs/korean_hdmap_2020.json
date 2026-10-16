@@ -1,0 +1,40 @@
+{
+  "id": "korean_hdmap_2020",
+  "description": "Korean precision road map (NGII), 2020 specification, as delivered by GEOSTORY. Defines layer -> category, forwarded attributes and Kind dispatch. If a new region has different layers or Kind codes, edit only this file (or add a new spec).",
+  "_unmapped_kind_note": "B3 Kind codes not in dispatch.map (e.g. 5431, 5373, 5382, 5432, 5374, 5392) fall back to dispatch_default (surface_mark). Add a code to the map below to give it its own category.",
+  "dispatch_default": "surface_mark",
+  "layers": {
+    "B2_SURFACELINEMARK": {
+      "file": "B2_SURFACELINEMARK.shp", "category": "lane", "role": "overlay",
+      "attributes": ["Kind", "Type"]
+    },
+    "B3_SURFACEMARK": {
+      "file": "B3_SURFACEMARK.shp", "role": "overlay",
+      "dispatch": {
+        "by": "Kind",
+        "map": {
+          "5111": "crosswalk", "5321": "crosswalk",
+          "5371": "stopline", "5372": "stopline", "5381": "stopline"
+        }
+      }
+    },
+    "A2_LINK": {
+      "file": "A2_LINK.shp", "category": "link", "role": "overlay",
+      "attributes": ["ID", "FromNodeID", "ToNodeId", "LaneNo", "RoadType", "RoadRank", "LinkType", "Length", "R_LinkID", "L_LinkID", "MaxSpeed"]
+    },
+    "A1_NODE": { "file": "A1_NODE.shp", "category": "node", "role": "overlay" },
+    "A3_DRIVEWAYSECTION": {
+      "file": "A3_DRIVEWAYSECTION.shp", "category": "driveway", "role": "overlay",
+      "attributes": ["ID", "RoadType", "Kind", "AdminCode"]
+    },
+    "A4_SUBSIDIARYSECTION": { "file": "A4_SUBSIDIARYSECTION.shp", "category": "subsidiary", "role": "overlay" },
+    "C3_VEHICLEPROTECTIONSAFETY": { "file": "C3_VEHICLEPROTECTIONSAFETY.shp", "category": "guardrail", "role": "overlay" },
+    "C5_HEIGHTBARRIER": { "file": "C5_HEIGHTBARRIER.shp", "category": "height_barrier", "role": "overlay" },
+    "C1_TRAFFICLIGHT": {
+      "file": "C1_TRAFFICLIGHT.shp", "category": "traffic_light", "role": "point",
+      "attributes": ["ID", "LinkID", "Ref_Lane", "Type"]
+    },
+    "B1_SAFETYSIGN": { "file": "B1_SAFETYSIGN.shp", "category": "sign", "role": "point" },
+    "C6_POSTPOINT": { "file": "C6_POSTPOINT.shp", "category": "street_light", "role": "point" }
+  }
+}

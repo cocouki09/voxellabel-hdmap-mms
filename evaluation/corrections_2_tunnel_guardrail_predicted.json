@@ -1,0 +1,365 @@
+{
+ "description": "cells labeled tunnel_structure (no 2nd label) but predicted guardrail; owner re-check 2026-10-15 at port 8794 said guardrail for all",
+ "corrections": {
+  "34": {
+   "cat": "guardrail",
+   "prev": {
+    "cat": "tunnel_structure",
+    "unsure": false,
+    "t": "2026-10-15T01:35:40.683Z"
+   },
+   "tunnel_guardrail_recheck": "guardrail_yes"
+  },
+  "55": {
+   "cat": "guardrail",
+   "prev": {
+    "cat": "tunnel_structure",
+    "unsure": false,
+    "t": "2026-10-15T01:39:01.074Z"
+   },
+   "tunnel_guardrail_recheck": "guardrail_yes"
+  },
+  "72": {
+   "cat": "guardrail",
+   "prev": {
+    "cat": "tunnel_structure",
+    "unsure": false,
+    "t": "2026-10-15T01:42:31.373Z"
+   },
+   "tunnel_guardrail_recheck": "guardrail_yes"
+  },
+  "76": {
+   "cat": "guardrail",
+   "prev": {
+    "cat": "tunnel_structure",
+    "unsure": false,
+    "t": "2026-10-15T01:42:46.705Z"
+   },
+   "tunnel_guardrail_recheck": "guardrail_yes"
+  },
+  "83": {
+   "cat": "guardrail",
+   "prev": {
+    "cat": "tunnel_structure",
+    "unsure": false,
+    "t": "2026-10-15T01:44:33.529Z"
+   },
+   "tunnel_guardrail_recheck": "guardrail_yes"
+  },
+  "95": {
+   "cat": "guardrail",
+   "prev": {
+    "cat": "tunnel_structure",
+    "unsure": false,
+    "t": "2026-10-15T01:45:23.105Z"
+   },
+   "tunnel_guardrail_recheck": "guardrail_yes"
+  },
+  "109": {
+   "cat": "guardrail",
+   "prev": {
+    "cat": "tunnel_structure",
+    "unsure": false,
+    "t": "2026-10-15T01:46:27.837Z"
+   },
+   "tunnel_guardrail_recheck": "guardrail_yes"
+  },
+  "135": {
+   "cat": "guardrail",
+   "prev": {
+    "cat": "tunnel_structure",
+    "unsure": false,
+    "t": "2026-10-15T01:49:07.528Z"
+   },
+   "tunnel_guardrail_recheck": "guardrail_yes"
+  },
+  "145": {
+   "cat": "guardrail",
+   "prev": {
+    "cat": "tunnel_structure",
+    "unsure": false,
+    "t": "2026-10-15T01:49:51.496Z"
+   },
+   "tunnel_guardrail_recheck": "guardrail_yes"
+  },
+  "195": {
+   "cat": "guardrail",
+   "prev": {
+    "cat": "tunnel_structure",
+    "unsure": false,
+    "t": "2026-10-15T01:53:16.011Z"
+   },
+   "tunnel_guardrail_recheck": "guardrail_yes"
+  },
+  "201": {
+   "cat": "guardrail",
+   "prev": {
+    "cat": "tunnel_structure",
+    "unsure": false,
+    "t": "2026-10-15T01:53:32.631Z"
+   },
+   "tunnel_guardrail_recheck": "guardrail_yes"
+  },
+  "212": {
+   "cat": "guardrail",
+   "prev": {
+    "cat": "tunnel_structure",
+    "unsure": false,
+    "t": "2026-10-15T01:54:11.639Z"
+   },
+   "tunnel_guardrail_recheck": "guardrail_yes"
+  },
+  "260": {
+   "cat": "guardrail",
+   "prev": {
+    "cat": "tunnel_structure",
+    "unsure": false,
+    "t": "2026-10-15T02:11:34.412Z"
+   },
+   "tunnel_guardrail_recheck": "guardrail_yes"
+  },
+  "271": {
+   "cat": "guardrail",
+   "prev": {
+    "cat": "tunnel_structure",
+    "unsure": false,
+    "t": "2026-10-15T02:12:12.779Z"
+   },
+   "tunnel_guardrail_recheck": "guardrail_yes"
+  },
+  "325": {
+   "cat": "guardrail",
+   "prev": {
+    "cat": "tunnel_structure",
+    "unsure": false,
+    "t": "2026-10-15T02:14:52.739Z"
+   },
+   "tunnel_guardrail_recheck": "guardrail_yes"
+  },
+  "327": {
+   "cat": "guardrail",
+   "prev": {
+    "cat": "tunnel_structure",
+    "unsure": false,
+    "t": "2026-10-15T02:14:57.683Z"
+   },
+   "tunnel_guardrail_recheck": "guardrail_yes"
+  },
+  "340": {
+   "cat": "guardrail",
+   "prev": {
+    "cat": "tunnel_structure",
+    "unsure": false,
+    "t": "2026-10-15T02:15:24.615Z"
+   },
+   "tunnel_guardrail_recheck": "guardrail_yes"
+  },
+  "360": {
+   "cat": "guardrail",
+   "prev": {
+    "cat": "tunnel_structure",
+    "unsure": false,
+    "t": "2026-10-15T02:16:21.863Z"
+   },
+   "tunnel_guardrail_recheck": "guardrail_yes"
+  },
+  "367": {
+   "cat": "guardrail",
+   "prev": {
+    "cat": "tunnel_structure",
+    "unsure": false,
+    "t": "2026-10-15T02:16:46.383Z"
+   },
+   "tunnel_guardrail_recheck": "guardrail_yes"
+  },
+  "376": {
+   "cat": "guardrail",
+   "prev": {
+    "cat": "tunnel_structure",
+    "unsure": false,
+    "t": "2026-10-15T02:17:10.815Z"
+   },
+   "tunnel_guardrail_recheck": "guardrail_yes"
+  },
+  "377": {
+   "cat": "guardrail",
+   "prev": {
+    "cat": "tunnel_structure",
+    "unsure": false,
+    "t": "2026-10-15T02:17:13.866Z"
+   },
+   "tunnel_guardrail_recheck": "guardrail_yes"
+  },
+  "384": {
+   "cat": "guardrail",
+   "prev": {
+    "cat": "tunnel_structure",
+    "unsure": false,
+    "t": "2026-10-15T02:17:30.274Z"
+   },
+   "tunnel_guardrail_recheck": "guardrail_yes"
+  },
+  "421": {
+   "cat": "guardrail",
+   "prev": {
+    "cat": "tunnel_structure",
+    "unsure": false,
+    "t": "2026-10-15T02:33:22.951Z"
+   },
+   "tunnel_guardrail_recheck": "guardrail_yes"
+  },
+  "458": {
+   "cat": "guardrail",
+   "prev": {
+    "cat": "tunnel_structure",
+    "unsure": false,
+    "t": "2026-10-15T02:35:13.707Z"
+   },
+   "tunnel_guardrail_recheck": "guardrail_yes"
+  },
+  "466": {
+   "cat": "guardrail",
+   "prev": {
+    "cat": "tunnel_structure",
+    "unsure": false,
+    "t": "2026-10-15T02:35:44.755Z"
+   },
+   "tunnel_guardrail_recheck": "guardrail_yes"
+  },
+  "467": {
+   "cat": "guardrail",
+   "prev": {
+    "cat": "tunnel_structure",
+    "unsure": false,
+    "t": "2026-10-15T02:35:45.351Z"
+   },
+   "tunnel_guardrail_recheck": "guardrail_yes"
+  },
+  "485": {
+   "cat": "guardrail",
+   "prev": {
+    "cat": "tunnel_structure",
+    "unsure": false,
+    "t": "2026-10-15T02:36:40.570Z"
+   },
+   "tunnel_guardrail_recheck": "guardrail_yes"
+  },
+  "541": {
+   "cat": "guardrail",
+   "prev": {
+    "cat": "tunnel_structure",
+    "unsure": false,
+    "t": "2026-10-15T02:41:13.869Z"
+   },
+   "tunnel_guardrail_recheck": "guardrail_yes"
+  },
+  "545": {
+   "cat": "guardrail",
+   "prev": {
+    "cat": "tunnel_structure",
+    "unsure": false,
+    "t": "2026-10-15T02:41:26.534Z"
+   },
+   "tunnel_guardrail_recheck": "guardrail_yes"
+  },
+  "566": {
+   "cat": "guardrail",
+   "prev": {
+    "cat": "tunnel_structure",
+    "unsure": false,
+    "t": "2026-10-15T02:42:35.029Z"
+   },
+   "tunnel_guardrail_recheck": "guardrail_yes"
+  },
+  "583": {
+   "cat": "guardrail",
+   "prev": {
+    "cat": "tunnel_structure",
+    "unsure": false,
+    "t": "2026-10-15T02:43:27.193Z"
+   },
+   "tunnel_guardrail_recheck": "guardrail_yes"
+  },
+  "613": {
+   "cat": "guardrail",
+   "prev": {
+    "cat": "tunnel_structure",
+    "unsure": false,
+    "t": "2026-10-15T04:10:10.548Z"
+   },
+   "tunnel_guardrail_recheck": "guardrail_yes"
+  },
+  "615": {
+   "cat": "guardrail",
+   "prev": {
+    "cat": "tunnel_structure",
+    "unsure": false,
+    "t": "2026-10-15T04:10:17.144Z"
+   },
+   "tunnel_guardrail_recheck": "guardrail_yes"
+  },
+  "622": {
+   "cat": "guardrail",
+   "prev": {
+    "cat": "tunnel_structure",
+    "unsure": false,
+    "t": "2026-10-15T04:10:39.720Z"
+   },
+   "tunnel_guardrail_recheck": "guardrail_yes"
+  },
+  "676": {
+   "cat": "guardrail",
+   "prev": {
+    "cat": "tunnel_structure",
+    "unsure": false,
+    "t": "2026-10-15T04:14:41.407Z"
+   },
+   "tunnel_guardrail_recheck": "guardrail_yes"
+  },
+  "687": {
+   "cat": "guardrail",
+   "prev": {
+    "cat": "tunnel_structure",
+    "unsure": false,
+    "t": "2026-10-15T04:16:06.179Z"
+   },
+   "tunnel_guardrail_recheck": "guardrail_yes"
+  },
+  "695": {
+   "cat": "guardrail",
+   "prev": {
+    "cat": "tunnel_structure",
+    "unsure": false,
+    "t": "2026-10-15T04:16:34.159Z"
+   },
+   "tunnel_guardrail_recheck": "guardrail_yes"
+  },
+  "702": {
+   "cat": "guardrail",
+   "prev": {
+    "cat": "tunnel_structure",
+    "unsure": false,
+    "t": "2026-10-15T04:17:12.503Z"
+   },
+   "tunnel_guardrail_recheck": "guardrail_yes"
+  },
+  "720": {
+   "cat": "guardrail",
+   "prev": {
+    "cat": "tunnel_structure",
+    "unsure": false,
+    "t": "2026-10-15T04:18:40.370Z"
+   },
+   "tunnel_guardrail_recheck": "guardrail_yes"
+  },
+  "722": {
+   "cat": "guardrail",
+   "prev": {
+    "cat": "tunnel_structure",
+    "unsure": false,
+    "t": "2026-10-15T04:18:42.522Z"
+   },
+   "tunnel_guardrail_recheck": "guardrail_yes"
+  }
+ }
+}

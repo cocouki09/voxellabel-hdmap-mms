@@ -1,0 +1,42 @@
+{
+  "_doc": [
+    "Per-region orthophoto metadata. Placement: centre_utm + size_m +",
+    "rotation_deg (from in-viewer 'P' key). enabled=false skips ortho",
+    "stage at bake time. area_radius_m turns the per-voxel sample into",
+    "a 3x3 grid in a square of side 2*radius and keeps the most-",
+    "saturated pick — fixes lane stripes / kerb paint getting washed",
+    "out by surrounding asphalt at cell-sized resolution."
+  ],
+  "_history": {
+    "_doc": [
+      "Past placements kept for reference. ortho_loader ignores keys",
+      "starting with '_'."
+    ],
+    "v1_zoom18_full_roi": {
+      "image": "data/raw/ortho/deoksong/ortho_raw_dim.png",
+      "centre_utm": [337724.0, 4173246.0],
+      "size_m": [1262.0, 605.8],
+      "rotation_deg": -1.0,
+      "note": "V-World zoom 18 fetch, full ROI. Dim source."
+    },
+    "v3_partial_roi_misnamed": {
+      "image": "data/raw/ortho/deoksong/ortho_raw_dim3.png",
+      "centre_utm": [337725.0, 4173250.0],
+      "size_m": [1250.0, 600.0],
+      "rotation_deg": 0.0,
+      "note": "1250x600 PNG with ROI aspect but actually only covers up to the tunnel entrance — placing it at full-ROI centre/size produced an alignment that was 'completely off' per user. Kept here as a warning: aspect alone doesn't prove coverage."
+    }
+  },
+  "deoksong": {
+    "image": "data/raw/ortho/deoksong/ortho.png",
+    "enabled": true,
+    "centre_utm": [337931.25, 4173252.0],
+    "size_m": [238.1, 114.3],
+    "rotation_deg": -0.5,
+    "area_radius_m": 1.0,
+    "rgb_enhance": {
+      "saturation": 1.8
+    },
+    "_note": "v2 finalised. saturation 1.8 added back: source pink lane patch is RGB ~(200,175,170) → saturation ~0.15 raw. Even with nearest-neighbour preserving the pixel, a 0.15-sat patch reads grey-ish on screen, so we boost AFTER sampling. Applied uniformly to ortho-recoloured and LIDAR-fallback voxels (latter is mostly outside the v2 rectangle anyway)."
+  }
+}

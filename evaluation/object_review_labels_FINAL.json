@@ -1,0 +1,545 @@
+{
+ "0": {
+  "cat": "sign",
+  "unsure": false,
+  "t": "2026-10-15T05:08:23.892Z",
+  "purity": "about_half"
+ },
+ "1": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T05:08:39.008Z",
+  "purity": "mostly"
+ },
+ "2": {
+  "cat": "guardrail",
+  "unsure": false,
+  "t": "2026-10-15T05:08:53.624Z",
+  "purity": "mostly"
+ },
+ "3": {
+  "cat": "traffic_light",
+  "unsure": false,
+  "t": "2026-10-15T05:59:52.686Z",
+  "purity": "about_half"
+ },
+ "4": {
+  "cat": "guardrail",
+  "unsure": false,
+  "t": "2026-10-15T05:09:06.972Z",
+  "purity": "mostly"
+ },
+ "5": {
+  "cat": "traffic_light",
+  "unsure": false,
+  "t": "2026-10-15T05:13:04.675Z",
+  "purity": "mostly"
+ },
+ "6": {
+  "cat": "guardrail",
+  "unsure": false,
+  "t": "2026-10-15T05:13:12.227Z",
+  "purity": "mostly"
+ },
+ "7": {
+  "cat": "guardrail",
+  "unsure": false,
+  "t": "2026-10-15T05:13:16.276Z",
+  "purity": "mostly"
+ },
+ "8": {
+  "cat": "street_light",
+  "unsure": false,
+  "t": "2026-10-15T05:13:24.499Z",
+  "purity": "mostly"
+ },
+ "9": {
+  "cat": "street_light",
+  "unsure": false,
+  "t": "2026-10-15T06:00:13.990Z",
+  "purity": "mostly"
+ },
+ "10": {
+  "cat": "street_light",
+  "unsure": false,
+  "t": "2026-10-15T06:00:20.614Z",
+  "purity": "mostly"
+ },
+ "11": {
+  "cat": "traffic_light",
+  "unsure": false,
+  "t": "2026-10-15T06:00:27.502Z",
+  "purity": "about_half"
+ },
+ "12": {
+  "cat": "street_light",
+  "unsure": false,
+  "t": "2026-10-15T06:01:42.187Z",
+  "purity": "about_half"
+ },
+ "13": {
+  "cat": "street_light",
+  "unsure": false,
+  "t": "2026-10-15T06:01:46.670Z",
+  "purity": "mostly"
+ },
+ "14": {
+  "cat": "guardrail",
+  "unsure": false,
+  "t": "2026-10-15T06:01:53.502Z",
+  "purity": "mostly"
+ },
+ "15": {
+  "cat": "traffic_light",
+  "unsure": false,
+  "t": "2026-10-15T06:02:13.646Z",
+  "purity": "about_half"
+ },
+ "16": {
+  "cat": "street_light",
+  "unsure": false,
+  "t": "2026-10-15T06:02:45.842Z",
+  "purity": "about_half"
+ },
+ "17": {
+  "cat": "noise_or_empty",
+  "unsure": false,
+  "t": "2026-10-15T06:04:16.138Z",
+  "purity": "mostly_other"
+ },
+ "18": {
+  "cat": "noise_or_empty",
+  "unsure": false,
+  "t": "2026-10-15T06:04:13.966Z"
+ },
+ "20": {
+  "cat": "guardrail",
+  "unsure": false,
+  "t": "2026-10-15T06:05:25.624Z",
+  "purity": "mostly"
+ },
+ "21": {
+  "cat": "guardrail",
+  "unsure": false,
+  "t": "2026-10-15T06:05:30.905Z",
+  "purity": "mostly"
+ },
+ "22": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T06:05:40.593Z",
+  "purity": "mostly"
+ },
+ "23": {
+  "cat": "noise_or_empty",
+  "unsure": false,
+  "t": "2026-10-15T06:06:05.360Z",
+  "purity": "mostly"
+ },
+ "24": {
+  "cat": "guardrail",
+  "unsure": false,
+  "t": "2026-10-15T06:06:13.195Z",
+  "purity": "mostly"
+ },
+ "25": {
+  "cat": "guardrail",
+  "unsure": false,
+  "t": "2026-10-15T06:06:34.311Z",
+  "purity": "mostly"
+ },
+ "26": {
+  "cat": "street_light",
+  "unsure": false,
+  "t": "2026-10-15T06:06:54.719Z",
+  "purity": "mostly"
+ },
+ "27": {
+  "cat": "guardrail",
+  "unsure": false,
+  "t": "2026-10-15T06:07:05.503Z",
+  "purity": "mostly"
+ },
+ "28": {
+  "cat": "guardrail",
+  "unsure": false,
+  "t": "2026-10-15T06:07:42.043Z",
+  "purity": "mostly"
+ },
+ "29": {
+  "cat": "street_light",
+  "unsure": false,
+  "t": "2026-10-15T06:08:19.793Z",
+  "purity": "mostly"
+ },
+ "30": {
+  "cat": "viaduct_structure",
+  "unsure": false,
+  "t": "2026-10-15T06:08:51.736Z",
+  "purity": "mostly"
+ },
+ "31": {
+  "cat": "noise_or_empty",
+  "unsure": false,
+  "t": "2026-10-15T06:09:11.022Z",
+  "purity": "mostly_other"
+ },
+ "32": {
+  "cat": "traffic_light",
+  "unsure": false,
+  "t": "2026-10-15T06:09:37.362Z",
+  "purity": "mostly"
+ },
+ "33": {
+  "cat": "traffic_light",
+  "unsure": false,
+  "t": "2026-10-15T06:09:55.898Z",
+  "purity": "about_half"
+ },
+ "34": {
+  "cat": "vehicle",
+  "unsure": false,
+  "t": "2026-10-15T06:10:10.465Z",
+  "purity": "mostly"
+ },
+ "35": {
+  "cat": "traffic_light",
+  "unsure": false,
+  "t": "2026-10-15T06:10:20.622Z",
+  "purity": "mostly"
+ },
+ "36": {
+  "cat": "cannot_judge",
+  "unsure": false,
+  "t": "2026-10-15T06:11:48.428Z",
+  "purity": "mostly_other"
+ },
+ "37": {
+  "cat": "traffic_light",
+  "unsure": false,
+  "t": "2026-10-15T06:11:54.931Z",
+  "purity": "mostly"
+ },
+ "38": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T06:11:59.471Z",
+  "purity": "mostly"
+ },
+ "39": {
+  "cat": "viaduct_structure",
+  "unsure": false,
+  "t": "2026-10-15T06:12:04.561Z",
+  "purity": "mostly"
+ },
+ "40": {
+  "cat": "traffic_light",
+  "unsure": false,
+  "t": "2026-10-15T06:12:09.172Z",
+  "purity": "mostly"
+ },
+ "41": {
+  "cat": "guardrail",
+  "unsure": false,
+  "t": "2026-10-15T06:12:32.284Z",
+  "purity": "mostly"
+ },
+ "42": {
+  "cat": "street_light",
+  "unsure": false,
+  "t": "2026-10-15T06:12:47.499Z",
+  "purity": "about_half"
+ },
+ "43": {
+  "cat": "traffic_light",
+  "unsure": false,
+  "t": "2026-10-15T06:12:55.184Z",
+  "purity": "mostly"
+ },
+ "44": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T06:12:58.006Z",
+  "purity": "mostly"
+ },
+ "45": {
+  "cat": "street_light",
+  "unsure": false,
+  "t": "2026-10-15T06:13:03.468Z",
+  "purity": "mostly"
+ },
+ "46": {
+  "cat": "guardrail",
+  "unsure": false,
+  "t": "2026-10-15T06:13:10.205Z",
+  "purity": "mostly"
+ },
+ "47": {
+  "cat": "street_light",
+  "unsure": false,
+  "t": "2026-10-15T06:13:31.049Z",
+  "purity": "mostly_other"
+ },
+ "48": {
+  "cat": "traffic_light",
+  "unsure": false,
+  "t": "2026-10-15T06:13:44.581Z"
+ },
+ "49": {
+  "cat": "guardrail",
+  "unsure": false,
+  "t": "2026-10-15T06:14:15.046Z",
+  "purity": "mostly"
+ },
+ "50": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T08:02:43.333Z",
+  "cat2": "other_structure",
+  "purity": "about_half",
+  "recheck4": true
+ },
+ "51": {
+  "cat": "guardrail",
+  "unsure": false,
+  "t": "2026-10-15T06:15:03.812Z",
+  "purity": "mostly"
+ },
+ "52": {
+  "cat": "guardrail",
+  "unsure": false,
+  "t": "2026-10-15T06:15:10.404Z",
+  "purity": "mostly"
+ },
+ "53": {
+  "cat": "street_light",
+  "unsure": false,
+  "t": "2026-10-15T06:15:18.508Z",
+  "purity": "about_half"
+ },
+ "54": {
+  "cat": "guardrail",
+  "unsure": false,
+  "t": "2026-10-15T06:15:29.771Z",
+  "purity": "mostly"
+ },
+ "55": {
+  "cat": "sign",
+  "unsure": false,
+  "t": "2026-10-15T06:15:49.884Z",
+  "purity": "mostly"
+ },
+ "56": {
+  "cat": "guardrail",
+  "unsure": false,
+  "t": "2026-10-15T06:15:53.539Z",
+  "purity": "mostly"
+ },
+ "57": {
+  "cat": "guardrail",
+  "unsure": false,
+  "t": "2026-10-15T06:15:56.735Z",
+  "purity": "mostly"
+ },
+ "58": {
+  "cat": "street_light",
+  "unsure": false,
+  "t": "2026-10-15T06:16:01.402Z",
+  "purity": "mostly"
+ },
+ "59": {
+  "cat": "guardrail",
+  "unsure": false,
+  "t": "2026-10-15T06:16:06.487Z",
+  "purity": "mostly"
+ },
+ "60": {
+  "cat": "traffic_light",
+  "unsure": false,
+  "t": "2026-10-15T06:16:14.427Z",
+  "purity": "mostly"
+ },
+ "61": {
+  "cat": "guardrail",
+  "unsure": false,
+  "t": "2026-10-15T06:16:19.253Z",
+  "purity": "mostly"
+ },
+ "62": {
+  "cat": "sign",
+  "unsure": false,
+  "t": "2026-10-15T06:16:23.259Z"
+ },
+ "63": {
+  "cat": "guardrail",
+  "unsure": false,
+  "t": "2026-10-15T06:16:40.661Z"
+ },
+ "64": {
+  "cat": "guardrail",
+  "unsure": false,
+  "t": "2026-10-15T06:16:59.298Z"
+ },
+ "65": {
+  "cat": "street_light",
+  "unsure": false,
+  "t": "2026-10-15T06:17:05.305Z"
+ },
+ "66": {
+  "cat": "traffic_light",
+  "unsure": false,
+  "t": "2026-10-15T06:19:15.478Z",
+  "purity": "mostly"
+ },
+ "67": {
+  "cat": "guardrail",
+  "unsure": false,
+  "t": "2026-10-15T06:19:18.542Z",
+  "purity": "mostly"
+ },
+ "68": {
+  "cat": "guardrail",
+  "unsure": false,
+  "t": "2026-10-15T06:19:24.345Z",
+  "purity": "mostly"
+ },
+ "69": {
+  "cat": "guardrail",
+  "unsure": false,
+  "t": "2026-10-15T06:19:37.726Z",
+  "purity": "mostly"
+ },
+ "70": {
+  "cat": "street_light",
+  "unsure": false,
+  "t": "2026-10-15T06:19:42.936Z"
+ },
+ "72": {
+  "cat": "traffic_light",
+  "unsure": false,
+  "t": "2026-10-15T06:20:40.643Z",
+  "purity": "mostly"
+ },
+ "73": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T06:21:02.624Z",
+  "purity": "mostly_other"
+ },
+ "74": {
+  "cat": "guardrail",
+  "unsure": false,
+  "t": "2026-10-15T06:21:17.032Z",
+  "purity": "mostly"
+ },
+ "75": {
+  "cat": "guardrail",
+  "unsure": false,
+  "t": "2026-10-15T06:21:24.080Z",
+  "purity": "mostly"
+ },
+ "76": {
+  "cat": "guardrail",
+  "unsure": false,
+  "t": "2026-10-15T06:21:45.558Z",
+  "purity": "mostly"
+ },
+ "77": {
+  "cat": "guardrail",
+  "unsure": false,
+  "t": "2026-10-15T06:21:55.539Z",
+  "purity": "mostly"
+ },
+ "78": {
+  "cat": "street_light",
+  "unsure": false,
+  "t": "2026-10-15T06:22:01.667Z"
+ },
+ "79": {
+  "cat": "street_light",
+  "unsure": false,
+  "t": "2026-10-15T06:22:44.881Z",
+  "purity": "mostly"
+ },
+ "80": {
+  "cat": "street_light",
+  "unsure": false,
+  "t": "2026-10-15T06:22:48.953Z",
+  "purity": "mostly"
+ },
+ "81": {
+  "cat": "street_light",
+  "unsure": false,
+  "t": "2026-10-15T06:22:52.623Z",
+  "purity": "mostly"
+ },
+ "82": {
+  "cat": "guardrail",
+  "unsure": false,
+  "t": "2026-10-15T06:22:56.326Z"
+ },
+ "83": {
+  "cat": "traffic_light",
+  "unsure": false,
+  "t": "2026-10-15T06:23:12.990Z",
+  "purity": "mostly"
+ },
+ "84": {
+  "cat": "street_light",
+  "unsure": false,
+  "t": "2026-10-15T06:24:39.063Z"
+ },
+ "85": {
+  "cat": "street_light",
+  "unsure": false,
+  "t": "2026-10-15T06:25:07.926Z",
+  "purity": "mostly"
+ },
+ "86": {
+  "cat": "street_light",
+  "unsure": false,
+  "t": "2026-10-15T06:25:13.684Z"
+ },
+ "87": {
+  "cat": "guardrail",
+  "unsure": false,
+  "t": "2026-10-15T06:25:28.684Z",
+  "purity": "mostly"
+ },
+ "88": {
+  "cat": "guardrail",
+  "unsure": false,
+  "t": "2026-10-15T06:25:30.320Z",
+  "purity": "mostly"
+ },
+ "89": {
+  "cat": "tunnel_structure",
+  "unsure": false,
+  "t": "2026-10-15T06:25:35.601Z",
+  "purity": "mostly"
+ },
+ "90": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T08:02:55.181Z",
+  "cat2": "street_light",
+  "purity": "about_half",
+  "recheck4": true
+ },
+ "19": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T08:02:25.309Z",
+  "cat2": "other_structure",
+  "purity": "about_half",
+  "recheck4": true
+ },
+ "71": {
+  "cat": "vegetation",
+  "unsure": false,
+  "t": "2026-10-15T08:02:32.249Z",
+  "cat2": "other_structure",
+  "purity": "about_half",
+  "recheck4": true
+ }
+}

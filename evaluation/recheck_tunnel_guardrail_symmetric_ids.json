@@ -1,0 +1,32 @@
+{
+ "description": "symmetric check: cells labeled tunnel_structure, elevation <= 1.6 m above ground, NOT predicted guardrail (recall side). Shown order.",
+ "sample_ids": [
+  476,
+  16,
+  185,
+  482,
+  289,
+  166,
+  646,
+  46,
+  3,
+  772,
+  357,
+  418,
+  187,
+  455,
+  321,
+  113,
+  149,
+  396,
+  263,
+  645,
+  378,
+  577,
+  512,
+  445,
+  453,
+  618,
+  118
+ ]
+}

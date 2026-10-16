@@ -1,0 +1,333 @@
+{
+ "date": "2026-10-15",
+ "source": "user message 05:38Z during post re-check",
+ "corrections": {
+  "546": {
+   "cat": "vegetation",
+   "prev": {
+    "cat": "vegetation",
+    "unsure": false,
+    "t": "2026-10-15T02:41:30.065Z"
+   },
+   "post_recheck": {
+    "cat": "not_post",
+    "unsure": false,
+    "t": "2026-10-15T05:28:38.729Z"
+   },
+   "screen_index": 14
+  },
+  "607": {
+   "cat": "vegetation",
+   "prev": {
+    "cat": "vegetation",
+    "unsure": false,
+    "t": "2026-10-15T02:44:49.165Z"
+   },
+   "post_recheck": null,
+   "screen_index": 17
+  },
+  "104": {
+   "cat": "vegetation",
+   "prev": {
+    "cat": "other_structure",
+    "unsure": false,
+    "t": "2026-10-15T01:46:12.121Z",
+    "cat2": "vegetation"
+   },
+   "post_recheck": null,
+   "screen_index": 25
+  },
+  "402": {
+   "cat": "vegetation",
+   "prev": {
+    "cat": "vegetation",
+    "unsure": false,
+    "t": "2026-10-15T02:31:59.603Z"
+   },
+   "post_recheck": null,
+   "screen_index": 26
+  },
+  "335": {
+   "cat": "vegetation",
+   "prev": {
+    "cat": "other_structure",
+    "unsure": false,
+    "t": "2026-10-15T02:15:19.343Z",
+    "cat2": "vegetation"
+   },
+   "post_recheck": null,
+   "screen_index": 27
+  },
+  "268": {
+   "cat": "vegetation",
+   "prev": {
+    "cat": "vegetation",
+    "unsure": false,
+    "t": "2026-10-15T02:12:02.691Z"
+   },
+   "post_recheck": null,
+   "screen_index": 31
+  },
+  "685": {
+   "cat": "vegetation",
+   "prev": {
+    "cat": "vegetation",
+    "unsure": false,
+    "t": "2026-10-15T04:15:28.459Z"
+   },
+   "post_recheck": {
+    "cat": "not_post",
+    "unsure": false,
+    "t": "2026-10-15T05:30:45.299Z"
+   },
+   "screen_index": 38
+  },
+  "86": {
+   "cat": "vegetation",
+   "prev": {
+    "cat": "vegetation",
+    "unsure": false,
+    "t": "2026-10-15T01:44:42.361Z"
+   },
+   "post_recheck": {
+    "cat": "not_post",
+    "unsure": false,
+    "t": "2026-10-15T05:31:00.285Z"
+   },
+   "screen_index": 39
+  },
+  "407": {
+   "cat": "vegetation",
+   "prev": {
+    "cat": "vegetation",
+    "unsure": false,
+    "t": "2026-10-15T02:32:19.655Z",
+    "cat2": "other_structure"
+   },
+   "post_recheck": {
+    "cat": "not_post",
+    "unsure": false,
+    "t": "2026-10-15T05:31:07.878Z"
+   },
+   "screen_index": 40
+  },
+  "526": {
+   "cat": "vegetation",
+   "prev": {
+    "cat": "vegetation",
+    "unsure": false,
+    "t": "2026-10-15T02:39:14.582Z"
+   },
+   "post_recheck": {
+    "cat": "not_post",
+    "unsure": false,
+    "t": "2026-10-15T05:31:36.406Z"
+   },
+   "screen_index": 46
+  },
+  "210": {
+   "cat": "vegetation",
+   "prev": {
+    "cat": "vegetation",
+    "unsure": false,
+    "t": "2026-10-15T01:54:04.703Z",
+    "cat2": "other_structure"
+   },
+   "post_recheck": {
+    "cat": "not_post",
+    "unsure": false,
+    "t": "2026-10-15T05:31:52.027Z"
+   },
+   "screen_index": 49
+  },
+  "370": {
+   "cat": "vegetation",
+   "prev": {
+    "cat": "vegetation",
+    "unsure": false,
+    "t": "2026-10-15T02:16:51.502Z"
+   },
+   "post_recheck": {
+    "cat": "not_post",
+    "unsure": false,
+    "t": "2026-10-15T05:32:00.709Z"
+   },
+   "screen_index": 50
+  },
+  "519": {
+   "cat": "vegetation",
+   "prev": {
+    "cat": "vegetation",
+    "unsure": false,
+    "t": "2026-10-15T02:38:50.322Z"
+   },
+   "post_recheck": {
+    "cat": "not_post",
+    "unsure": false,
+    "t": "2026-10-15T05:33:50.547Z"
+   },
+   "screen_index": 77
+  },
+  "249": {
+   "cat": "vegetation",
+   "prev": {
+    "cat": "other_structure",
+    "unsure": false,
+    "t": "2026-10-15T02:11:08.204Z",
+    "cat2": "vegetation"
+   },
+   "post_recheck": {
+    "cat": "not_post",
+    "unsure": false,
+    "t": "2026-10-15T05:34:03.458Z"
+   },
+   "screen_index": 78
+  },
+  "707": {
+   "cat": "vegetation",
+   "prev": {
+    "cat": "vegetation",
+    "unsure": false,
+    "t": "2026-10-15T04:17:33.106Z"
+   },
+   "post_recheck": {
+    "cat": "not_post",
+    "unsure": false,
+    "t": "2026-10-15T05:34:23.976Z"
+   },
+   "screen_index": 83
+  },
+  "237": {
+   "cat": "vegetation",
+   "prev": {
+    "cat": "vegetation",
+    "unsure": false,
+    "t": "2026-10-15T02:10:20.348Z"
+   },
+   "post_recheck": {
+    "cat": "not_post",
+    "unsure": false,
+    "t": "2026-10-15T05:34:34.855Z"
+   },
+   "screen_index": 84
+  },
+  "420": {
+   "cat": "vegetation",
+   "prev": {
+    "cat": "vegetation",
+    "unsure": false,
+    "t": "2026-10-15T02:33:21.119Z"
+   },
+   "post_recheck": {
+    "cat": "not_post",
+    "unsure": false,
+    "t": "2026-10-15T05:35:31.642Z"
+   },
+   "screen_index": 102
+  },
+  "77": {
+   "cat": "vegetation",
+   "prev": {
+    "cat": "vegetation",
+    "unsure": false,
+    "t": "2026-10-15T01:42:54.745Z"
+   },
+   "post_recheck": {
+    "cat": "not_post",
+    "unsure": false,
+    "t": "2026-10-15T05:35:40.373Z"
+   },
+   "screen_index": 105
+  },
+  "49": {
+   "cat": "vegetation",
+   "prev": {
+    "cat": "sign",
+    "unsure": false,
+    "t": "2026-10-15T01:38:41.654Z"
+   },
+   "post_recheck": null,
+   "screen_index": 109
+  },
+  "442": {
+   "cat": "vegetation",
+   "prev": {
+    "cat": "vegetation",
+    "unsure": false,
+    "t": "2026-10-15T02:34:31.355Z"
+   },
+   "post_recheck": null,
+   "screen_index": 113
+  },
+  "299": {
+   "cat": "vegetation",
+   "prev": {
+    "cat": "vegetation",
+    "unsure": false,
+    "t": "2026-10-15T02:13:40.467Z",
+    "cat2": "other_structure"
+   },
+   "post_recheck": {
+    "cat": "not_post",
+    "unsure": false,
+    "t": "2026-10-15T05:36:45.132Z"
+   },
+   "screen_index": 114
+  },
+  "648": {
+   "cat": "vegetation",
+   "prev": {
+    "cat": "vegetation",
+    "unsure": false,
+    "t": "2026-10-15T04:13:26.103Z"
+   },
+   "post_recheck": {
+    "cat": "not_post",
+    "unsure": false,
+    "t": "2026-10-15T05:36:56.387Z"
+   },
+   "screen_index": 117
+  },
+  "61": {
+   "cat": "vegetation",
+   "prev": {
+    "cat": "vegetation",
+    "unsure": false,
+    "t": "2026-10-15T01:41:27.674Z",
+    "cat2": "other_structure"
+   },
+   "post_recheck": null,
+   "screen_index": 119
+  },
+  "513": {
+   "cat": "vegetation",
+   "prev": {
+    "cat": "vegetation",
+    "unsure": false,
+    "t": "2026-10-15T02:38:24.698Z"
+   },
+   "post_recheck": null,
+   "screen_index": 120
+  },
+  "190": {
+   "cat": "sign",
+   "prev": {
+    "cat": "sign",
+    "unsure": false,
+    "t": "2026-10-15T01:52:59.075Z"
+   },
+   "post_recheck": null,
+   "screen_index": 110
+  },
+  "769": {
+   "cat": "sign",
+   "prev": {
+    "cat": "sign",
+    "unsure": false,
+    "t": "2026-10-15T04:20:09.106Z"
+   },
+   "post_recheck": null,
+   "screen_index": 123
+  }
+ }
+}

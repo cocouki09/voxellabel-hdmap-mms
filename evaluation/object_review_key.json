@@ -1,0 +1,1098 @@
+{
+ "stages": "<evaluated run stages.npz>",
+ "seed": 20261015,
+ "key": [
+  {
+   "sample_id": 0,
+   "object_id": "sign__B1_SAFETYSIGN_87",
+   "category": "sign",
+   "shp_feature_id": "B1_SAFETYSIGN_87",
+   "n_cells": 7,
+   "center": [
+    338031.10714285716,
+    4173244.464285714,
+    68.39285714285714
+   ]
+  },
+  {
+   "sample_id": 1,
+   "object_id": "traffic_light__C1_TRAFFICLIGHT_20",
+   "category": "traffic_light",
+   "shp_feature_id": "C1_TRAFFICLIGHT_20",
+   "n_cells": 320,
+   "center": [
+    337762.3078125,
+    4173250.2703125,
+    76.353125
+   ]
+  },
+  {
+   "sample_id": 2,
+   "object_id": "guardrail__C3_VEHICLEPROTECTIONSAFETY_16",
+   "category": "guardrail",
+   "shp_feature_id": "C3_VEHICLEPROTECTIONSAFETY_16",
+   "n_cells": 157,
+   "center": [
+    337929.58757961786,
+    4173257.5939490446,
+    67.70541401273886
+   ]
+  },
+  {
+   "sample_id": 3,
+   "object_id": "traffic_light__C1_TRAFFICLIGHT_54",
+   "category": "traffic_light",
+   "shp_feature_id": "C1_TRAFFICLIGHT_54",
+   "n_cells": 23,
+   "center": [
+    338023.22826086957,
+    4173257.0108695654,
+    71.16304347826087
+   ]
+  },
+  {
+   "sample_id": 4,
+   "object_id": "guardrail__C3_VEHICLEPROTECTIONSAFETY_137",
+   "category": "guardrail",
+   "shp_feature_id": "C3_VEHICLEPROTECTIONSAFETY_137",
+   "n_cells": 168,
+   "center": [
+    338029.1369047619,
+    4173294.595238095,
+    67.66666666666667
+   ]
+  },
+  {
+   "sample_id": 5,
+   "object_id": "traffic_light__C1_TRAFFICLIGHT_55",
+   "category": "traffic_light",
+   "shp_feature_id": "C1_TRAFFICLIGHT_55",
+   "n_cells": 23,
+   "center": [
+    338015.902173913,
+    4173256.9239130435,
+    72.46739130434783
+   ]
+  },
+  {
+   "sample_id": 6,
+   "object_id": "guardrail__C3_VEHICLEPROTECTIONSAFETY_59",
+   "category": "guardrail",
+   "shp_feature_id": "C3_VEHICLEPROTECTIONSAFETY_59",
+   "n_cells": 224,
+   "center": [
+    337790.2120535714,
+    4173260.3348214286,
+    71.06473214285714
+   ]
+  },
+  {
+   "sample_id": 7,
+   "object_id": "guardrail__C3_VEHICLEPROTECTIONSAFETY_13",
+   "category": "guardrail",
+   "shp_feature_id": "C3_VEHICLEPROTECTIONSAFETY_13",
+   "n_cells": 363,
+   "center": [
+    337779.29545454547,
+    4173236.763774105,
+    71.35881542699724
+   ]
+  },
+  {
+   "sample_id": 8,
+   "object_id": "sign__B1_SAFETYSIGN_39",
+   "category": "sign",
+   "shp_feature_id": "B1_SAFETYSIGN_39",
+   "n_cells": 11,
+   "center": [
+    337990.0681818182,
+    4173252.4318181816,
+    68.93181818181819
+   ]
+  },
+  {
+   "sample_id": 9,
+   "object_id": "street_light__C6_POSTPOINT_24",
+   "category": "street_light",
+   "shp_feature_id": "C6_POSTPOINT_24",
+   "n_cells": 68,
+   "center": [
+    337990.0661764706,
+    4173252.5147058824,
+    71.44117647058823
+   ]
+  },
+  {
+   "sample_id": 10,
+   "object_id": "street_light__C6_POSTPOINT_54",
+   "category": "street_light",
+   "shp_feature_id": "C6_POSTPOINT_54",
+   "n_cells": 100,
+   "center": [
+    338020.26,
+    4173277.11,
+    73.525
+   ]
+  },
+  {
+   "sample_id": 11,
+   "object_id": "traffic_light__C1_TRAFFICLIGHT_51",
+   "category": "traffic_light",
+   "shp_feature_id": "C1_TRAFFICLIGHT_51",
+   "n_cells": 57,
+   "center": [
+    337995.30263157893,
+    4173268.6271929825,
+    70.20614035087719
+   ]
+  },
+  {
+   "sample_id": 12,
+   "object_id": "street_light__C6_POSTPOINT_26",
+   "category": "street_light",
+   "shp_feature_id": "C6_POSTPOINT_26",
+   "n_cells": 205,
+   "center": [
+    337884.35243902437,
+    4173269.435365854,
+    71.51341463414634
+   ]
+  },
+  {
+   "sample_id": 13,
+   "object_id": "street_light__C6_POSTPOINT_49",
+   "category": "street_light",
+   "shp_feature_id": "C6_POSTPOINT_49",
+   "n_cells": 75,
+   "center": [
+    338028.10333333333,
+    4173258.296666667,
+    72.47666666666667
+   ]
+  },
+  {
+   "sample_id": 14,
+   "object_id": "guardrail__C3_VEHICLEPROTECTIONSAFETY_19",
+   "category": "guardrail",
+   "shp_feature_id": "C3_VEHICLEPROTECTIONSAFETY_19",
+   "n_cells": 38,
+   "center": [
+    337807.2763157895,
+    4173251.1842105263,
+    70.61842105263158
+   ]
+  },
+  {
+   "sample_id": 15,
+   "object_id": "traffic_light__C1_TRAFFICLIGHT_18",
+   "category": "traffic_light",
+   "shp_feature_id": "C1_TRAFFICLIGHT_18",
+   "n_cells": 21,
+   "center": [
+    337998.46428571426,
+    4173254.464285714,
+    72.01190476190476
+   ]
+  },
+  {
+   "sample_id": 16,
+   "object_id": "traffic_light__C1_TRAFFICLIGHT_50",
+   "category": "traffic_light",
+   "shp_feature_id": "C1_TRAFFICLIGHT_50",
+   "n_cells": 40,
+   "center": [
+    337995.05,
+    4173275.6125,
+    71.3125
+   ]
+  },
+  {
+   "sample_id": 17,
+   "object_id": "sign__B1_SAFETYSIGN_45",
+   "category": "sign",
+   "shp_feature_id": "B1_SAFETYSIGN_45",
+   "n_cells": 102,
+   "center": [
+    337814.21078431373,
+    4173263.2696078434,
+    72.00490196078431
+   ]
+  },
+  {
+   "sample_id": 18,
+   "object_id": "sign__B1_SAFETYSIGN_32",
+   "category": "sign",
+   "shp_feature_id": "B1_SAFETYSIGN_32",
+   "n_cells": 56,
+   "center": [
+    337787.3660714286,
+    4173224.2589285714,
+    72.64285714285714
+   ]
+  },
+  {
+   "sample_id": 19,
+   "object_id": "sign__B1_SAFETYSIGN_46",
+   "category": "sign",
+   "shp_feature_id": "B1_SAFETYSIGN_46",
+   "n_cells": 115,
+   "center": [
+    337800.2847826087,
+    4173262.458695652,
+    72.2195652173913
+   ]
+  },
+  {
+   "sample_id": 20,
+   "object_id": "guardrail__C3_VEHICLEPROTECTIONSAFETY_142",
+   "category": "guardrail",
+   "shp_feature_id": "C3_VEHICLEPROTECTIONSAFETY_142",
+   "n_cells": 21,
+   "center": [
+    338026.0595238095,
+    4173282.1071428573,
+    67.25
+   ]
+  },
+  {
+   "sample_id": 21,
+   "object_id": "guardrail__C3_VEHICLEPROTECTIONSAFETY_139",
+   "category": "guardrail",
+   "shp_feature_id": "C3_VEHICLEPROTECTIONSAFETY_139",
+   "n_cells": 27,
+   "center": [
+    338023.8425925926,
+    4173278.2314814813,
+    67.25
+   ]
+  },
+  {
+   "sample_id": 22,
+   "object_id": "sign__B1_SAFETYSIGN_43",
+   "category": "sign",
+   "shp_feature_id": "B1_SAFETYSIGN_43",
+   "n_cells": 23,
+   "center": [
+    337855.48913043475,
+    4173267.184782609,
+    71.01086956521739
+   ]
+  },
+  {
+   "sample_id": 23,
+   "object_id": "traffic_light__C1_TRAFFICLIGHT_53",
+   "category": "traffic_light",
+   "shp_feature_id": "C1_TRAFFICLIGHT_53",
+   "n_cells": 11,
+   "center": [
+    338024.20454545453,
+    4173258.1136363638,
+    71.25
+   ]
+  },
+  {
+   "sample_id": 24,
+   "object_id": "guardrail__C3_VEHICLEPROTECTIONSAFETY_52",
+   "category": "guardrail",
+   "shp_feature_id": "C3_VEHICLEPROTECTIONSAFETY_52",
+   "n_cells": 41,
+   "center": [
+    337993.4451219512,
+    4173253.676829268,
+    66.76219512195122
+   ]
+  },
+  {
+   "sample_id": 25,
+   "object_id": "guardrail__C3_VEHICLEPROTECTIONSAFETY_14",
+   "category": "guardrail",
+   "shp_feature_id": "C3_VEHICLEPROTECTIONSAFETY_14",
+   "n_cells": 484,
+   "center": [
+    337842.41632231406,
+    4173246.859504132,
+    69.56404958677686
+   ]
+  },
+  {
+   "sample_id": 26,
+   "object_id": "traffic_light__C1_TRAFFICLIGHT_57",
+   "category": "traffic_light",
+   "shp_feature_id": "C1_TRAFFICLIGHT_57",
+   "n_cells": 25,
+   "center": [
+    337994.13,
+    4173274.59,
+    70.75
+   ]
+  },
+  {
+   "sample_id": 27,
+   "object_id": "guardrail__C3_VEHICLEPROTECTIONSAFETY_15",
+   "category": "guardrail",
+   "shp_feature_id": "C3_VEHICLEPROTECTIONSAFETY_15",
+   "n_cells": 166,
+   "center": [
+    337900.2469879518,
+    4173254.5903614457,
+    67.85843373493977
+   ]
+  },
+  {
+   "sample_id": 28,
+   "object_id": "guardrail__C3_VEHICLEPROTECTIONSAFETY_109",
+   "category": "guardrail",
+   "shp_feature_id": "C3_VEHICLEPROTECTIONSAFETY_109",
+   "n_cells": 3139,
+   "center": [
+    337432.0523255814,
+    4173208.7052405225,
+    76.58832430710417
+   ]
+  },
+  {
+   "sample_id": 29,
+   "object_id": "street_light__C6_POSTPOINT_50",
+   "category": "street_light",
+   "shp_feature_id": "C6_POSTPOINT_50",
+   "n_cells": 69,
+   "center": [
+    337999.4384057971,
+    4173253.684782609,
+    72.55434782608695
+   ]
+  },
+  {
+   "sample_id": 30,
+   "object_id": "height_barrier__C5_HEIGHTBARRIER_1",
+   "category": "height_barrier",
+   "shp_feature_id": "C5_HEIGHTBARRIER_1",
+   "n_cells": 168,
+   "center": [
+    337927.7113095238,
+    4173260.994047619,
+    73.5
+   ]
+  },
+  {
+   "sample_id": 31,
+   "object_id": "sign__B1_SAFETYSIGN_34",
+   "category": "sign",
+   "shp_feature_id": "B1_SAFETYSIGN_34",
+   "n_cells": 43,
+   "center": [
+    337844.4476744186,
+    4173232.6220930233,
+    70.95930232558139
+   ]
+  },
+  {
+   "sample_id": 32,
+   "object_id": "traffic_light__C1_TRAFFICLIGHT_52",
+   "category": "traffic_light",
+   "shp_feature_id": "C1_TRAFFICLIGHT_52",
+   "n_cells": 52,
+   "center": [
+    338004.1826923077,
+    4173254.105769231,
+    72.375
+   ]
+  },
+  {
+   "sample_id": 33,
+   "object_id": "traffic_light__C1_TRAFFICLIGHT_14",
+   "category": "traffic_light",
+   "shp_feature_id": "C1_TRAFFICLIGHT_14",
+   "n_cells": 55,
+   "center": [
+    337877.2409090909,
+    4173246.0045454544,
+    74.15
+   ]
+  },
+  {
+   "sample_id": 34,
+   "object_id": "sign__B1_SAFETYSIGN_82",
+   "category": "sign",
+   "shp_feature_id": "B1_SAFETYSIGN_82",
+   "n_cells": 23,
+   "center": [
+    337999.3804347826,
+    4173275.967391304,
+    68.42391304347827
+   ]
+  },
+  {
+   "sample_id": 35,
+   "object_id": "traffic_light__C1_TRAFFICLIGHT_56",
+   "category": "traffic_light",
+   "shp_feature_id": "C1_TRAFFICLIGHT_56",
+   "n_cells": 30,
+   "center": [
+    338018.75,
+    4173257.1666666665,
+    72.78333333333333
+   ]
+  },
+  {
+   "sample_id": 36,
+   "object_id": "sign__B1_SAFETYSIGN_41",
+   "category": "sign",
+   "shp_feature_id": "B1_SAFETYSIGN_41",
+   "n_cells": 92,
+   "center": [
+    337902.3423913043,
+    4173270.5217391304,
+    68.94021739130434
+   ]
+  },
+  {
+   "sample_id": 37,
+   "object_id": "traffic_light__C1_TRAFFICLIGHT_49",
+   "category": "traffic_light",
+   "shp_feature_id": "C1_TRAFFICLIGHT_49",
+   "n_cells": 54,
+   "center": [
+    338000.6666666667,
+    4173276.3981481483,
+    72.74074074074075
+   ]
+  },
+  {
+   "sample_id": 38,
+   "object_id": "traffic_light__C1_TRAFFICLIGHT_23",
+   "category": "traffic_light",
+   "shp_feature_id": "C1_TRAFFICLIGHT_23",
+   "n_cells": 287,
+   "center": [
+    337375.0531358885,
+    4173203.0775261326,
+    82.39459930313589
+   ]
+  },
+  {
+   "sample_id": 39,
+   "object_id": "height_barrier__C5_HEIGHTBARRIER_0",
+   "category": "height_barrier",
+   "shp_feature_id": "C5_HEIGHTBARRIER_0",
+   "n_cells": 670,
+   "center": [
+    337897.05447761196,
+    4173244.9589552237,
+    73.47611940298508
+   ]
+  },
+  {
+   "sample_id": 40,
+   "object_id": "traffic_light__C1_TRAFFICLIGHT_16",
+   "category": "traffic_light",
+   "shp_feature_id": "C1_TRAFFICLIGHT_16",
+   "n_cells": 24,
+   "center": [
+    337998.3958333333,
+    4173258.1666666665,
+    72.6875
+   ]
+  },
+  {
+   "sample_id": 41,
+   "object_id": "guardrail__C3_VEHICLEPROTECTIONSAFETY_54",
+   "category": "guardrail",
+   "shp_feature_id": "C3_VEHICLEPROTECTIONSAFETY_54",
+   "n_cells": 29,
+   "center": [
+    338000.0948275862,
+    4173250.025862069,
+    66.75
+   ]
+  },
+  {
+   "sample_id": 42,
+   "object_id": "street_light__C6_POSTPOINT_28",
+   "category": "street_light",
+   "shp_feature_id": "C6_POSTPOINT_28",
+   "n_cells": 127,
+   "center": [
+    337812.2066929134,
+    4173263.316929134,
+    72.96653543307086
+   ]
+  },
+  {
+   "sample_id": 43,
+   "object_id": "traffic_light__C1_TRAFFICLIGHT_47",
+   "category": "traffic_light",
+   "shp_feature_id": "C1_TRAFFICLIGHT_47",
+   "n_cells": 44,
+   "center": [
+    338015.2159090909,
+    4173277.4545454546,
+    73.29545454545455
+   ]
+  },
+  {
+   "sample_id": 44,
+   "object_id": "traffic_light__C1_TRAFFICLIGHT_22",
+   "category": "traffic_light",
+   "shp_feature_id": "C1_TRAFFICLIGHT_22",
+   "n_cells": 310,
+   "center": [
+    337374.34193548386,
+    4173208.9,
+    82.04354838709678
+   ]
+  },
+  {
+   "sample_id": 45,
+   "object_id": "street_light__C6_POSTPOINT_53",
+   "category": "street_light",
+   "shp_feature_id": "C6_POSTPOINT_53",
+   "n_cells": 60,
+   "center": [
+    337995.2,
+    4173275.0833333335,
+    72.0
+   ]
+  },
+  {
+   "sample_id": 46,
+   "object_id": "guardrail__C3_VEHICLEPROTECTIONSAFETY_62",
+   "category": "guardrail",
+   "shp_feature_id": "C3_VEHICLEPROTECTIONSAFETY_62",
+   "n_cells": 10,
+   "center": [
+    337771.6,
+    4173248.85,
+    71.55
+   ]
+  },
+  {
+   "sample_id": 47,
+   "object_id": "sign__B1_SAFETYSIGN_44",
+   "category": "sign",
+   "shp_feature_id": "B1_SAFETYSIGN_44",
+   "n_cells": 78,
+   "center": [
+    337856.1538461539,
+    4173266.314102564,
+    70.62820512820512
+   ]
+  },
+  {
+   "sample_id": 48,
+   "object_id": "traffic_light__C1_TRAFFICLIGHT_45",
+   "category": "traffic_light",
+   "shp_feature_id": "C1_TRAFFICLIGHT_45",
+   "n_cells": 40,
+   "center": [
+    338021.3625,
+    4173269.775,
+    72.9375
+   ]
+  },
+  {
+   "sample_id": 49,
+   "object_id": "guardrail__C3_VEHICLEPROTECTIONSAFETY_143",
+   "category": "guardrail",
+   "shp_feature_id": "C3_VEHICLEPROTECTIONSAFETY_143",
+   "n_cells": 9,
+   "center": [
+    338026.69444444444,
+    4173258.361111111,
+    67.36111111111111
+   ]
+  },
+  {
+   "sample_id": 50,
+   "object_id": "street_light__C6_POSTPOINT_25",
+   "category": "street_light",
+   "shp_feature_id": "C6_POSTPOINT_25",
+   "n_cells": 187,
+   "center": [
+    337900.5307486631,
+    4173270.806149733,
+    71.1590909090909
+   ]
+  },
+  {
+   "sample_id": 51,
+   "object_id": "guardrail__C3_VEHICLEPROTECTIONSAFETY_17",
+   "category": "guardrail",
+   "shp_feature_id": "C3_VEHICLEPROTECTIONSAFETY_17",
+   "n_cells": 169,
+   "center": [
+    337929.8298816568,
+    4173258.1434911243,
+    67.68786982248521
+   ]
+  },
+  {
+   "sample_id": 52,
+   "object_id": "guardrail__C3_VEHICLEPROTECTIONSAFETY_61",
+   "category": "guardrail",
+   "shp_feature_id": "C3_VEHICLEPROTECTIONSAFETY_61",
+   "n_cells": 98,
+   "center": [
+    337780.1224489796,
+    4173250.4081632653,
+    71.25
+   ]
+  },
+  {
+   "sample_id": 53,
+   "object_id": "street_light__C6_POSTPOINT_21",
+   "category": "street_light",
+   "shp_feature_id": "C6_POSTPOINT_21",
+   "n_cells": 274,
+   "center": [
+    337844.62591240875,
+    4173231.428832117,
+    71.9051094890511
+   ]
+  },
+  {
+   "sample_id": 54,
+   "object_id": "guardrail__C3_VEHICLEPROTECTIONSAFETY_20",
+   "category": "guardrail",
+   "shp_feature_id": "C3_VEHICLEPROTECTIONSAFETY_20",
+   "n_cells": 51,
+   "center": [
+    337791.4950980392,
+    4173250.6225490198,
+    71.18137254901961
+   ]
+  },
+  {
+   "sample_id": 55,
+   "object_id": "sign__B1_SAFETYSIGN_47",
+   "category": "sign",
+   "shp_feature_id": "B1_SAFETYSIGN_47",
+   "n_cells": 12,
+   "center": [
+    337799.9583333333,
+    4173261.375,
+    71.95833333333333
+   ]
+  },
+  {
+   "sample_id": 56,
+   "object_id": "guardrail__C3_VEHICLEPROTECTIONSAFETY_111",
+   "category": "guardrail",
+   "shp_feature_id": "C3_VEHICLEPROTECTIONSAFETY_111",
+   "n_cells": 3220,
+   "center": [
+    337425.93881987577,
+    4173185.339906832,
+    76.64068322981366
+   ]
+  },
+  {
+   "sample_id": 57,
+   "object_id": "guardrail__C3_VEHICLEPROTECTIONSAFETY_22",
+   "category": "guardrail",
+   "shp_feature_id": "C3_VEHICLEPROTECTIONSAFETY_22",
+   "n_cells": 122,
+   "center": [
+    337823.1762295082,
+    4173251.979508197,
+    70.19672131147541
+   ]
+  },
+  {
+   "sample_id": 58,
+   "object_id": "traffic_light__C1_TRAFFICLIGHT_44",
+   "category": "traffic_light",
+   "shp_feature_id": "C1_TRAFFICLIGHT_44",
+   "n_cells": 25,
+   "center": [
+    338020.05,
+    4173278.39,
+    71.23
+   ]
+  },
+  {
+   "sample_id": 59,
+   "object_id": "guardrail__C3_VEHICLEPROTECTIONSAFETY_60",
+   "category": "guardrail",
+   "shp_feature_id": "C3_VEHICLEPROTECTIONSAFETY_60",
+   "n_cells": 23,
+   "center": [
+    337771.29347826086,
+    4173259.663043478,
+    71.77173913043478
+   ]
+  },
+  {
+   "sample_id": 60,
+   "object_id": "traffic_light__C1_TRAFFICLIGHT_48",
+   "category": "traffic_light",
+   "shp_feature_id": "C1_TRAFFICLIGHT_48",
+   "n_cells": 33,
+   "center": [
+    338004.26515151514,
+    4173277.25,
+    72.68939393939394
+   ]
+  },
+  {
+   "sample_id": 61,
+   "object_id": "guardrail__C3_VEHICLEPROTECTIONSAFETY_125",
+   "category": "guardrail",
+   "shp_feature_id": "C3_VEHICLEPROTECTIONSAFETY_125",
+   "n_cells": 1986,
+   "center": [
+    337883.01711983886,
+    4173234.0460725077,
+    68.69234642497483
+   ]
+  },
+  {
+   "sample_id": 62,
+   "object_id": "traffic_light__C1_TRAFFICLIGHT_46",
+   "category": "traffic_light",
+   "shp_feature_id": "C1_TRAFFICLIGHT_46",
+   "n_cells": 65,
+   "center": [
+    338020.9269230769,
+    4173272.796153846,
+    73.31153846153846
+   ]
+  },
+  {
+   "sample_id": 63,
+   "object_id": "guardrail__C3_VEHICLEPROTECTIONSAFETY_55",
+   "category": "guardrail",
+   "shp_feature_id": "C3_VEHICLEPROTECTIONSAFETY_55",
+   "n_cells": 5,
+   "center": [
+    337991.35,
+    4173284.25,
+    67.25
+   ]
+  },
+  {
+   "sample_id": 64,
+   "object_id": "guardrail__C3_VEHICLEPROTECTIONSAFETY_141",
+   "category": "guardrail",
+   "shp_feature_id": "C3_VEHICLEPROTECTIONSAFETY_141",
+   "n_cells": 6,
+   "center": [
+    338028.0833333333,
+    4173256.8333333335,
+    67.41666666666667
+   ]
+  },
+  {
+   "sample_id": 65,
+   "object_id": "sign__B1_SAFETYSIGN_33",
+   "category": "sign",
+   "shp_feature_id": "B1_SAFETYSIGN_33",
+   "n_cells": 14,
+   "center": [
+    337788.14285714284,
+    4173225.4285714286,
+    72.64285714285714
+   ]
+  },
+  {
+   "sample_id": 66,
+   "object_id": "traffic_light__C1_TRAFFICLIGHT_17",
+   "category": "traffic_light",
+   "shp_feature_id": "C1_TRAFFICLIGHT_17",
+   "n_cells": 33,
+   "center": [
+    337998.05303030304,
+    4173262.265151515,
+    72.23484848484848
+   ]
+  },
+  {
+   "sample_id": 67,
+   "object_id": "guardrail__C3_VEHICLEPROTECTIONSAFETY_112",
+   "category": "guardrail",
+   "shp_feature_id": "C3_VEHICLEPROTECTIONSAFETY_112",
+   "n_cells": 4248,
+   "center": [
+    337429.18514595105,
+    4173176.6345338984,
+    76.5980461393597
+   ]
+  },
+  {
+   "sample_id": 68,
+   "object_id": "guardrail__C3_VEHICLEPROTECTIONSAFETY_110",
+   "category": "guardrail",
+   "shp_feature_id": "C3_VEHICLEPROTECTIONSAFETY_110",
+   "n_cells": 4076,
+   "center": [
+    337435.3921736997,
+    4173218.3042198233,
+    76.58157507360157
+   ]
+  },
+  {
+   "sample_id": 69,
+   "object_id": "guardrail__C3_VEHICLEPROTECTIONSAFETY_56",
+   "category": "guardrail",
+   "shp_feature_id": "C3_VEHICLEPROTECTIONSAFETY_56",
+   "n_cells": 21,
+   "center": [
+    337993.53571428574,
+    4173281.1785714286,
+    67.41666666666667
+   ]
+  },
+  {
+   "sample_id": 70,
+   "object_id": "street_light__C6_POSTPOINT_23",
+   "category": "street_light",
+   "shp_feature_id": "C6_POSTPOINT_23",
+   "n_cells": 126,
+   "center": [
+    337923.9126984127,
+    4173239.051587302,
+    70.44444444444444
+   ]
+  },
+  {
+   "sample_id": 71,
+   "object_id": "street_light__C6_POSTPOINT_29",
+   "category": "street_light",
+   "shp_feature_id": "C6_POSTPOINT_29",
+   "n_cells": 119,
+   "center": [
+    337798.9516806723,
+    4173263.086134454,
+    72.78361344537815
+   ]
+  },
+  {
+   "sample_id": 72,
+   "object_id": "traffic_light__C1_TRAFFICLIGHT_19",
+   "category": "traffic_light",
+   "shp_feature_id": "C1_TRAFFICLIGHT_19",
+   "n_cells": 19,
+   "center": [
+    338022.7763157895,
+    4173263.697368421,
+    73.17105263157895
+   ]
+  },
+  {
+   "sample_id": 73,
+   "object_id": "sign__B1_SAFETYSIGN_38",
+   "category": "sign",
+   "shp_feature_id": "B1_SAFETYSIGN_38",
+   "n_cells": 109,
+   "center": [
+    337923.24082568806,
+    4173238.873853211,
+    68.7408256880734
+   ]
+  },
+  {
+   "sample_id": 74,
+   "object_id": "guardrail__C3_VEHICLEPROTECTIONSAFETY_57",
+   "category": "guardrail",
+   "shp_feature_id": "C3_VEHICLEPROTECTIONSAFETY_57",
+   "n_cells": 6,
+   "center": [
+    337988.0833333333,
+    4173273.5833333335,
+    67.75
+   ]
+  },
+  {
+   "sample_id": 75,
+   "object_id": "guardrail__C3_VEHICLEPROTECTIONSAFETY_53",
+   "category": "guardrail",
+   "shp_feature_id": "C3_VEHICLEPROTECTIONSAFETY_53",
+   "n_cells": 32,
+   "center": [
+    337992.65625,
+    4173249.09375,
+    66.75
+   ]
+  },
+  {
+   "sample_id": 76,
+   "object_id": "guardrail__C3_VEHICLEPROTECTIONSAFETY_21",
+   "category": "guardrail",
+   "shp_feature_id": "C3_VEHICLEPROTECTIONSAFETY_21",
+   "n_cells": 348,
+   "center": [
+    337853.8979885057,
+    4173252.9511494255,
+    69.3132183908046
+   ]
+  },
+  {
+   "sample_id": 77,
+   "object_id": "guardrail__C3_VEHICLEPROTECTIONSAFETY_18",
+   "category": "guardrail",
+   "shp_feature_id": "C3_VEHICLEPROTECTIONSAFETY_18",
+   "n_cells": 152,
+   "center": [
+    337901.02960526315,
+    4173255.2828947366,
+    67.90131578947368
+   ]
+  },
+  {
+   "sample_id": 78,
+   "object_id": "sign__B1_SAFETYSIGN_42",
+   "category": "sign",
+   "shp_feature_id": "B1_SAFETYSIGN_42",
+   "n_cells": 114,
+   "center": [
+    337885.9605263158,
+    4173269.350877193,
+    69.71929824561404
+   ]
+  },
+  {
+   "sample_id": 79,
+   "object_id": "street_light__C6_POSTPOINT_22",
+   "category": "street_light",
+   "shp_feature_id": "C6_POSTPOINT_22",
+   "n_cells": 47,
+   "center": [
+    337876.47340425535,
+    4173251.845744681,
+    72.72872340425532
+   ]
+  },
+  {
+   "sample_id": 80,
+   "object_id": "street_light__C6_POSTPOINT_52",
+   "category": "street_light",
+   "shp_feature_id": "C6_POSTPOINT_52",
+   "n_cells": 57,
+   "center": [
+    338023.11842105264,
+    4173257.942982456,
+    72.01315789473684
+   ]
+  },
+  {
+   "sample_id": 81,
+   "object_id": "traffic_light__C1_TRAFFICLIGHT_58",
+   "category": "traffic_light",
+   "shp_feature_id": "C1_TRAFFICLIGHT_58",
+   "n_cells": 36,
+   "center": [
+    337999.2916666667,
+    4173253.125,
+    70.83333333333333
+   ]
+  },
+  {
+   "sample_id": 82,
+   "object_id": "guardrail__C3_VEHICLEPROTECTIONSAFETY_140",
+   "category": "guardrail",
+   "shp_feature_id": "C3_VEHICLEPROTECTIONSAFETY_140",
+   "n_cells": 2,
+   "center": [
+    338017.5,
+    4173285.5,
+    67.25
+   ]
+  },
+  {
+   "sample_id": 83,
+   "object_id": "traffic_light__C1_TRAFFICLIGHT_15",
+   "category": "traffic_light",
+   "shp_feature_id": "C1_TRAFFICLIGHT_15",
+   "n_cells": 17,
+   "center": [
+    337877.51470588235,
+    4173242.4852941176,
+    74.19117647058823
+   ]
+  },
+  {
+   "sample_id": 84,
+   "object_id": "street_light__C6_POSTPOINT_27",
+   "category": "street_light",
+   "shp_feature_id": "C6_POSTPOINT_27",
+   "n_cells": 196,
+   "center": [
+    337854.76785714284,
+    4173267.012755102,
+    72.2295918367347
+   ]
+  },
+  {
+   "sample_id": 85,
+   "object_id": "street_light__C6_POSTPOINT_51",
+   "category": "street_light",
+   "shp_feature_id": "C6_POSTPOINT_51",
+   "n_cells": 83,
+   "center": [
+    338031.0813253012,
+    4173245.3343373495,
+    71.78614457831326
+   ]
+  },
+  {
+   "sample_id": 86,
+   "object_id": "traffic_light__C1_TRAFFICLIGHT_43",
+   "category": "traffic_light",
+   "shp_feature_id": "C1_TRAFFICLIGHT_43",
+   "n_cells": 23,
+   "center": [
+    338020.9456521739,
+    4173278.184782609,
+    71.1413043478261
+   ]
+  },
+  {
+   "sample_id": 87,
+   "object_id": "guardrail__C3_VEHICLEPROTECTIONSAFETY_138",
+   "category": "guardrail",
+   "shp_feature_id": "C3_VEHICLEPROTECTIONSAFETY_138",
+   "n_cells": 137,
+   "center": [
+    338035.5237226277,
+    4173247.2828467153,
+    67.16605839416059
+   ]
+  },
+  {
+   "sample_id": 88,
+   "object_id": "guardrail__C3_VEHICLEPROTECTIONSAFETY_58",
+   "category": "guardrail",
+   "shp_feature_id": "C3_VEHICLEPROTECTIONSAFETY_58",
+   "n_cells": 1570,
+   "center": [
+    337907.8372611465,
+    4173271.896178344,
+    68.12738853503184
+   ]
+  },
+  {
+   "sample_id": 89,
+   "object_id": "traffic_light__C1_TRAFFICLIGHT_21",
+   "category": "traffic_light",
+   "shp_feature_id": "C1_TRAFFICLIGHT_21",
+   "n_cells": 268,
+   "center": [
+    337762.0,
+    4173256.5037313434,
+    76.90298507462687
+   ]
+  },
+  {
+   "sample_id": 90,
+   "object_id": "street_light__C6_POSTPOINT_20",
+   "category": "street_light",
+   "shp_feature_id": "C6_POSTPOINT_20",
+   "n_cells": 163,
+   "center": [
+    337788.62116564414,
+    4173223.9003067487,
+    74.12730061349693
+   ]
+  }
+ ]
+}

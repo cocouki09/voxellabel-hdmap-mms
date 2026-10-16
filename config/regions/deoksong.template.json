@@ -1,0 +1,33 @@
+{
+  "id": "deoksong",
+  "crs": "EPSG:32652",
+  "output_dir": "data/output_deoksong",
+  "roi": [
+    337100.0,
+    4172950.0,
+    338350.0,
+    4173550.0
+  ],
+  "lidar_stride": 4,
+  "hdmap_spec": "korean_hdmap_2020",
+  "sources": [
+    {
+      "name": "raw",
+      "hdmap_dir": "<PATH_TO_YOUR_DATA>",
+      "lidar_globs": [
+        "<PATH_TO_YOUR_DATA>",
+        "<PATH_TO_YOUR_DATA>",
+        "<PATH_TO_YOUR_DATA>",
+        "<PATH_TO_YOUR_DATA>"
+      ]
+    },
+    {
+      "name": "sample",
+      "hdmap_dir": "data/sample/shp",
+      "lidar_globs": [
+        "<PATH_TO_YOUR_DATA>",
+        "<PATH_TO_YOUR_DATA>"
+      ]
+    }
+  ]
+}

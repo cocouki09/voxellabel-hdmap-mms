@@ -1,0 +1,5386 @@
+{
+  "schema_version": 2,
+  "scene_id": "road86",
+  "slot_id": "slot-mrsxdw48-kb61",
+  "label": "편집 07. 20. 오후 04:50:59",
+  "saved_at": "2026-07-20T07:51:01.592Z",
+  "cell_overrides": [
+    {
+      "world_aabb": [
+        340012,
+        4164304.5,
+        50.5,
+        340012.5,
+        4164305,
+        51
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "324,849,101",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340011.5,
+        4164304.5,
+        50.5,
+        340012,
+        4164305,
+        51
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "323,849,101",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340012,
+        4164305,
+        50.5,
+        340012.5,
+        4164305.5,
+        51
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "324,850,101",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340011,
+        4164305,
+        50.5,
+        340011.5,
+        4164305.5,
+        51
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "322,850,101",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340010.5,
+        4164305,
+        50.5,
+        340011,
+        4164305.5,
+        51
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "321,850,101",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340010.5,
+        4164305.5,
+        50.5,
+        340011,
+        4164306,
+        51
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "321,851,101",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340010,
+        4164305.5,
+        50.5,
+        340010.5,
+        4164306,
+        51
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "320,851,101",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340010,
+        4164306,
+        50.5,
+        340010.5,
+        4164306.5,
+        51
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "320,852,101",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340009.5,
+        4164306,
+        51,
+        340010,
+        4164306.5,
+        51.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "319,852,102",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340010,
+        4164306.5,
+        51,
+        340010.5,
+        4164307,
+        51.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "320,853,102",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340009,
+        4164306,
+        51,
+        340009.5,
+        4164306.5,
+        51.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "318,852,102",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340009,
+        4164306.5,
+        51,
+        340009.5,
+        4164307,
+        51.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "318,853,102",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340008.5,
+        4164306.5,
+        51,
+        340009,
+        4164307,
+        51.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "317,853,102",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340008.5,
+        4164307,
+        51,
+        340009,
+        4164307.5,
+        51.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "317,854,102",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340008,
+        4164307,
+        51,
+        340008.5,
+        4164307.5,
+        51.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "316,854,102",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340008.5,
+        4164307.5,
+        51.5,
+        340009,
+        4164308,
+        52
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "317,855,103",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340009,
+        4164307.5,
+        51.5,
+        340009.5,
+        4164308,
+        52
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "318,855,103",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340007.5,
+        4164307,
+        51.5,
+        340008,
+        4164307.5,
+        52
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "315,854,103",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340007.5,
+        4164307.5,
+        51.5,
+        340008,
+        4164308,
+        52
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "315,855,103",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340008,
+        4164308,
+        51.5,
+        340008.5,
+        4164308.5,
+        52
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "316,856,103",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340009.5,
+        4164307.5,
+        51.5,
+        340010,
+        4164308,
+        52
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "319,855,103",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340007,
+        4164307.5,
+        51.5,
+        340007.5,
+        4164308,
+        52
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "314,855,103",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340007,
+        4164308,
+        51.5,
+        340007.5,
+        4164308.5,
+        52
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "314,856,103",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340007.5,
+        4164308,
+        51.5,
+        340008,
+        4164308.5,
+        52
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "315,856,103",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340006.5,
+        4164308,
+        51,
+        340007,
+        4164308.5,
+        51.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "313,856,102",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340006.5,
+        4164308,
+        51.5,
+        340007,
+        4164308.5,
+        52
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "313,856,103",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340006.5,
+        4164308,
+        52,
+        340007,
+        4164308.5,
+        52.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "313,856,104",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340006.5,
+        4164308.5,
+        51,
+        340007,
+        4164309,
+        51.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "313,857,102",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340006.5,
+        4164308.5,
+        51.5,
+        340007,
+        4164309,
+        52
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "313,857,103",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340006.5,
+        4164308.5,
+        52,
+        340007,
+        4164309,
+        52.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "313,857,104",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340006,
+        4164308,
+        50.5,
+        340006.5,
+        4164308.5,
+        51
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "312,856,101",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340006,
+        4164308,
+        51,
+        340006.5,
+        4164308.5,
+        51.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "312,856,102",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340006,
+        4164308,
+        51.5,
+        340006.5,
+        4164308.5,
+        52
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "312,856,103",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340006,
+        4164308.5,
+        50.5,
+        340006.5,
+        4164309,
+        51
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "312,857,101",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340006,
+        4164308.5,
+        51,
+        340006.5,
+        4164309,
+        51.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "312,857,102",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340006,
+        4164308.5,
+        51.5,
+        340006.5,
+        4164309,
+        52
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "312,857,103",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340006.5,
+        4164308,
+        50.5,
+        340007,
+        4164308.5,
+        51
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "313,856,101",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340006.5,
+        4164308.5,
+        50.5,
+        340007,
+        4164309,
+        51
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "313,857,101",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340006,
+        4164308,
+        52,
+        340006.5,
+        4164308.5,
+        52.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "312,856,104",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340006,
+        4164308.5,
+        52,
+        340006.5,
+        4164309,
+        52.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "312,857,104",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340006,
+        4164308,
+        52.5,
+        340006.5,
+        4164308.5,
+        53
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "312,856,105",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340006,
+        4164308.5,
+        52.5,
+        340006.5,
+        4164309,
+        53
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "312,857,105",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340006.5,
+        4164308,
+        52.5,
+        340007,
+        4164308.5,
+        53
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "313,856,105",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340006.5,
+        4164308.5,
+        52.5,
+        340007,
+        4164309,
+        53
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "313,857,105",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340006,
+        4164308,
+        50,
+        340006.5,
+        4164308.5,
+        50.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "312,856,100",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340006,
+        4164308.5,
+        50,
+        340006.5,
+        4164309,
+        50.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "312,857,100",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340006.5,
+        4164308,
+        50,
+        340007,
+        4164308.5,
+        50.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "313,856,100",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340006.5,
+        4164308.5,
+        50,
+        340007,
+        4164309,
+        50.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "313,857,100",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340006,
+        4164308,
+        53,
+        340006.5,
+        4164308.5,
+        53.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "312,856,106",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340006,
+        4164308.5,
+        53,
+        340006.5,
+        4164309,
+        53.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "312,857,106",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340006.5,
+        4164308,
+        53,
+        340007,
+        4164308.5,
+        53.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "313,856,106",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340006.5,
+        4164308.5,
+        53,
+        340007,
+        4164309,
+        53.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "313,857,106",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340007,
+        4164308,
+        53,
+        340007.5,
+        4164308.5,
+        53.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "314,856,106",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340006,
+        4164308,
+        49.5,
+        340006.5,
+        4164308.5,
+        50
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "312,856,99",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340006,
+        4164308.5,
+        49.5,
+        340006.5,
+        4164309,
+        50
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "312,857,99",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340006.5,
+        4164308,
+        49.5,
+        340007,
+        4164308.5,
+        50
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "313,856,99",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340006.5,
+        4164308.5,
+        49.5,
+        340007,
+        4164309,
+        50
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "313,857,99",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340006,
+        4164308,
+        53.5,
+        340006.5,
+        4164308.5,
+        54
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "312,856,107",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340006,
+        4164308.5,
+        53.5,
+        340006.5,
+        4164309,
+        54
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "312,857,107",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340007.5,
+        4164308,
+        53,
+        340008,
+        4164308.5,
+        53.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "315,856,106",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340006,
+        4164308,
+        49,
+        340006.5,
+        4164308.5,
+        49.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "312,856,98",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340006,
+        4164308.5,
+        49,
+        340006.5,
+        4164309,
+        49.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "312,857,98",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340006.5,
+        4164308,
+        49,
+        340007,
+        4164308.5,
+        49.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "313,856,98",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340006.5,
+        4164308.5,
+        49,
+        340007,
+        4164309,
+        49.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "313,857,98",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340008,
+        4164308,
+        53,
+        340008.5,
+        4164308.5,
+        53.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "316,856,106",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340006,
+        4164308,
+        48.5,
+        340006.5,
+        4164308.5,
+        49
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "312,856,97",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340006,
+        4164308.5,
+        48.5,
+        340006.5,
+        4164309,
+        49
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "312,857,97",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340006.5,
+        4164308,
+        48.5,
+        340007,
+        4164308.5,
+        49
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "313,856,97",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340006.5,
+        4164308.5,
+        48.5,
+        340007,
+        4164309,
+        49
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "313,857,97",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340008.5,
+        4164308,
+        53,
+        340009,
+        4164308.5,
+        53.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "317,856,106",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340006,
+        4164308,
+        48,
+        340006.5,
+        4164308.5,
+        48.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "312,856,96",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340006,
+        4164308.5,
+        48,
+        340006.5,
+        4164309,
+        48.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "312,857,96",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340006.5,
+        4164308,
+        48,
+        340007,
+        4164308.5,
+        48.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "313,856,96",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340006.5,
+        4164308.5,
+        48,
+        340007,
+        4164309,
+        48.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "313,857,96",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340009,
+        4164307.5,
+        53,
+        340009.5,
+        4164308,
+        53.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "318,855,106",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340009,
+        4164308,
+        53,
+        340009.5,
+        4164308.5,
+        53.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "318,856,106",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340006,
+        4164308,
+        47.5,
+        340006.5,
+        4164308.5,
+        48
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "312,856,95",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340006,
+        4164308.5,
+        47.5,
+        340006.5,
+        4164309,
+        48
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "312,857,95",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340006.5,
+        4164308,
+        47.5,
+        340007,
+        4164308.5,
+        48
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "313,856,95",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340009.5,
+        4164307.5,
+        53,
+        340010,
+        4164308,
+        53.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "319,855,106",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340009.5,
+        4164308,
+        53,
+        340010,
+        4164308.5,
+        53.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "319,856,106",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340006,
+        4164308,
+        47,
+        340006.5,
+        4164308.5,
+        47.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "312,856,94",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340006,
+        4164308.5,
+        47,
+        340006.5,
+        4164309,
+        47.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "312,857,94",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340006.5,
+        4164308,
+        47,
+        340007,
+        4164308.5,
+        47.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "313,856,94",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340010,
+        4164307.5,
+        53,
+        340010.5,
+        4164308,
+        53.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "320,855,106",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340010,
+        4164308,
+        52.5,
+        340010.5,
+        4164308.5,
+        53
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "320,856,105",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340006,
+        4164308,
+        46.5,
+        340006.5,
+        4164308.5,
+        47
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "312,856,93",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340006,
+        4164308.5,
+        46.5,
+        340006.5,
+        4164309,
+        47
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "312,857,93",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340006.5,
+        4164308,
+        46.5,
+        340007,
+        4164308.5,
+        47
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "313,856,93",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340006,
+        4164309,
+        46.5,
+        340006.5,
+        4164309.5,
+        47
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "312,858,93",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340010.5,
+        4164307.5,
+        52.5,
+        340011,
+        4164308,
+        53
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "321,855,105",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340010.5,
+        4164307.5,
+        53,
+        340011,
+        4164308,
+        53.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "321,855,106",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340006,
+        4164308,
+        46,
+        340006.5,
+        4164308.5,
+        46.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "312,856,92",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340006,
+        4164308.5,
+        46,
+        340006.5,
+        4164309,
+        46.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "312,857,92",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340006.5,
+        4164308,
+        46,
+        340007,
+        4164308.5,
+        46.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "313,856,92",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340006.5,
+        4164308.5,
+        46,
+        340007,
+        4164309,
+        46.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "313,857,92",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340006,
+        4164309,
+        46,
+        340006.5,
+        4164309.5,
+        46.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "312,858,92",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340011,
+        4164307.5,
+        52.5,
+        340011.5,
+        4164308,
+        53
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "322,855,105",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340007,
+        4164309,
+        46,
+        340007.5,
+        4164309.5,
+        46.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "314,858,92",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340011.5,
+        4164307.5,
+        52.5,
+        340012,
+        4164308,
+        53
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "323,855,105",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340012,
+        4164307.5,
+        52.5,
+        340012.5,
+        4164308,
+        53
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "324,855,105",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340012.5,
+        4164307,
+        52.5,
+        340013,
+        4164307.5,
+        53
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "325,854,105",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340012.5,
+        4164307.5,
+        52.5,
+        340013,
+        4164308,
+        53
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "325,855,105",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340013,
+        4164307,
+        52.5,
+        340013.5,
+        4164307.5,
+        53
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "326,854,105",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340013,
+        4164307.5,
+        52.5,
+        340013.5,
+        4164308,
+        53
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "326,855,105",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340013.5,
+        4164307,
+        52.5,
+        340014,
+        4164307.5,
+        53
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "327,854,105",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340013.5,
+        4164307.5,
+        52.5,
+        340014,
+        4164308,
+        53
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "327,855,105",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340014,
+        4164307,
+        52.5,
+        340014.5,
+        4164307.5,
+        53
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "328,854,105",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340014,
+        4164307.5,
+        52.5,
+        340014.5,
+        4164308,
+        53
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:11.724Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "328,855,105",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340001,
+        4164306,
+        51.5,
+        340001.5,
+        4164306.5,
+        52
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:26.896Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "302,852,103",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340000.5,
+        4164306,
+        51.5,
+        340001,
+        4164306.5,
+        52
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:23:26.896Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "301,852,103",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340003.5,
+        4164307,
+        48.5,
+        340004,
+        4164307.5,
+        49
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:33:18.036Z",
+      "override_category": "sign",
+      "original_category": "street_light",
+      "cellKey": "307,854,97",
+      "originalObjectId": "street_light__C6_POSTPOINT_0"
+    },
+    {
+      "world_aabb": [
+        340003.5,
+        4164307,
+        48,
+        340004,
+        4164307.5,
+        48.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:33:18.036Z",
+      "override_category": "sign",
+      "original_category": "street_light",
+      "cellKey": "307,854,96",
+      "originalObjectId": "street_light__C6_POSTPOINT_0"
+    },
+    {
+      "world_aabb": [
+        340003.5,
+        4164307,
+        47.5,
+        340004,
+        4164307.5,
+        48
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:33:18.036Z",
+      "override_category": "sign",
+      "original_category": "street_light",
+      "cellKey": "307,854,95",
+      "originalObjectId": "street_light__C6_POSTPOINT_0"
+    },
+    {
+      "world_aabb": [
+        340003.5,
+        4164307,
+        47,
+        340004,
+        4164307.5,
+        47.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:33:18.036Z",
+      "override_category": "sign",
+      "original_category": "street_light",
+      "cellKey": "307,854,94",
+      "originalObjectId": "street_light__C6_POSTPOINT_0"
+    },
+    {
+      "world_aabb": [
+        340003.5,
+        4164307,
+        46.5,
+        340004,
+        4164307.5,
+        47
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:33:18.036Z",
+      "override_category": "sign",
+      "original_category": "street_light",
+      "cellKey": "307,854,93",
+      "originalObjectId": "street_light__C6_POSTPOINT_0"
+    },
+    {
+      "world_aabb": [
+        340005,
+        4164308.5,
+        46,
+        340005.5,
+        4164309,
+        46.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:33:36.037Z",
+      "override_category": "unknown",
+      "original_category": "sign",
+      "cellKey": "310,857,92",
+      "originalObjectId": "sign__B1_SAFETYSIGN_3"
+    },
+    {
+      "world_aabb": [
+        340005.5,
+        4164306.5,
+        47,
+        340006,
+        4164307,
+        47.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:33:36.037Z",
+      "override_category": "unknown",
+      "original_category": "sign",
+      "cellKey": "311,853,94",
+      "originalObjectId": "sign__B1_SAFETYSIGN_2"
+    },
+    {
+      "world_aabb": [
+        340005.5,
+        4164307,
+        47,
+        340006,
+        4164307.5,
+        47.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:33:36.037Z",
+      "override_category": "unknown",
+      "original_category": "sign",
+      "cellKey": "311,854,94",
+      "originalObjectId": "sign__B1_SAFETYSIGN_2"
+    },
+    {
+      "world_aabb": [
+        340005.5,
+        4164306.5,
+        46.5,
+        340006,
+        4164307,
+        47
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:33:36.037Z",
+      "override_category": "unknown",
+      "original_category": "sign",
+      "cellKey": "311,853,93",
+      "originalObjectId": "sign__B1_SAFETYSIGN_2"
+    },
+    {
+      "world_aabb": [
+        339983,
+        4164369.5,
+        54.5,
+        339983.5,
+        4164370,
+        55
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:15.936Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "266,979,109",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        339982.5,
+        4164370,
+        54,
+        339983,
+        4164370.5,
+        54.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:15.936Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "265,980,108",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        339982.5,
+        4164370,
+        54.5,
+        339983,
+        4164370.5,
+        55
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:15.936Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "265,980,109",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        339982.5,
+        4164370,
+        55,
+        339983,
+        4164370.5,
+        55.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:15.936Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "265,980,110",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        339983,
+        4164369.5,
+        54,
+        339983.5,
+        4164370,
+        54.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:15.936Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "266,979,108",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        339983,
+        4164369.5,
+        55,
+        339983.5,
+        4164370,
+        55.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:15.936Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "266,979,110",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        339983,
+        4164370,
+        54,
+        339983.5,
+        4164370.5,
+        54.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:15.936Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "266,980,108",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        339983,
+        4164370,
+        54.5,
+        339983.5,
+        4164370.5,
+        55
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:15.936Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "266,980,109",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        339983,
+        4164370,
+        55,
+        339983.5,
+        4164370.5,
+        55.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:15.936Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "266,980,110",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        339982.5,
+        4164370,
+        53.5,
+        339983,
+        4164370.5,
+        54
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:15.936Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "265,980,107",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        339983,
+        4164369.5,
+        53.5,
+        339983.5,
+        4164370,
+        54
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:15.936Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "266,979,107",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        339983,
+        4164370,
+        53.5,
+        339983.5,
+        4164370.5,
+        54
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:15.936Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "266,980,107",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        339983,
+        4164370.5,
+        54.5,
+        339983.5,
+        4164371,
+        55
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:15.936Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "266,981,109",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        339982.5,
+        4164370,
+        55.5,
+        339983,
+        4164370.5,
+        56
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:15.936Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "265,980,111",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        339983,
+        4164369.5,
+        55.5,
+        339983.5,
+        4164370,
+        56
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:15.936Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "266,979,111",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        339983,
+        4164370,
+        55.5,
+        339983.5,
+        4164370.5,
+        56
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:15.936Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "266,980,111",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        339983.5,
+        4164370.5,
+        54.5,
+        339984,
+        4164371,
+        55
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:15.936Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "267,981,109",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        339983.5,
+        4164370.5,
+        55,
+        339984,
+        4164371,
+        55.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:15.936Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "267,981,110",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        339982.5,
+        4164370,
+        53,
+        339983,
+        4164370.5,
+        53.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:15.936Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "265,980,106",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        339983,
+        4164369.5,
+        53,
+        339983.5,
+        4164370,
+        53.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:15.936Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "266,979,106",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        339983,
+        4164370,
+        53,
+        339983.5,
+        4164370.5,
+        53.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:15.936Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "266,980,106",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        339983.5,
+        4164371,
+        55,
+        339984,
+        4164371.5,
+        55.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:15.936Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "267,982,110",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        339982.5,
+        4164370,
+        56,
+        339983,
+        4164370.5,
+        56.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:15.936Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "265,980,112",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        339983,
+        4164369.5,
+        56,
+        339983.5,
+        4164370,
+        56.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:15.936Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "266,979,112",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        339983,
+        4164370,
+        56,
+        339983.5,
+        4164370.5,
+        56.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:15.936Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "266,980,112",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        339983,
+        4164370.5,
+        56,
+        339983.5,
+        4164371,
+        56.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:15.936Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "266,981,112",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        339983.5,
+        4164370.5,
+        56,
+        339984,
+        4164371,
+        56.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:15.936Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "267,981,112",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        339984,
+        4164371,
+        55,
+        339984.5,
+        4164371.5,
+        55.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:15.936Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "268,982,110",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        339982.5,
+        4164370,
+        56.5,
+        339983,
+        4164370.5,
+        57
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:15.936Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "265,980,113",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        339983,
+        4164369.5,
+        56.5,
+        339983.5,
+        4164370,
+        57
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:15.936Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "266,979,113",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        339983,
+        4164370,
+        56.5,
+        339983.5,
+        4164370.5,
+        57
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:15.936Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "266,980,113",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        339984,
+        4164371,
+        56,
+        339984.5,
+        4164371.5,
+        56.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:15.936Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "268,982,112",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        339984.5,
+        4164371.5,
+        55.5,
+        339985,
+        4164372,
+        56
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:15.936Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "269,983,111",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        339982.5,
+        4164370,
+        57,
+        339983,
+        4164370.5,
+        57.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:15.936Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "265,980,114",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        339983,
+        4164369.5,
+        57,
+        339983.5,
+        4164370,
+        57.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:15.936Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "266,979,114",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        339983,
+        4164370,
+        57,
+        339983.5,
+        4164370.5,
+        57.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:15.936Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "266,980,114",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        339984.5,
+        4164371.5,
+        56,
+        339985,
+        4164372,
+        56.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:15.936Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "269,983,112",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        339985,
+        4164371.5,
+        55.5,
+        339985.5,
+        4164372,
+        56
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:15.936Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "270,983,111",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        339985,
+        4164372,
+        55.5,
+        339985.5,
+        4164372.5,
+        56
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:15.936Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "270,984,111",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        339985,
+        4164372,
+        56,
+        339985.5,
+        4164372.5,
+        56.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:15.936Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "270,984,112",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        339982.5,
+        4164370,
+        57.5,
+        339983,
+        4164370.5,
+        58
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:15.936Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "265,980,115",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        339983,
+        4164369.5,
+        57.5,
+        339983.5,
+        4164370,
+        58
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:15.936Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "266,979,115",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        339983,
+        4164370,
+        57.5,
+        339983.5,
+        4164370.5,
+        58
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:15.936Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "266,980,115",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        339983.5,
+        4164370.5,
+        57.5,
+        339984,
+        4164371,
+        58
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:15.936Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "267,981,115",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        339985,
+        4164372.5,
+        55,
+        339985.5,
+        4164373,
+        55.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:15.936Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "270,985,110",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        339985.5,
+        4164372.5,
+        55,
+        339986,
+        4164373,
+        55.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:15.936Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "271,985,110",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        339985.5,
+        4164372.5,
+        56,
+        339986,
+        4164373,
+        56.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:15.936Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "271,985,112",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        339982.5,
+        4164370,
+        58,
+        339983,
+        4164370.5,
+        58.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:15.936Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "265,980,116",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        339983,
+        4164369.5,
+        58,
+        339983.5,
+        4164370,
+        58.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:15.936Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "266,979,116",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        339983,
+        4164370,
+        58,
+        339983.5,
+        4164370.5,
+        58.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:15.936Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "266,980,116",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        339983.5,
+        4164370,
+        58,
+        339984,
+        4164370.5,
+        58.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:15.936Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "267,980,116",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        339983.5,
+        4164370.5,
+        58,
+        339984,
+        4164371,
+        58.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:15.936Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "267,981,116",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        339984,
+        4164370.5,
+        57,
+        339984.5,
+        4164371,
+        57.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:15.936Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "268,981,114",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        339984,
+        4164370.5,
+        57.5,
+        339984.5,
+        4164371,
+        58
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:15.936Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "268,981,115",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        339984,
+        4164370.5,
+        58,
+        339984.5,
+        4164371,
+        58.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:15.936Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "268,981,116",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        339984,
+        4164371,
+        58,
+        339984.5,
+        4164371.5,
+        58.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:15.936Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "268,982,116",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        339986,
+        4164372.5,
+        55,
+        339986.5,
+        4164373,
+        55.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:15.936Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "272,985,110",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        339986,
+        4164373,
+        55,
+        339986.5,
+        4164373.5,
+        55.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:15.936Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "272,986,110",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        339986,
+        4164373,
+        55.5,
+        339986.5,
+        4164373.5,
+        56
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:15.936Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "272,986,111",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        339982.5,
+        4164370,
+        58.5,
+        339983,
+        4164370.5,
+        59
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:15.936Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "265,980,117",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        339983,
+        4164370,
+        58.5,
+        339983.5,
+        4164370.5,
+        59
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:15.936Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "266,980,117",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        339986.5,
+        4164373.5,
+        55.5,
+        339987,
+        4164374,
+        56
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:15.936Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "273,987,111",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340094.5,
+        4163966.5,
+        61,
+        340095,
+        4163967,
+        61.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "489,173,122",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340094,
+        4163966,
+        61,
+        340094.5,
+        4163966.5,
+        61.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "488,172,122",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340094,
+        4163966.5,
+        61,
+        340094.5,
+        4163967,
+        61.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "488,173,122",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340094.5,
+        4163966,
+        61,
+        340095,
+        4163966.5,
+        61.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "489,172,122",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340094.5,
+        4163966,
+        61.5,
+        340095,
+        4163966.5,
+        62
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "489,172,123",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340093.5,
+        4163965.5,
+        60.5,
+        340094,
+        4163966,
+        61
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "487,171,121",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340093.5,
+        4163965.5,
+        61,
+        340094,
+        4163966,
+        61.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "487,171,122",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340093.5,
+        4163965.5,
+        61.5,
+        340094,
+        4163966,
+        62
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "487,171,123",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340094,
+        4163965.5,
+        60.5,
+        340094.5,
+        4163966,
+        61
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "488,171,121",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340094,
+        4163965.5,
+        61,
+        340094.5,
+        4163966,
+        61.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "488,171,122",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340094,
+        4163965.5,
+        61.5,
+        340094.5,
+        4163966,
+        62
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "488,171,123",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340094.5,
+        4163965.5,
+        61,
+        340095,
+        4163966,
+        61.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "489,171,122",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340094.5,
+        4163965.5,
+        61.5,
+        340095,
+        4163966,
+        62
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "489,171,123",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340095,
+        4163965.5,
+        61,
+        340095.5,
+        4163966,
+        61.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "490,171,122",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340095,
+        4163965.5,
+        62,
+        340095.5,
+        4163966,
+        62.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "490,171,124",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340093,
+        4163965,
+        61,
+        340093.5,
+        4163965.5,
+        61.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "486,170,122",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340093,
+        4163965.5,
+        61,
+        340093.5,
+        4163966,
+        61.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "486,171,122",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340093,
+        4163966,
+        61,
+        340093.5,
+        4163966.5,
+        61.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "486,172,122",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340093.5,
+        4163965,
+        60,
+        340094,
+        4163965.5,
+        60.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "487,170,120",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340093.5,
+        4163965,
+        60.5,
+        340094,
+        4163965.5,
+        61
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "487,170,121",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340093.5,
+        4163965,
+        61,
+        340094,
+        4163965.5,
+        61.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "487,170,122",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340093.5,
+        4163965.5,
+        60,
+        340094,
+        4163966,
+        60.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "487,171,120",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340094,
+        4163965,
+        60,
+        340094.5,
+        4163965.5,
+        60.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "488,170,120",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340094,
+        4163965,
+        60.5,
+        340094.5,
+        4163965.5,
+        61
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "488,170,121",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340094,
+        4163965,
+        61,
+        340094.5,
+        4163965.5,
+        61.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "488,170,122",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340093,
+        4163965,
+        61.5,
+        340093.5,
+        4163965.5,
+        62
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "486,170,123",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340093,
+        4163965.5,
+        61.5,
+        340093.5,
+        4163966,
+        62
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "486,171,123",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340093.5,
+        4163965,
+        61.5,
+        340094,
+        4163965.5,
+        62
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "487,170,123",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340094,
+        4163965,
+        61.5,
+        340094.5,
+        4163965.5,
+        62
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "488,170,123",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340093.5,
+        4163965,
+        62,
+        340094,
+        4163965.5,
+        62.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "487,170,124",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340094,
+        4163965,
+        62,
+        340094.5,
+        4163965.5,
+        62.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "488,170,124",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340095,
+        4163965,
+        61,
+        340095.5,
+        4163965.5,
+        61.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "490,170,122",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340094.5,
+        4163965,
+        62.5,
+        340095,
+        4163965.5,
+        63
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "489,170,125",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340094.5,
+        4163965.5,
+        62.5,
+        340095,
+        4163966,
+        63
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "489,171,125",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340094.5,
+        4163966,
+        62.5,
+        340095,
+        4163966.5,
+        63
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "489,172,125",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340095,
+        4163965,
+        62.5,
+        340095.5,
+        4163965.5,
+        63
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "490,170,125",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340095,
+        4163965.5,
+        62.5,
+        340095.5,
+        4163966,
+        63
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "490,171,125",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340092.5,
+        4163964.5,
+        61,
+        340093,
+        4163965,
+        61.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "485,169,122",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340092.5,
+        4163964.5,
+        61.5,
+        340093,
+        4163965,
+        62
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "485,169,123",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340092.5,
+        4163965,
+        61,
+        340093,
+        4163965.5,
+        61.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "485,170,122",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340092.5,
+        4163965,
+        61.5,
+        340093,
+        4163965.5,
+        62
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "485,170,123",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340092.5,
+        4163965.5,
+        61,
+        340093,
+        4163966,
+        61.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "485,171,122",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340093,
+        4163964.5,
+        61,
+        340093.5,
+        4163965,
+        61.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "486,169,122",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340093.5,
+        4163964.5,
+        61,
+        340094,
+        4163965,
+        61.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "487,169,122",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340093.5,
+        4163965,
+        59.5,
+        340094,
+        4163965.5,
+        60
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "487,170,119",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340093.5,
+        4163965.5,
+        59.5,
+        340094,
+        4163966,
+        60
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "487,171,119",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340094,
+        4163965,
+        59.5,
+        340094.5,
+        4163965.5,
+        60
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "488,170,119",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340094,
+        4163965.5,
+        59.5,
+        340094.5,
+        4163966,
+        60
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "488,171,119",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340093,
+        4163964.5,
+        62.5,
+        340093.5,
+        4163965,
+        63
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "486,169,125",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340093,
+        4163965,
+        62.5,
+        340093.5,
+        4163965.5,
+        63
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "486,170,125",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340093.5,
+        4163965,
+        62.5,
+        340094,
+        4163965.5,
+        63
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "487,170,125",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340093.5,
+        4163965.5,
+        62.5,
+        340094,
+        4163966,
+        63
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "487,171,125",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340094,
+        4163965,
+        62.5,
+        340094.5,
+        4163965.5,
+        63
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "488,170,125",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340094,
+        4163965.5,
+        62.5,
+        340094.5,
+        4163966,
+        63
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "488,171,125",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340094,
+        4163965,
+        63,
+        340094.5,
+        4163965.5,
+        63.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "488,170,126",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340094,
+        4163966,
+        62.5,
+        340094.5,
+        4163966.5,
+        63
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "488,172,125",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340094,
+        4163966.5,
+        62.5,
+        340094.5,
+        4163967,
+        63
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "488,173,125",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340094.5,
+        4163966.5,
+        62.5,
+        340095,
+        4163967,
+        63
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "489,173,125",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340093,
+        4163964,
+        61,
+        340093.5,
+        4163964.5,
+        61.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "486,168,122",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340093,
+        4163964,
+        62,
+        340093.5,
+        4163964.5,
+        62.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "486,168,124",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340093.5,
+        4163964,
+        61,
+        340094,
+        4163964.5,
+        61.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "487,168,122",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340092.5,
+        4163964.5,
+        62.5,
+        340093,
+        4163965,
+        63
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "485,169,125",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340092.5,
+        4163965,
+        62.5,
+        340093,
+        4163965.5,
+        63
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "485,170,125",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340093,
+        4163964,
+        62.5,
+        340093.5,
+        4163964.5,
+        63
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "486,168,125",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340093.5,
+        4163965,
+        63,
+        340094,
+        4163965.5,
+        63.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "487,170,126",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340092.5,
+        4163965.5,
+        62.5,
+        340093,
+        4163966,
+        63
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "485,171,125",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340093.5,
+        4163966,
+        62.5,
+        340094,
+        4163966.5,
+        63
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "487,172,125",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340093.5,
+        4163965,
+        63.5,
+        340094,
+        4163965.5,
+        64
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "487,170,127",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340094,
+        4163965,
+        63.5,
+        340094.5,
+        4163965.5,
+        64
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "488,170,127",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340093.5,
+        4163966.5,
+        62.5,
+        340094,
+        4163967,
+        63
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "487,173,125",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340093.5,
+        4163965,
+        64,
+        340094,
+        4163965.5,
+        64.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "487,170,128",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340093.5,
+        4163965.5,
+        64,
+        340094,
+        4163966,
+        64.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "487,171,128",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340094,
+        4163965,
+        64,
+        340094.5,
+        4163965.5,
+        64.5
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "488,170,128",
+      "originalObjectId": "lidar_unknown"
+    },
+    {
+      "world_aabb": [
+        340093.5,
+        4163965,
+        64.5,
+        340094,
+        4163965.5,
+        65
+      ],
+      "saved_voxel_size": 0.5,
+      "saved_origin": [
+        339850,
+        4163880,
+        0
+      ],
+      "saved_at": "2026-07-20T07:50:48.674Z",
+      "override_category": "street_light",
+      "original_category": "unknown",
+      "cellKey": "487,170,129",
+      "originalObjectId": "lidar_unknown"
+    }
+  ],
+  "deleted_objects": []
+}
