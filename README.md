@@ -22,9 +22,10 @@ onto unclassified mobile-mapping LiDAR and writes a labeled 0.5 m voxel scene. I
 - **Full MMS LiDAR** (Leica Pegasus:Two Ultimate, LAS files): acquired by GEOSTORY Co., Ltd. The reduced point clouds the
   pipeline consumed (each ROI, every 4th point) and the labeled 0.5 m voxel scenes of both sites are published with the
   permission of GEOSTORY in the Zenodo data record of this article (see its `README_data.md`).
-- **Precision road map**: a product of the National Geographic Information Institute (NGII) of Korea, subject to its
-  terms of use; map geometries are not redistributed. The article used SEC001 (Deoksong) and SEC203 (Road-86),
-  version ver_1.2, HDMap_UTM52N (ellipsoidal heights), obtainable from NGII.
+- **Precision road map**: the article used NGII sections SEC001 (Deoksong) and SEC203 (Road-86), version ver_1.2
+  (created 29 December 2023), HDMap_UTM52N (ellipsoidal heights). NGII distributes it (map.ngii.go.kr) to
+  registered users under its terms of use, which prohibit redistribution and transfer abroad, so map
+  geometries are not included here.
 - Survey photographs and the point crops shown in the labeling viewer are derived from the LiDAR and photographs and are
   therefore not included either.
 
