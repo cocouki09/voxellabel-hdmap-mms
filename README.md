@@ -78,7 +78,8 @@ python eval/revision/eval_sample.py --sample-dir out/sample --labels evaluation/
   before and after them.
 - `object_review_*`: blind review of all 91 output objects and the grouped reviewer notes.
 - `road86_ground_z_errors.csv`: per-cell ground-model error at Road-86 (nearest-vertex model; median absolute error
-  2.8 cm, Section 4.1 and Table S5).
+  2.8 cm, Section 4.1 and Table S5). The modeled and reference heights are omitted because the modeled height is
+  interpolated from the map vertices; the error, cell position, point count and height spread are kept.
 - `road86_spotcheck_cell_edits.json`: the 256 operator-labeled cells of the Road-86 spot check (Table S2), in the
   viewer's cell-edit format; scoring box (339974, 4164305)–(340054, 4164385), UTM 52N.
 
