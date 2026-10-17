@@ -31,22 +31,27 @@ onto unclassified mobile-mapping LiDAR and writes a labeled 0.5 m voxel scene. I
 
 ## Installation
 
-Python 3.10 or later.
+Python 3.10 or later; the results were produced with Python 3.13 and the package versions pinned in
+`requirements.txt`.
 
 ```
 pip install -r requirements.txt
-pip install matplotlib pandas pyproj
 ```
 
 ## Running
 
 1. Copy `config/regions/deoksong.template.json` to `config/regions/<name>.json` and set the paths to your LAS files and
-   SHP directory.
-2. Build the scene and dump the stages. Run from the repository root with the root on the Python path (`PYTHONPATH=.` on Linux/macOS, `set PYTHONPATH=.` on Windows):
+   SHP directory. With the reduced LiDAR of the Zenodo record, point `lidar_globs` to its
+   `VoxelLabel_<site>_LiDAR_ROI_stride4_part*.laz` files and set `"lidar_stride": 1`: those files already contain every
+   4th point, so a stride of 4 would thin them again.
+2. Build the scene and dump the stages. Run from the repository root with the root on the Python path (`PYTHONPATH=.` on
+   Linux/macOS, `set PYTHONPATH=.` on Windows). The evaluated configuration of the article is:
 
 ```
-PYTHONPATH=. python run/run_build_scene_lidar.py --region <name> --dimensions config/object_dimensions.json --dump-stages out/stages.npz
+PYTHONPATH=. python run/run_build_scene_lidar.py --region <name> --measure-only --dimensions eval/revision/configs/dims_submitted_sign2m.json --no-connected-pole-protection --dump-stages out/stages.npz
 ```
+
+   With the Zenodo LiDAR and the map, this reproduces the cells, labels, filters and objects of the evaluated run exactly.
 
 ### Pipeline options
 
@@ -70,6 +75,11 @@ python eval/revision/eval_sample.py --sample-dir out/sample --labels evaluation/
 
 `eval/revision/apply_tunnel_reclass.py` derives the tunnel category of the delivered scene, and
 `eval/revision/build_final_tables.py` assembles the tables.
+
+4. Ground-model comparison (Section 4.1, Table S5; needs the LiDAR and the map): set `VOXELLABEL_DEOKSONG_DIR` or
+   `VOXELLABEL_ROAD86_DIR` to the site folder holding `HDMap_UTM52N_타원체고/` and the `SURV*/TRACK*/Laser01/*.las` files
+   (the NGII delivery layout), then run
+   `python eval/revision/ground_baselines.py --region deoksong --source raw --out-dir out/ground` (or `--region road86`).
 
 ## Evaluation material
 
